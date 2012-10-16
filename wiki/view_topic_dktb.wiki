@@ -1,0 +1,522 @@
+<code><script type="text/javascript">//<![CDATA[
+var multiquote_img_off = '{JS_MULTIQUOTE_IMG_OFF}', multiquote_img_on = '{JS_MULTIQUOTE_IMG_ON}', _atr = '{JS_DIR}addthis/', _ati = '{PATH_IMG_FA}addthis/'{ADDTHIS_LANG}, addthis_localize = { share_caption: "{L_SHARE_CAPTION}", email: "{L_EMAIL}", email_caption: "{L_EMAIL_CAPTION}", favorites: "{L_SHARE_BOOKMARKS}", print: "{L_PRINT}", more: "{L_MORE}" };
+$(function(){
+	_atc.cwait = 0;
+	$('.addthis_button').mouseup(function(){
+		if ($('#at15s').css('display') == 'block') {
+			addthis_close();
+			addthis_close();
+		}
+	});
+});
+//]]>
+</script>
+
+<!-- BEGIN switch_user_logged_in -->
+<div id="pun-visit" class="clearfix">
+	<ul>
+		<!-- BEGIN switch_plus_menu -->
+		<li>
+			<script type="text/javascript">//<![CDATA[
+				var url_favourite = '{switch_user_logged_in.U_FAVOURITE_JS_PLUS_MENU}';
+				var url_newposts = '{U_NEWPOSTS_JS_PLUS_MENU}';
+				var url_egosearch = '{U_EGOSEARCH_JS_PLUS_MENU}';
+				var url_unanswered = '{U_UNANSWERED_JS_PLUS_MENU}';
+				var url_watchsearch = '{U_WATCHSEARCH_JS_PLUS_MENU}';
+				var url_tellfriend = '{U_TELLFRIEND_JS_PLUS_MENU}';
+				insert_plus_menu_new('f{FORUM_ID}&t={TOPIC_ID}','{JS_SESSION_ID}', {JS_AUTH_FAVOURITES});
+			//]]>
+			</script>
+		</li>
+		<!-- END switch_plus_menu -->
+		<li><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&pub=forumotion">{L_SHARE}</a></li>
+		<li><a href="{U_SEARCH_NEW}">{L_SEARCH_NEW}</a></li>
+		<li><a href="{U_SEARCH_SELF}">{L_SEARCH_SELF}</a></li>
+		<!-- BEGIN watchtopic -->
+		<li>{S_WATCH_TOPIC}</li>
+		<!-- END watchtopic -->
+	</ul>
+	<p>{LOGGED_AS}. {LAST_VISIT_DATE}</p>
+</div>
+<!-- END switch_user_logged_in -->
+<!-- BEGIN switch_user_logged_out -->
+
+<div id="pun-visit">
+	<p>{L_NOT_CONNECTED} {L_LOGIN_REGISTER}</p>
+</div>
+<!-- END switch_user_logged_out -->
+
+<div class="pun-crumbs noprint">
+	<p class="crumbs">
+		<a href="{U_INDEX}">{L_INDEX}</a>{NAV_CAT_DESC} » 
+		<strong><a href="{TOPIC_URL}">{TOPIC_TITLE}</a></strong>
+		<!-- BEGIN switch_twitter_btn -->
+		<span id="twitter_btn" style="margin-left: 6px; ">
+			<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
+			<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+		</span>
+		<!-- END switch_twitter_btn -->
+		<!-- BEGIN switch_fb_likebtn -->
+		<span id="fb_likebtn" style="margin-left: 6px; ">
+			<iframe src="http://www.facebook.com/plugins/like.php?href={FORUM_URL}{TOPIC_URL}&layout=button_count&show_faces=false&width=450&action=like&colorscheme=light&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:auto; height:21px;" allowTransparency="true"></iframe>
+		</span>
+		<!-- END switch_fb_likebtn -->
+	</p>
+</div>
+
+<div class="main paged">
+	<div class="paged-head clearfix">
+		<!-- BEGIN topicpagination -->
+		<p class="paging">{PAGINATION}</p>
+		<!-- END topicpagination -->
+		<p class="posting">
+			<!-- BEGIN switch_user_authpost -->
+<a href="{U_POST_NEW_TOPIC}" rel="nofollow"><img src="{POST_IMG}" class="{POST_IMG_CLASS}" alt="{L_POST_NEW_TOPIC}" /></a>
+			<!-- END switch_user_authpost -->
+			<!-- BEGIN switch_user_authreply -->
+<a href="{U_POST_REPLY_TOPIC}"><img src="{REPLY_IMG}" class="i_reply" alt="{L_POST_REPLY_TOPIC}" /></a>
+			<!-- END switch_user_authreply -->
+		</p>
+	</div>{POLL_DISPLAY}
+	<div class="main-head clearfix">
+		<p class="h2">
+			<a href="#bottom">{L_GOTO_DOWN}</a>{L_MESSAGE} [{PAGE_NUMBER}]</p>
+	                            <div style="display:none">  <a title="FMvi" target="_blank" rel="nofollow" href="http://www.fmvi.vn" name="bottom" class="skinfmvi2">&copy; <font color="green">FMvi</font>.<font color="red">vn</font></a></div></div>
+	<div class="main-content topic">
+		<!-- BEGIN postrow -->
+		<!-- BEGIN displayed -->
+		<div class="post" {postrow.displayed.THANK_BGCOLOR}>
+			<a name="{postrow.displayed.U_POST_ID}"></a>
+			<div class="postmain" {postrow.displayed.THANK_BGCOLOR}>
+				<div id="p{postrow.displayed.U_POST_ID}" class="posthead" {postrow.displayed.THANK_BGCOLOR}>
+					<h2>
+						<a href="?showpost={postrow.displayed.U_POST_ID}"><strong>#{postrow.displayed.COUNT_POSTS}</strong></a>{postrow.displayed.ICON}
+						<a href="{postrow.displayed.POST_URL}">{postrow.displayed.POST_SUBJECT}</a>
+					</h2>
+				</div>
+				<div class="postbody" {postrow.displayed.THANK_BGCOLOR}>
+					<div class="user">
+                                          
+                                          
+						<div class="user-ident" id="userinfo{postrow.displayed.U_POST_ID}" style="position: relative;">
+						  <center> <div class="js-kit-rating" title="" permalink=""></div></center>
+                                                           <script src="http://forumotion.googlecode.com/files/vote.js"></script> 
+                                                  
+                                                  
+                                                  <div class="posthead">
+								<em>{postrow.displayed.POST_DATE_NEW}</em>
+							</div>
+							<div onmouseover="show_user({postrow.displayed.U_POST_ID})" onmouseout="hide_user({postrow.displayed.U_POST_ID})" class="userInfoF">
+								<div class="useravatar" style="float: left;">{postrow.displayed.POSTER_AVATAR}</div>
+								<div class="user-info">
+									<div class="manuUserF">
+										<strong>{postrow.displayed.POSTER_NAME}</strong>
+										<span class="fmviOnoff">{postrow.displayed.ONLINE_IMG}</span>										
+									</div>
+									<dl class="cl" style="float:right; width: 370px;">
+										<dt>
+											<span>Cấp bậc:</span>
+										</dt>
+										<dd>{postrow.displayed.POSTER_RANK_NEW}</dd>
+										<dt>
+											<span>Hội nhóm:</span>
+										</dt>
+										<dd class="group">Chưa có</dd>
+										<!-- BEGIN profile_field -->
+										<dt>{postrow.displayed.profile_field.LABEL}</dt>
+										<dd>{postrow.displayed.profile_field.CONTENT}</dd>
+										<!-- END profile_field -->
+									</dl>
+									<div>
+										<span style="color:blue">Phương châm:</span>
+										<marquee class="status"></marquee>
+									</div>
+									<div class="morelink">
+										<a target="_blank" class="Upro5"><img alt="Tường nhà" src="http://i36.servimg.com/u/f36/17/76/06/16/profil11.png" />Tường nhà</a>
+										<a target="_blank" class="Utopic"><img alt="Xem bài viết" src="http://i36.servimg.com/u/f36/17/76/06/16/total_10.gif" />Bài viết</a>
+										<a target="_blank" class="Ufrien"><img alt="Kết bạn" src="http://i36.servimg.com/u/f36/17/76/06/16/friend10.png" />Kết bạn</a>
+										<a target="_blank" onClick="javascript:alert('Đang phát triển')" class="Umoney"><img alt="Tài sản" src="http://i36.servimg.com/u/f36/17/76/06/16/table_10.png" />Tài sản</a>
+									</div>
+								</div>
+							</div>
+							<div class="user-basic-info">
+								<div onmouseover="show_user({postrow.displayed.U_POST_ID})" class="useravatar" style="padding: 15px 0 15px 9px">{postrow.displayed.POSTER_AVATAR}</div>
+								<p class="rankimg" style="padding:11px">{postrow.displayed.RANK_IMAGE}</p>
+							  <center><td style="padding: 15px" background="http://i36.servimg.com/u/f36/17/76/06/16/body1010.png">  <div style="text-align: center;"> <div class="fmlevel" align="left">
+    <span style="font-size:11px;font-family:Tahoma;font-weight:normal; display: none;">
+    <!-- BEGIN profile_field -->
+    {postrow.displayed.profile_field.LABEL}{postrow.displayed.profile_field.CONTENT}{postrow.displayed.profile_field.SEPARATOR}
+    <!-- END profile_field -->
+    {postrow.displayed.POSTER_RPG}
+                                                            </span></div></td></center>
+                                                  
+                                                  </div>
+						</div>
+                   
+					</div>
+					
+              
+                                 <div class="post-entry">
+						<div class="entry-content">
+							<div>   
+								               <div class="noidungbaiviet"><div class="hovergallery">
+ {postrow.displayed.MESSAGE}
+</div></div>	
+								<!-- BEGIN switch_attachments -->
+								<dl class="attachbox">
+									<dt>{postrow.displayed.switch_attachments.L_ATTACHMENTS}</dt>
+									<dd>
+										<!-- BEGIN switch_post_attachments -->
+										<dl class="file">
+											<dt>
+												<img src="{postrow.displayed.switch_attachments.switch_post_attachments.U_IMG}"
+												/>
+												<!-- BEGIN switch_dl_att -->
+												<a class="postlink" href="{postrow.displayed.switch_attachments.switch_post_attachments.switch_dl_att.U_ATTACHMENT}">{postrow.displayed.switch_attachments.switch_post_attachments.switch_dl_att.ATTACHMENT}</a>{postrow.displayed.switch_attachments.switch_post_attachments.switch_dl_att.ATTACHMENT_DEL}
+												<!-- END switch_dl_att -->
+												<!-- BEGIN switch_no_dl_att -->{postrow.displayed.switch_attachments.switch_post_attachments.switch_no_dl_att.ATTACHMENT}
+												{postrow.displayed.switch_attachments.switch_post_attachments.switch_no_dl_att.ATTACHMENT_DEL}
+												<!-- END switch_no_dl_att -->
+											</dt>
+											<!-- BEGIN switch_no_comment -->
+											<dd>
+												<em>{postrow.displayed.switch_attachments.switch_post_attachments.switch_no_comment.ATTACHMENT_COMMENT}</em>
+											</dd>
+											<!-- END switch_no_comment -->
+											<!-- BEGIN switch_no_dl_att -->
+											<dd>
+												<em>
+													<strong>{postrow.displayed.switch_attachments.switch_post_attachments.switch_no_dl_att.TEXT_NO_DL}</strong>
+												</em>
+											</dd>
+											<!-- END switch_no_dl_att -->
+											<dd>({postrow.displayed.switch_attachments.switch_post_attachments.FILE_SIZE})
+												{postrow.displayed.switch_attachments.switch_post_attachments.NB_DL}</dd>
+										</dl>
+										<!-- END switch_post_attachments -->
+									</dd>
+								</dl>
+								<!-- END switch_attachments -->
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</br>
+                                    <center>
+				<!-- BEGIN switch_signature -->
+				<div class="sig-content"><div class="noidungchuky">{postrow.displayed.SIGNATURE_NEW}</div></div>
+                                  <!-- END switch_signature --></center>
+                          <fieldset style="background:#FFFFFF; border: 1px solid rgb(204, 204, 204); border-radius: 5px 5px 5px 5px; width:210px; height: 130px; padding: 10px; text-align: center; float: right;">
+    <!-- AddToAny BEGIN -->
+
+    <a class="a2a_dd" href="http://www.addtoany.com/share_save#url=http://dktb.net{TOPIC_URL}"><img title="Share" src="http://i46.servimg.com/u/f46/17/56/78/10/kqkqh10.png" alt="Share" border="0"></a>
+
+    <script type="text/javascript" src="/54692.js"></script>
+
+    <!-- AddToAny END -->
+
+    <br>
+    <center>
+
+    <input value="http://dktb.net{TOPIC_URL}" onclick="this.select()" style="font-family: Arial,Sans-Serif; font-size: 13px; display: block; padding: 1px 1px 1px 20px; border: 1px solid rgb(133, 177, 222); width: 200px; background-color: rgb(237, 242, 247); background-image: url(&quot;http://i.imgur.com/9CncG.png&quot;); background-repeat: no-repeat; font-weight: bold;" title="Gửi cho bạn bè bài viết này" type="text"></center>
+
+    <a title="Gửi qua yahoo" href="ymsgr:im?+&amp;msg=Xem%20b%C3%A0i%20n%C3%A0y%20hay%20l%E1%BA%AFm%20n%C3%A8: ~~&gt;http://dktb.net{TOPIC_URL}"><img src="http://i.imgur.com/CdL9G.jpg" border="0"></a>
+    <br>
+    <a title="Bookmark lại bài này" href="javascript:bookmarksite('', 'http://dktb.net{TOPIC_URL}')"><img src="http://i46.servimg.com/u/f46/16/46/16/61/favori10.png" border="0"></a>
+    <font color="#ffffff">_</font>
+    <a title="Đăng lên Google" target="_blank" href="https://www.google.com.vn/bookmarks/mark?op=add&amp;bkmk=http://dktb.net{TOPIC_URL}&amp;title=&amp;annotation="><img src="http://i46.servimg.com/u/f46/16/46/16/61/google10.png" border="0"></a>
+    <font color="#ffffff">_</font>
+    <a title=" Đăng lên FaceBook" target="_blank" href="http://www.facebook.com/share.php?u=http://dktb.net{TOPIC_URL}"><img src="http://i46.servimg.com/u/f46/16/46/16/61/facebo10.png" border="0"></a>
+    <font color="#ffffff">_</font>
+    <a title=" Đăng lên TangVn" target="_blank" href="http://www.tagvn.com/submit?url=http://dktb.net{TOPIC_URL}"><img src="http://i46.servimg.com/u/f46/16/46/16/61/tagvn10.gif" border="0"></a>
+    <font color="#ffffff">_</font>
+    <a title="Ðăng lên ZingMe" target="_blank" href="http://link.apps.zing.vn/pro/view/conn/share?u=http://dktb.net{TOPIC_URL}&amp;t=&amp;desc=Nếu bạn thích thì bạn  có thể ghé qua Diễn Đàn của chúng tôi ^^! Diễn đàn Sinh viên IT tại dktb.net. Nơi giao lưu, kết bạn, học hỏi giữa các sinh viên. Nơi kết nối các thế hệ học sinh từ trước đến nay.."><img src="http://i46.servimg.com/u/f46/16/46/16/61/zing10.gif" border="0"></a>
+    <font color="#ffffff">_</font>
+    <a title="In trang này" href="javascript:window.print()"><img src="http://i46.servimg.com/u/f46/16/46/16/61/print10.gif" border="0"></a>
+
+    <div style="height: 15px; width: 24px; display: inline-block; text-indent: 0pt; margin: 0pt; padding: 0pt; background: none repeat scroll 0% 0% transparent; border-style: none; float: none;" id="___plusone_0"><iframe allowtransparency="true" hspace="0" id="I1_1310636406212" marginheight="0" marginwidth="0" name="I1_1310636406212" src="https://plusone.google.com/u/0/_/+1/button?hl=vi&amp;jsh=r%3Bgc%2F22326474-d7ea9837#url=http://dktb.net{TOPIC_URL}%3Fp%3D50770&amp;size=small&amp;count=false&amp;id=I1_1310636406212&amp;parent=http://dktb.net&amp;rpctoken=349233623&amp;_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe" style="position: static; left: 0pt; top: 0pt; width: 24px; height: 15px; visibility: visible;" tabindex="-1" vspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div>
+
+    </fieldset>
+
+                          
+                          
+                          
+                          <div class="postfoot">            
+
+                    
+					<div class="user-contact">{postrow.displayed.PROFILE_IMG} {postrow.displayed.PM_IMG} {postrow.displayed.EMAIL_IMG}
+						<!-- BEGIN contact_field -->{postrow.displayed.contact_field.CONTENT}
+						<!-- END contact_field -->
+					</div>
+					<div class="post-options">
+				<iframe style="display:none" name="vote{postrow.displayed.U_POST_ID}" height="0px" width="0px" frameborder="0"></iframe>                                          
+				<div onmouseover="show_like({postrow.displayed.U_POST_ID})" onmouseout="hide_like({postrow.displayed.U_POST_ID})" class="FMvi-like">
+					<a target="vote{postrow.displayed.U_POST_ID}" class="nolikeplus" onclick="comment_like({postrow.displayed.U_POST_ID})"><p id="FMvi_like{postrow.displayed.U_POST_ID}" class="likeNone">Thích</p></a>
+					<a onclick="report_like({postrow.displayed.U_POST_ID})" target="vote{postrow.displayed.U_POST_ID}" class="nolikeminus">Báo xấu [<font color="red">0</font>]</a>
+					<div id="nub{postrow.displayed.U_POST_ID}" class="nub"></div>
+					<div id="like{postrow.displayed.U_POST_ID}" class="commentLike">
+						<span class="closeFMvi_like" style="display:none" onclick="close_like({postrow.displayed.U_POST_ID})"></span>
+						<p></p>
+				                <div class="loaddingLike"></div>
+						<em>Gửi một bình luận lên tường nhà {postrow.displayed.POSTER_NAME}<br /></em>
+						<input onkeyup="send_comment(event,{postrow.displayed.U_POST_ID})" type="text" value="" />
+					</div>
+					<div style="display:none" id="data-link-comment{postrow.displayed.U_POST_ID}"></div>
+                                                <!-- BEGIN switch_vote_active -->
+                                                	<!-- BEGIN switch_vote -->
+                                                	<a style="display:none" class="likeplus" href="{postrow.displayed.switch_vote_active.switch_vote.U_VOTE_PLUS}"><p class="likeNone">Thích</p></a>
+                                                	<!-- END switch_vote -->
+                                                	<!-- BEGIN switch_bar -->
+                                                	<div style="display:none" class="vote-bar" title="{postrow.displayed.switch_vote_active.L_VOTE_TITLE}">
+                                                		<!-- BEGIN switch_vote_plus -->
+                                                		<div class="vote-bar-plus" style="height:{postrow.displayed.switch_vote_active.switch_bar.switch_vote_plus.HEIGHT_PLUS}px;"></div>
+                                                		<!-- END switch_vote_plus -->
+                                                		<!-- BEGIN switch_vote_minus -->
+                                                		<div class="vote-bar-minus" style="height:{postrow.displayed.switch_vote_active.switch_bar.switch_vote_minus.HEIGHT_MINUS}px;"></div>
+                                                		<!-- END switch_vote_minus -->
+                                                	</div>
+                                                	<!-- END switch_bar -->
+                                                	<!-- BEGIN switch_vote -->
+                                                	<a style="display:none" class="likeminus" href="{postrow.displayed.switch_vote_active.switch_vote.U_VOTE_MINUS}">Báo xấu</a>
+                                                	<!-- END switch_vote -->
+                                                <!-- END switch_vote_active -->
+                                                </div>
+                                     
+                                                <span class="options-button"> <a href="javascript:vol(0)" onClick="delpre();repfmvi($(this))">Trả lời nhanh</a> {postrow.displayed.THANK_IMG}{postrow.displayed.MULTIQUOTE_IMG} {postrow.displayed.QUOTE_IMG}{postrow.displayed.EDIT_IMG} {postrow.displayed.DELETE_IMG} {postrow.displayed.IP_IMG}{postrow.displayed.REPORT_IMG}</span></div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+		</div>
+		<!-- BEGIN first_post_br -->
+	</div>
+	<hr id="first-post-br" />
+	<div class="main-content topic">
+		<!-- END first_post_br -->
+		<!-- END displayed -->
+		<!-- BEGIN hidden -->
+		<p class="p-hidden">{postrow.hidden.MESSAGE}</p>
+		<!-- END hidden -->
+		<!-- END postrow -->
+	</div>
+	
+
+	<div class="main-foot clearfix modBottom">
+		<p class="h2">
+			<a href="#top">{L_BACK_TO_TOP}</a>{L_MESSAGE} [{PAGE_NUMBER}]</p>
+		<p class="options">
+			<input type="hidden" name="t" value="{TOPIC_ID}" />
+			<!-- <input type="hidden" name="sid" value="{S_SID}" />-->
+			<input type="hidden" name="{SECURE_ID_NAME}" value="{SECURE_ID_VALUE}"
+			/>
+			<!-- BEGIN viewtopic_bottom -->{S_TOPIC_ADMIN}
+			<!-- END viewtopic_bottom -->
+		</p>
+	</div>
+	<a name="bottomtitle"></a>
+	<div class="paged-foot clearfix">
+		<!-- BEGIN topicpagination -->
+		<p class="paging">{PAGINATION}</p>
+		<!-- END topicpagination -->
+		<p class="posting">
+			<!-- BEGIN switch_user_authpost -->
+<a href="{U_POST_NEW_TOPIC}" rel="nofollow"><img src="{POST_IMG}" class="{POST_IMG_CLASS}" alt="{L_POST_NEW_TOPIC}" /></a>
+			<!-- END switch_user_authpost -->
+			<!-- BEGIN switch_user_authreply -->
+<a href="{U_POST_REPLY_TOPIC}"><img src="{REPLY_IMG}" class="i_reply" alt="{L_POST_REPLY_TOPIC}" /></a>
+			<!-- END switch_user_authreply -->
+		</p>
+	</div>
+</div>
+<p style="padding: 20px 0; text-align: center">«
+	<a href="{U_VIEW_OLDER_TOPIC}"> Xem bài trước </a>|
+	<a href="{U_VIEW_NEWER_TOPIC}"> Xem bài kế tiếp </a>»</p>
+<div class="pun-crumbs">
+	<p class="crumbs">
+		<a href="{U_INDEX}">{L_INDEX}</a>{NAV_CAT_DESC} »
+		<strong>
+			<a href="{TOPIC_URL}">{TOPIC_TITLE}</a>
+		</strong>
+	</p>
+</div>
+
+
+<div class="fmviToggle">
+    <div class="main">
+        <div class="main-head clearfix">
+            <p class="h2">Bài viết mới cùng chuyên mục 
+                <span id="chuyenmucnay1"></span>
+            </p>
+        </div>
+        <ol style="list-style-type:decimal-leading-zero; padding: 10px 40px" id="cungchuyenmuc1"
+        class=" main-content frm listVer4"></ol>
+        <div class="main-head clearfix">
+            <p class="h2">Bài viết liên quan với 
+                <a href="{TOPIC_URL}">{TOPIC_TITLE}</a>
+            </p>
+        </div>
+        <ol style="list-style-type:decimal-leading-zero; padding: 10px 40px" id="bailienquan1"
+        class=" main-content frm listVer4"></ol>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+	$("a[href*='&mode=quote']").click(function () {
+		var tQuote = location.pathname.slice(0, location.pathname.indexOf("-"));
+		var ltQuote = $(this).attr("href").slice(8, $(this).attr("href").indexOf("&"));
+		my_setcookie("linkquoteFMvi", tQuote + "-quote?showpost=" + ltQuote, false);
+	});
+	var bailienquan1 = '.tdtopics:not(".tdtopics:contains(\"{TOPIC_TITLE}\"), .tdtopics:contains(\"Announcement\"), .tdtopics:contains(\"Sticky\"), .tdtopics:contains(\"Global announcement\"), .tdtopics:contains(\"»\")") .topic-title:lt(10)';
+	$('.crumbs:first a.nav[href^="/f"]:last').clone().appendTo('#chuyenmucnay1');
+	$.ajax({
+		url: '/search?search_keywords=&search_author=*&search_where=f{FORUM_ID}',
+		success: function (data) {
+			if ($(data).find(bailienquan1).length == 0) {
+				$('#cungchuyenmuc1').prev().remove();
+				$('#cungchuyenmuc1').remove();
+			} else {
+				$(data).find(bailienquan1).find(".topictitle, .tooltipFMvi").appendTo('#cungchuyenmuc1');
+				$('#cungchuyenmuc1 a.topictitle').wrap("<li></li>");
+				var tk;
+				for (tk = 0; tk < 10; tk++) {
+					var kt = $('#cungchuyenmuc1 a.topictitle:eq(' + tk + ')');
+					kt.replaceWith('<a onmouseover="show_tooltip(this, $(this).parent().next().html(), \'FMvi.Org\')" href="' + kt.attr("href") + '" class="topictitle">' + kt.text() + '</a>');
+				}
+			};
+		},
+		error: function (jqXHR, textStatus, errorThrown) {
+			$('#cungchuyenmuc1').html('<p><font face="Courier New"><font color="red">Có lỗi xảy ra trong quá trình tải dữ liệu.</font></font></p>');
+		}
+	});
+	var topictitleFMvi = '{TOPIC_TITLE}';
+	var fmviTopictitle = topictitleFMvi.replace(/ /gi, '+');
+	$.ajax({
+		url: '/search?mode=searchbox&search_keywords=' + fmviTopictitle + '&show_results=topics',
+		success: function (data) {
+			if ($(data).find(bailienquan1).length == 0) {
+				$('#bailienquan1').prev().remove();
+				$('#bailienquan1').remove();
+			} else {
+				$(data).find(bailienquan1).find(".topictitle, .tooltipFMvi").appendTo('#bailienquan1');
+				$('#bailienquan1 .topictitle').wrap("<li></li>");
+				var ti;
+				for (ti = 0; ti < 10; ti++) {
+					var it = $('#bailienquan1 a.topictitle:eq(' + ti + ')');
+					it.replaceWith('<a onmouseover="show_tooltip(this, $(this).parent().next().html(), \'FMvi.Org\')" href="' + it.attr("href").slice(0, it.attr("href").indexOf("?")) + '" class="topictitle">' + it.text() + '</a>');
+				}
+			};
+		},
+		error: function (jqXHR, textStatus, errorThrown) {
+			$('#bailienquan1').html('<p><font face="Courier New"><font color="red">Có lỗi xảy ra trong quá trình tải dữ liệu.</font></font></p>');
+		}
+	});
+    var partname = location.pathname.slice(1, 5);
+    $(".fmviToggle .main .clearfix").prepend('<span class="collapsePost" style="float:right"><img src="http://i73.servimg.com/u/f73/15/93/84/93/i_tabs10.png" alt="fmClose" /><img style="display:none" src="http://i73.servimg.com/u/f73/15/93/84/93/i_tabs11.png" alt="fmOpen" /></span>');
+    $(".collapsePost").each(function (a) {
+        $(this).attr("id", "fmvicollapsePost" + partname + a);
+        "1" == my_getcookie("fmvicollapsePost" + partname + a) && ($(this).children("img[alt='fmClose']").hide(), $(this).children("img[alt='fmOpen']").show(), $(this).parent().next().hide())
+    });
+    $(".collapsePost img[alt='fmClose']").click(function () {
+        my_setcookie($(this).parent().attr("id"), 1, 1, 0);
+        $(this).hide().next().show();
+        $(this).parent().parent().next().slideToggle("slow")
+    });
+    $(".collapsePost img[alt='fmOpen']").click(function () {
+        my_setcookie($(this).parent().attr("id"), 0, 1, 0);
+        $(this).hide().prev().show();
+        $(this).parent().parent().next().slideToggle("slow")
+    });
+
+</script>
+
+
+
+
+
+
+<div id="fb-root"></div>
+
+
+
+
+
+<!-- BEGIN switch_forum_rules -->
+<div class="main" id="forum_rules">
+	<div class="main-head clearfix">
+		<p class="h2">{L_FORUM_RULES}</p>
+	</div>
+	<table class="main-content frm">
+		<tr>
+			<!-- BEGIN switch_forum_rule_image -->
+			<td class="logo">
+				<img src="{RULE_IMG_URL}" />
+			</td>
+			<!-- END switch_forum_rule_image -->
+			<td class="rules entry-content">
+				{RULE_MSG}
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- END switch_forum_rules -->
+
+<!-- BEGIN switch_user_logged_in -->
+
+<div id="specificatii_center" align="center"><ul id="specificatii"><li>•  Không spam. Xem rõ nội quy chung tại <a href="t2160-topic" rel="nofollow"><strong>Đây</strong></a></li><li>• Thể hiện văn hóa bằng cách bấm thanks với các bài viết bạn thích.</li></ul><img id="inchide_specificatii" align="right" onclick="$('#specificatii_center').hide('slow');" src="http://i36.servimg.com/u/f36/11/96/49/61/erase10.png"></div>
+<a name="quickreply"></a>
+{QUICK_REPLY_FORM}
+<div style="display:none" id="quickrepFMvi"></div>
+<div style="display:none" id="quickdata"></div>
+<script type="text/javascript">
+$("#textarea_content dd").css("margin", 0);
+</script>
+<!-- END switch_user_logged_in -->
+<div class="fmviToggle" style="width: 300px">
+    <div class="main">
+        <div class="main-head clearfix">
+            <p class="h2" style="width: 220px !important">Quyền hạn của bạn:</p>
+        </div>
+        <div id="onlinelist">{S_AUTH_LIST}
+        </div>
+    </div>
+</div>
+<script src="{JS_DIR}addthis/addthis_widget.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+   $(".options-button a").addClass("small_textbutton");
+   $(".options-button a[href*='?thank=']").text("Cảm ơn");
+   $(".options-button a[href^='/post?p='][href*='&mode=quote']").text("Trích dẫn");
+   $(".options-button a[href^='/post?p='][href*='&mode=editpost']").text("Sửa");
+   $(".options-button a[href^='/post?p='][href*='&mode=delete']").text("Xóa");
+   $(".options-button a[href^='/modcp?mode=ip']").text("Xem Ip");
+   $(".options-button a[href^='/report?mode=report']").text("Báo cáo");
+   $(".options-button a[href^='/report?mode=unlock']").text("Mở báo cáo");
+   $(".options-button a[href^='/report?mode=lock']").text("Chặn báo cáo");
+</script>
+
+    <script src=http://mr-dark.googlecode.com/files/level3.js></script>
+
+
+<script type="text/javascript">
+   imgauth = "http://i48.servimg.com/u/f48/16/58/89/73/writer10.png";
+   imgbanned = "http://i48.servimg.com/u/f48/16/58/89/73/banned10.png";
+   imgerror = "http://i48.servimg.com/u/f48/16/58/89/73/error_10.jpg";
+   gioihanFMvi = 20;
+</script>
+    <script src=/33214.js></script>
+
+ <script src=/32035.js></script>
+
+
+    <script type="text/javascript">
+    if(document.location.protocol=='http:'){
+var Tynt=Tynt||[];Tynt.push('b-YHwq12Wr3784adbi-bnq');Tynt.i={"ap":"Nguồn gốc bài viết : ","as":"Link gốc : http://dktb.net - Design By Mr.Dark"};
+     (function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();
+    }
+    </script>
+
+
+</code>
