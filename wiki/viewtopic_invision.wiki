@@ -1,0 +1,15 @@
+<code>        .post-container{min-height:300px;margin-top:60px!important}
+        .postprofile{border:1px solid #ddd;padding-bottom:400px}
+        .postprofile-details.postdetails{margin-top:50px;margin-left:36px;border:1px solid #d4d4d4;width:124px;height:124px;background:#FFF url(http://i38.servimg.com/u/f38/16/18/15/10/151.png)no-repeat 4px 4px}
+        .postprofile-details.postdetails img{width:124px;background:#FFF;height:124px}
+        fieldset.taisan{width:600px}
+        .post{background:transparent!important;min-height:350px}
+        .posting-options.topic-options{min-height:16px}
+        .post-entry{border-top:1px solid #FFF;margin:0;padding:10px 15px}
+        .post .postbody-head.postdetails.post-header{border-bottom:1px solid #D7D7D7;background:transparent;margin-left:10px}
+        .postprofile .post-header{border:0}
+        .postprofile-head.post-header{position:absolute!important;text-align:center;width:180px;background:url(http://i47.servimg.com/u/f47/17/47/85/23/highli10.png) 50% 0 repeat-x #EDEDED}
+        .maintitle.floated+.post{margin-top:25px}
+        .post-info li+li{margin-top:6px;text-align:right;width:100px;color:#1E68C4;font-weight:700}
+        ul.post-info li.ddvote{height:20px;line-height:20px;font-size:12px;font-weight:700;display:inline;margin-top:6px}
+        .popmenubutton-new-out img{z-index:999;display:block;position:absolute;margin:32px 79px 0}</code>
