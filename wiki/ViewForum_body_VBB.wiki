@@ -1,0 +1,208 @@
+cái này của tui làm rùi sài giờ share
+hoàn toàn tự động (mod, người truy cập)
+Hướng dẫn là vào Admin -> Display -> TemPlates -> Quản lý tổng thể -> viewforum_body (xoá hết trong đó rồi để vào }
+Lưu ý : không phải viewtopic nhé
+demo
+
+http://i68.servimg.com/u/f68/15/18/46/10/share112.jpg
+
+
+Lick download
+
+<code>{BOARD_INDEX}
+<table width="100%" border="0" cellspacing="2" cellpadding="0" align="center">
+	<tr>
+		<td align="left" valign="middle" width="50">
+			<!-- BEGIN switch_user_authpost -->
+			<a href="{U_POST_NEW_TOPIC}" rel="nofollow"><img src="{POST_IMG}" id="{POST_IMG_ID}" alt="{L_POST_NEW_TOPIC}" border="0" /></a>
+			<!-- END switch_user_authpost -->
+		</td>
+		<td class="nav" valign="middle" width="100%"><div class="nav"><a class="nav" href="{U_INDEX}">{L_INDEX}</a>{NAV_CAT_DESC}</div></td>
+		<td class="nav" align="right" valign="bottom" nowrap="nowrap">
+			<span class="gensmall">
+				<script type="text/javascript">
+				//<![CDATA[
+					insert_plus_menu('f{FORUM_ID}&f={FORUM_ID}','{JS_SESSION_ID}', {JS_AUTH_FAVOURITES});
+				//]]>
+				</script>
+			</span>
+		</td>
+	</tr>
+</table>
+<br /><br />
+{TOPICS_LIST_BOX}
+<br /><br />
+<div id="info_open" style="display:''">
+ <table class="tborder" width="100%" border="0" cellspacing="1" cellpadding="0">
+   <tr><td class="tcat" colspan="8" height="35"> Thông tin hiển thị</td></tr>     
+	
+      <table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center">
+
+<tr>
+	<td class="thead">X&#7871;p bài:</td>
+
+	<td class="thead">Thành viên đang online:</td>
+	
+	<td class="thead">Ban qu&#7843;n tr&#7883; : {MEMBERS}</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt1">
+
+		<table cellpadding="0" cellspacing="1" border="0">
+		<tr valign="bottom">
+			<td class="smallfont" style="padding-right:6px">
+				<div><label for="sel_sort">X&#7871;p theo</label></div>
+				<select name="sort" id="sel_sort">
+					<option value="title" >Thread Title</option>
+					<option value="lastpost" selected="selected">Last Post Time</option>
+
+					<option value="dateline" >Thread Start Time</option>
+					<option value="replycount" >S&#7889; l&#7847;n tr&#7843; l&#7901;i</option>
+					<option value="views" >S&#7889; l&#7847;n xem</option>
+
+					<option value="postusername" >Ng&#432;&#7901;i kh&#7903;i x&#432;&#7899;ng ch&#7911; &#273;&#7873;</option>
+					<option value="voteavg" >Thread Rating</option>
+				</select>
+			</td>
+			<td class="smallfont" style="padding-right:6px">
+				<div><label for="sel_order">Li&#7879;t kê</label></div>
+
+				<select name="order" id="sel_order">
+					<option value="asc" >L&#7899;n d&#7847;n</option>
+					<option value="desc" selected="selected">Nh&#7887; d&#7847;n</option>
+				</select>
+			</td>
+
+			<td class="smallfont">
+				<div><label for="sel_daysprune">From The</label></div>
+				<select name="daysprune" id="sel_daysprune">
+					<option value="1" >Last Day</option>
+					<option value="2" >Last 2 Days</option>
+					<option value="7" >Last Week</option>
+					<option value="10" >Last 10 Days</option>
+
+					<option value="14" >Last 2 Weeks</option>
+					<option value="30" >Last Month</option>
+					<option value="45" >Last 45 Days</option>
+					<option value="60" >Last 2 Months</option>
+					<option value="75" >Last 75 Days</option>
+					<option value="100" >Last 100 Days</option>
+
+					<option value="365" >Last Year</option>
+					<option value="-1" selected="selected">Beginning</option>
+				</select>
+			</td>
+		</tr>
+		<tr valign="bottom">
+			<td class="smallfont" colspan="2">
+			
+				&nbsp;
+
+			
+			</td>
+			<td class="smallfont" align="right" style="padding-top:6px">
+				<input type="submit" class="button" value="Hi&#7879;n ch&#7911; &#273;&#7873;" />
+			</td>
+		</tr>
+		</table>
+
+	</td>
+	
+	
+
+	<td class="alt1"><div class="smallfont">{LOGGED_IN_USER_LIST}</div></td>
+	
+	<td class="alt1"><div class="smallfont">{MODERATORS}</div></td>
+	
+</tr>
+</table>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+<div id="info_close" style="display:none">
+	<table class="tborder" width="100%" border="0" cellspacing="1" cellpadding="0">
+		<tr>
+			<td class="alt1" colspan="2" align="right" valign="top"><span class="smallfont"><a href="{U_MARK_READ}">{L_MARK_TOPICS_READ}</a></span></td>
+		</tr>
+		<tr>
+			<td class="alt2" colspan="2" valign="top"><span class="smallfont"><b>{LOGGED_IN_USER_LIST}</b></span></td>
+		</tr>
+		<tr>
+			<td class="catBottom" colspan="2" height="28">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td class="navbar" valign="middle" width="100%"><span class="navbar">�<a class="navbar" href="{U_INDEX}">{L_INDEX}</a>{nav_CAT_DESC_SECOND}</span></td>
+						<td align="right" valign="middle"><span class="smallfont"><a href="javascript:ShowHideLayer('info_open','info_close');"><img src="{TABS_MORE_IMG}" alt="+" align="middle" border="0" /></a></span></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+<tr>
+			<td class="catBottom" colspan="2" height="28">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td class="nav" valign="middle" width="100%"><span class="nav">�<a class="nav" href="{U_INDEX}">{L_INDEX}</a>{NAV_CAT_DESC_SECOND}</span></td>
+						<td align="right" valign="middle"><span class="gensmall"><a href="javascript:ShowHideLayer('info_open','info_close');"><img src="{TABS_MORE_IMG}" alt="+" align="middle" border="0" /></a></span></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div><br />
+	<form action="{S_JUMPBOX_ACTION}" method="get" name="jumpbox" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+<table width="100%" border="0" cellspacing="2" cellpadding="0" align="center">
+	<tr>
+
+			<td align="left" valign="middle" width="50">
+				<!-- BEGIN switch_user_logged_in -->
+				<a href="{U_POST_NEW_TOPIC}" rel="nofollow"><img src="{POST_IMG}" id="{POST_IMG_ID}1" alt="{L_POST_NEW_TOPIC}" border="0" /></a>
+				<!-- END switch_user_logged_in -->
+			</td>
+			<td align="right" nowrap="nowrap"><span class="smallfont">{L_JUMP_TO}: {S_JUMPBOX_SELECT} <input class="liteoption" type="submit" value="{L_GO}" /></span></td>
+
+	</tr></table>
+	<!-- BEGIN switch_legend --><div align="left" width="100%">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2">
+			<table border="0" cellpadding="6" cellspacing="2" align="left">
+				<tr>
+					<td>
+						<img src="{FOLDER_NEW_IMG}" alt="{L_FOLDER_NEW_IMG}" border="0" /> <span class="smallfont">{L_FOLDER_NEW_IMG}</span><br />
+						<img src="{FOLDER_HOT_NEW_IMG}" alt="{L_FOLDER_HOT_NEW_IMG}" border="0" /> <span class="smallfont">{L_FOLDER_HOT_NEW_IMG}</span><br />
+						<img src="{FOLDER_LOCKED_NEW_IMG}" alt="{L_FOLDER_LOCKED_NEW_IMG}" border="0" /> <span class="smallfont">{L_FOLDER_LOCKED_NEW_IMG}</span>
+					</td>
+					<td>
+						<img src="{FOLDER_IMG}" alt="{L_FOLDER_IMG}" border="0" /> <span class="smallfont">{L_FOLDER_IMG}</span><br />
+						<img src="{FOLDER_HOT_IMG}" alt="{L_FOLDER_HOT_IMG}" border="0" /> <span class="smallfont">{L_FOLDER_HOT_IMG}</span><br />
+						<img src="{FOLDER_LOCKED_IMG}" alt="{L_FOLDER_LOCKED_IMG}" border="0" /> <span class="smallfont">{L_FOLDER_LOCKED_IMG}</span>
+					</td>
+					<td valign="top">
+						<img src="{FOLDER_ANNOUNCE_IMG}" alt="{L_FOLDER_ANNOUNCE_IMG}" border="0" /> <span class="smallfont">{L_FOLDER_ANNOUNCE_IMG}</span><br />
+						<img src="{FOLDER_STICKY_IMG}" alt="{L_FOLDER_STICKY_IMG}" border="0" /> <span class="smallfont">{L_FOLDER_STICKY_IMG}</span><br />
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr></table></div>
+	<!-- END switch_legend -->
+
+<div align="left" width="100%">	<table class="tborder" width="300" border="0" cellspacing="1" cellpadding="0">
+		<tr>
+			<td class="tcat" valign="top" width="150" height="25">{L_TABS_PERMISSIONS}</td></tr><tr>
+			<td class="alt1" valign="top"><span class="gensmall">{S_AUTH_LIST}</span></td>
+		</tr>
+		
+	</table></div>
+		</form>
+</code>
