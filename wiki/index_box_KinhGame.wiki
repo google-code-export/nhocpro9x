@@ -1,0 +1,99 @@
+mình nói thật rất ngại hướng dẫn mọi người chỉnh link bởi những mục con cập nhật bằng tay
+úi trời lâu ứ chịu dc hihi
+hum qua đành làm 1 cái auto tuy ko giống dc y như đúc nhưng cũng dc 90% hihi
+thu mục auto sẽ nhàn dỗi hơn cho các webmaster hihi
+
+demo : http://hotro54.forumvi.com/
+
+
+index box
+
+<code>
+    <div class="main" style="border: 0pt none;">
+    <!-- BEGIN catrow -->
+      <!-- BEGIN tablehead -->
+    <div class="boxfmvi">
+          <div class="main-head">
+            <div class="page-title"><h2>{catrow.tablehead.L_FORUM}</h2></div>
+          </div>
+          <div class="main-content">
+            <table class="table" cellspacing="1" cellpadding="5" border="0">
+                <tbody class="statused">
+      <!-- END tablehead -->
+     
+      <!-- BEGIN forumrow -->
+                  <tr>
+                     
+
+                      <td class="tcl">
+                       
+                                                    <fieldset style="border: 1px solid; margin: 5px; padding: 5px 10px;"><legend><font size="2" color="#000000" style="text-shadow: 0px 0px 1px rgb(165, 214, 141), 0px 0px 0px rgb(165, 214, 141), 0px 0px 1px rgb(165, 214, 141);">  <a href="{catrow.forumrow.U_VIEWFORUM}" class="forumtitle">{catrow.forumrow.FORUM_NAME}</a>
+                        </font></a><br></legend><fieldset><div align="left"><table width="100%">
+    <tbody>    <div class="hychi">{catrow.forumrow.FORUM_DESC}</div>
+                        <!-- BEGIN switch_moderators_links -->
+                        {catrow.forumrow.switch_moderators_links.L_MODERATOR}{catrow.forumrow.switch_moderators_links.MODERATORS}
+                        <!-- END switch_moderators_links -->
+                        <div class="smallrum">{catrow.forumrow.L_LINKS}{catrow.forumrow.LINKS}</div>
+                        <strong>{forumrow.L_SUBFORUM_STR}</strong> {forumrow.SUBFORUMS}
+      </tbody></table></div></fieldset><br></fieldset>
+     
+                      </td>
+                      <td class="tcr">
+                        <span>
+                        <!-- BEGIN switch_topic_title -->
+                          <br />
+                          <div id="forums-stats">  <img src="http://i48.servimg.com/u/f48/14/28/30/23/legend13.png"> </img><font size="2" color="#00000" style="text-shadow: 0px 0px 0px rgb(165, 214, 141), 0px 0px 0px rgb(165, 214, 141), 0px 0px 1px rgb(165, 214, 141);"> <a href="{catrow.forumrow.U_LATEST_TOPIC}" title="{catrow.forumrow.LATEST_TOPIC_TITLE}"><font color="red">{catrow.forumrow.LATEST_TOPIC_NAME}</font> </a></font></div>
+                        <!-- END switch_topic_title -->
+                          <div align="right" style="margin: 10px;">  {catrow.forumrow.USER_LAST_POST} </div>
+                        </span>
+                        <p class="reppost"><span>» Chủ đề: <span style="color:#FF0145;font-size:18px;">{catrow.forumrow.TOPICS}</span></span> | <span>» Bài gửi: <span style="color:#0790FF;font-size:18px">{catrow.forumrow.POSTS}</span></span></p>
+                      </td>
+                  </tr>
+      <!-- END forumrow -->
+     
+      <!-- BEGIN tablefoot -->
+                </tbody>
+            </table>
+          </div>
+    </div>
+      <!-- END tablefoot -->
+    <!-- END catrow -->
+    </div>
+    <!-- BEGIN switch_on_index -->
+    <div class="main-box clearfix">
+      <ul>
+          <li><a href="{U_TODAY_ACTIVE}">{L_TODAY_ACTIVE}</a></li>
+          <li><a href="{U_TODAY_POSTERS}">{L_TODAY_POSTERS}</a></li>
+          <li><a href="{U_OVERALL_POSTERS}">{L_OVERALL_POSTERS}</a></li>
+      </ul>
+      <!-- BEGIN switch_delete_cookies -->
+      <p class="right">
+          <a href="{switch_on_index.switch_delete_cookies.U_DELETE_COOKIES}">{switch_on_index.switch_delete_cookies.L_DELETE_COOKIES}</a>
+      </p>
+      <!-- END switch_delete_cookies -->
+    </div>
+    <!-- END switch_on_index -->
+    <script type="text/javascript">$(".smallrum:not(':empty')").show()</script>
+     
+</code>
+
+
+css
+
+<code>
+    .smallrum{;display:none;width:95%;margin:10px 1px;padding:1em}
+    .smallrum a.gensmall{display:inline-block;overflow:hidden;text-align:left;text-overflow:ellipsis;white-space:nowrap;width: 45%;font-size: 15px;padding: 2px;color: blue;}
+
+</code>
+
+tiếp theo vào
+acp>> display>>Pictures and Colors>>Pics managementMã mở rộng
+tìm (Mini clock ) ( Mini post ) (Mini post - New )
+cho link ảnh này vào
+
+/code>
+    http://i46.servimg.com/u/f46/15/86/65/76/online10.png
+
+</code>
+
+hết
