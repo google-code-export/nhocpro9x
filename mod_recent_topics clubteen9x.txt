@@ -1,0 +1,6 @@
+﻿--><div class="module main recentWidth" style="border-right:1px dashed #DDD!important;height:382px"><div class="starsTitle" style="position: relative;">  <div id="proLastLoad" class="Load"></div><h3> <p style="position: relative; margin-left: 26px; margin-right: 10px;top: -3px;font-style: italic;"><a href="javascript:vol(0)" onclick="javascript:searchtopic('/search?search_keywords=&amp;search_author=*_*', '22', '#recentnew ul')" title="Reload" style="position: relative; margin-left: -25px; margin-right: 10px;">  <img src="http://i36.servimg.com/u/f36/17/76/06/16/reload10.png" width="16px" height="16px"> </a>   <span class="leftrecent">Bài viết mới</span><span style="margin-right: -4px;" class="rightrecent">Người gửi</span><span class="viewfmvi" style="margin-right: -9px;">Xem</span><span style="margin-right: -20px;" class="repfmvi">Trả lời</span><span style="margin-right: -8px;" class="lastcate">Chuyên mục</span></p></h3></div>
+  <div id="recentnew" class="main-contentr" style="border: 0pt none;background-image: url(http://i36.servimg.com/u/f36/17/76/06/16/bg1010.png);">
+  <ul class="latest_topics" style="padding-left: 20px ! important;"><div class="loaddinng"></div></ul></div><div id="dulieupostter"></div></div>
+
+
+
