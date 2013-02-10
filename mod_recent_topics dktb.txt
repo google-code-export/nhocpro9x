@@ -1,0 +1,13 @@
+﻿-->
+<div class="module main recentWidth" style="border-right:1px solid #DDD!important;height:410px"><div class="starsTitle" style="position: relative;">  <div id="proLastLoad" class="Load"></div><h3> <p style="position: relative; margin-left: 26px; margin-right: 10px;">
+  <span title="" onmouseover="show_tooltip(this, ' <b>» Click Để Reload Bài Viết Mới </b> ');" onmouseout="hidetip();">
+  <a href="javascript:vol(0)" onclick="javascript:searchtopic('/search?search_keywords=&search_author=*_*', '23', '#recentnew ul')" style="position: relative; margin-left: -25px; margin-right: 10px;">  <img src="http://i47.servimg.com/u/f47/17/07/15/37/th/4-110.gif" width="16px" height="16px"> </a>  
+    </span>
+  <span class="leftrecent">Bài viết mới</span><span style="margin-right: -5px;" class="rightrecent">Người gửi</span>
+
+ <span style="margin-right: -17px;" class="viewfmvi">Xem</span>
+      <span style="margin-right: -25px;" class="repfmvi">Trả lời</span>
+    
+    <span style="margin-right: -6px;" class="lastcate">Chuyên mục</span></p></h3></div><div id="recentnew" class="main-content" style="border: 0pt none; margin-top: -3px;background-image: url(http://i46.servimg.com/u/f46/17/56/78/10/bg101010.png);"><ul class="latest_topics" style="padding-left: 20px ! important;"><div class="loaddinng"></div></ul></div><div id="dulieupostter"></div></div><style>.Load {display:none;background: white url(http://i48.servimg.com/u/f48/13/58/60/43/loadaj10.gif) 50% 50% no-repeat;position: fixed;left: 50%;top: 40%;width: 50px;height: 50px;border: 10px solid #82D23D;border: 20px solid rgba(130, 210, 60, .3);border-radius: 50px;margin-left: -25px;}
+  .numtopF{margin-right:-10px!important}.fancybox-title{display:none}.pun .main-contentr{border:0;padding:5px!important;-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;background-color:#fff}fieldset.frm-set dl dd{margin-left:8em}div.post{width:836px}.paging b{background:#373d48 url(http://i43.servimg.com/u/f43/16/03/04/56/mainti10.png) repeat-x top;color:#fff;text-shadow:0 1px 0 rgba(0,0,0,0.3);border:1pxsolid #232830;border-radius:2px;font-weight:bold;font-size:12px;padding:8px;margin:-3px 0;box-shadow:0 1px 0 rgba(0,0,0,0.05)}a:hover{text-decoration:none!important;color:yellow;text-shadow:0 0 .2em yellow,0 0 .2em yellow,0 0 .2em yellow}a,a:link,a:hover{text-decoration:none!important}.italic{font-style:italic}
+  </style>
