@@ -1,0 +1,187 @@
+
+demo : http://vn-answer.123.st/t680p15-share-muc-last-online-ben-cot-phai-forum#2561
+cách làm
+
+    :hide ẩn rồi rep ly để xem 
+
+
+    chèn vào css
+
+<code>
+
+            /* viewtopic_body */
+            .postprofile-details dt {
+            background-color: #F0F7FC;
+            padding: 10px;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -khtml-border-radius: 4px;
+              width: 104px;
+            margin-left: -11px;
+              margin-top: -11px;
+            }
+            .post-header,.postprofile{
+            background: #D7EDFC url('http://c.gocmobile.net/styles/default/xenforo/gradients/tab-selected-light.png') repeat-x bottom;
+            border: 1px solid #D7EDFC;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            position: relative;
+             
+            }
+            .postprofile {
+            float: left;
+            margin-left: -11em;
+            width: 124px;
+            }.post-container {
+            background-color: #EFF1F3;
+            margin-left: 12em;
+            }.post{
+              background-color: #FCFCFF;
+            border-bottom: 1px solid #D7EDFC;
+            }
+            .postbody,.post .post-header{background-color: #FCFCFF;}
+            .postprofile-details img{
+            max-width: 96px;
+            max-height: 96px;
+            }
+            .postprofile-details a span {padding: 0px 30px;}
+            .post-footer {
+            clear: both;
+            width: 83%;
+            float: right;
+              background-color : #FCFCFF;
+              border-top:0px;
+            }
+            .foxy {
+            margin-left: -5px;
+            }
+            .foxy {
+            position: absolute;
+            top: 10px;
+            right: -11px;
+            display: block;
+            width: 0px;
+            height: 0px;
+            line-height: 0px;
+            border: 10px solid transparent;
+            border-left-color: #D7EDFC;
+            border-right: none;
+            _display: none;
+            }.foxy {
+            left: 104%;
+            margin-left: -5px;
+            }
+            .foxy span{border-top-color:rgb(252, 252, 255);top: -6px;left: -5px}
+            .foxy span {
+            position: absolute;
+            top: -10px;
+            left: -12px;
+            display: block;
+            width: 0px;
+            height: 0px;
+            line-height: 0px;
+            border: 10px solid transparent;
+            border-left-color: #F0F7FC;
+            border-right: none;
+            }
+            .post1a{margin-left:0!important}
+            .post1{background:#F6F6F6;border-bottom:6px solid #EAEAEA;clear:initial;float:initial;margin-left:0!important;min-height:100px;text-shadow:#fff 0 1px 0;width:100%}
+            .post1b a img {
+            border-radius: 3px;
+            box-shadow: 0 0 4px black;
+            float: left;
+            margin: 4px 18px;
+            }
+            .post1b img{max-height:60px}
+            .post1b dt{float:left;}
+            .post1c {
+            clear: both;
+            width: 100%;
+            float:left;
+            background-color: #FCFCFF;
+            border-top: 0px;
+            }
+            .post1b dd+dd+dd{float:right;margin-right:50px;margin-top:-80px;}
+            .post1c li{
+            float: left;
+              list-style: none;
+            }
+            .post1c ul.posting-icons {
+            float: right;
+            list-style: none;
+            margin: 5px;
+            }
+            .postprofile-details dd{text-align: center;}
+            .post1d{
+            margin: 1em;
+            overflow: hidden;
+            min-height: 60px;
+            border-bottom: 1px solid #D7EDFC;
+            }
+            .post1e{max-width:150px;}
+
+</code>
+    tạo 1 js in the topic
+
+<code>
+            $(function () {
+            $('.postprofile-details dt').after('<span class="foxy"><span></span></span>');
+            });
+            $(function () {
+            $('div.postprofile:eq(0)').addClass('post1').removeClass('postprofile');
+            });
+            $(function () {
+            $('.post1b dt a span:eq(0)').addClass('post1e');
+            });
+            $(function () {
+            $('div.post-container:eq(0)').addClass('post1a').removeClass('post-container');
+            });
+            $(function () {
+            $('.postprofile-details.postdetails:eq(0)').addClass('post1b').removeClass('postdetails').removeClass('postprofile-details');
+            });
+            $(function () {
+            $('.post-footer:eq(0)').addClass('post1c').removeClass('post-footer');
+            });
+            $(function () {
+            $('.post-entry:eq(0)').addClass('post1d').removeClass('post-entry');
+            });
+</code>
+
+
+
+<code>  /*Topic*/
+        .pagination.topic-options{float:left;font-size:1.1em;font-weight:700}
+        .pagination.topic-options b{background:#5c5c5c;color:#fff;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;box-shadow:inset rgba(0,0,0,0.7) 0 1px 3px rgba(255,255,255,1) 0 1px 0;cursor:default;display:inline-block;line-height:20px;height:20px;padding:1px 8px}
+        .pagination.topic-options a,.pagination.topic-options a:active,.pagination.topic-options a:link,.pagination.topic-options a:visited{background:#e5e5e5 url(http://www.ipbforumskins.com/skindemo/public/style_images/gravityb33x/highlight_strong.png) repeat-x 0 0;border:1px solid #d6d6d6;text-shadow:#fff 0 1px 0;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:rgba(0,0,0,0.05) 0 1px 2px;-moz-box-shadow:rgba(0,0,0,0.05) 0 1px 2px;box-shadow:rgba(0,0,0,0.05) 0 1px 2px;text-transform:lowercase;font-size:11px;font-weight:400;color:#222;display:inline;line-height:20px;height:20px;padding:4px 7px}
+        .pagination.topic-options a:hover{opacity:0.8}
+        .post{min-height:400px;border-bottom:35px solid transparent;background:transparent!important}
+        .posting-options.topic-options{min-height:16px}
+        [id^=p]:nth-child(2n) .post-container::before,[id^=p]:nth-child(2n+1) .post-container::before{content:url(http://i35.servimg.com/u/f35/16/55/88/76/post-t10.png);border-right:1px solid #F1F8FE;height:18px;width:10px;display:block;position:absolute;margin:44px 0 0 -10px}
+        [id^=p]:nth-child(2n+1) .post-container::before{content:url(http://i35.servimg.com/u/f35/16/55/88/76/post-t11.png)}
+        .post-entry{border-top:1px solid #FFF;margin:0;padding:10px 15px}
+        .post .post-header{border-bottom:1px solid #D7D7D7;background:transparent}
+        .postprofile .post-header{border:0}
+        [id^=p]:nth-child(2n) .post-footer,[id^=p]:nth-child(2n) .post-container{background:#F1F8FE}
+        [id^=p]:nth-child(2n+1) .post-footer,[id^=p]:nth-child(2n+1) .post-container{background:#F4F4F4}
+        [id^=p]:nth-child(2n+1) .post-container{border:1px solid #D6D6D6}
+        [id^=p]:nth-child(2n) .post-container{border:1px solid #B5D7F4}
+        .post-container{min-height:360px;border-radius:5px 5px 0 0;border:1px solid #B5D7F4;border-bottom:0}
+        .post-footer{border-radius:0 0 5px 5px;border:1px solid #B5D7F4;margin-left:198px;border-top:1px solid #FFF}
+        .postprofile-head.post-header{background:transparent;position:absolute!important;text-align:center;width:200px}
+        .maintitle.floated+.post{margin-top:25px}
+        .post-info li+li{margin-top:6px;text-align:right;width:100px;color:#1E68C4;font-weight:700}
+        ul.post-info li.ddvote{height:20px;line-height:20px;font-size:12px;font-weight:700;display:inline;margin-top:6px;position:absolute}
+        .popupmenu-item{text-align:left}
+        .postprofile-details.postdetails dt a img[src][alt]{margin-top:26px;vertical-align:middle;border:3px double #C6C6C6;border-radius:5px;max-width:80px;max-height:80px;padding:1px}
+        .popmenubutton-new-out img{display:none!important}
+        .avatar+ul{text-align:left}
+        .postprofile-details dt,.postprofile-head.post-header,.postprofile-details.postdetails{text-align:center}
+        .postdetails dt img{width:100px;height:100px;box-shadow:0 0 5px #000;border-radius:5px;position:relative;z-index:5}
+        table.ipbtable th {background-image: url("http://www.ipbforumskins.com/skindemo/public/style_images/overlayblue33x/secondary_nav_bg.png");background-repeat: repeat-x;color:#fff;}
+        table.ipbtable.index-box {table-layout: fixed;width: 100%;border:2px sold #000000;}
+         #gfooter::after{content:"Skin Rip by Ruby IFC "}
+</code>
+[quote]Vui lòng không copy skin dưới các hình thức trừ các forum
