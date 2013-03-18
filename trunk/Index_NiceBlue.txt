@@ -1,0 +1,535 @@
+﻿<html>
+
+
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>Diễn Đàn Sinh Viên Điều Khiển Tàu Biển</title>
+
+</head>
+
+<link rel="SHORTCUT ICON" href="http://i9.glitter-graphics.org/pub/52/52079ez63hcoqpn.gif">
+
+<style type="text/css">#vlightbox a#vlb{display:none}
+    body {
+    cursor:url("http://forumotion.googlecode.com/files/chuot.cur"), url("http://forumotion.googlecode.com/files/chuot.cur"), auto;
+    }
+</style>
+
+<body style="background: url(http://i69.servimg.com/u/f69/17/76/96/09/vector10.jpg) repeat center top;">
+
+<center> 
+<table border="0" cellpadding="0" cellspacing="0" width="875" id="table1"> 
+    <tr> 
+        <td colspan="5"> 
+  <img src="http://i69.servimg.com/u/f69/17/76/96/09/a10.png" /> <img src="http://i69.servimg.com/u/f69/17/76/96/09/h101010.png" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="http://i69.servimg.com/u/f69/17/76/96/09/y10.png" />      </td> 
+    </tr> 
+    <tr> 
+
+        <td colspan="5">&nbsp;</td> 
+    </tr> 
+
+    
+
+    
+
+    <tr>
+
+        <td colspan="5">
+
+        <img border="0" src="http://i69.servimg.com/u/f69/17/76/96/09/top11010.png" width="875" height="17"></td>
+
+    </tr>
+
+    <tr>
+
+        <td width="19" rowspan="2">
+
+        <img border="0" src="http://i69.servimg.com/u/f69/17/76/96/09/left1010.png" width="19" height="396"></td>
+
+        
+
+        <!-------------------------MAIN------------------------------------------>
+
+
+          <td align="center" valign="middle" width="556" rowspan="2"> 
+              <embed type="application/x-shockwave-flash" allowscriptaccess="never" src="http://www.youtube.com/v/5MfV8D4YLMs&list=PLHTJsoyxaBPFx3E28BjLPjQtN9C9KvWh5?version=3&amp;en&autoplay=1&amp;hl=vi_VN" width="608" align="middle" height="396">
+</td> 
+
+ 
+        <!-------------------------/MAIN------------------------------------------>     
+
+        
+
+        <td width="28" rowspan="2">
+
+
+        <img border="0" src="http://i69.servimg.com/u/f69/17/76/96/09/middle10.png" width="28" height="396"></td>
+
+        
+
+        <!---------------------------RIGHT MENU----------------------------------->
+
+        <td valign="top" width="211" style="background: url(http://i69.servimg.com/u/f69/17/76/96/09/bg_men11.png); width: 211px;">
+
+        <table cellpadding="0" cellspacing="0" border="0">
+
+            <tr>
+
+                <td>
+
+                    <a href="/forum" target="_parent" onmouseover="vao4rum.src='http://i69.servimg.com/u/f69/17/76/96/09/21010.png'" onmouseout="vao4rum.src='http://i69.servimg.com/u/f69/17/76/96/09/11010.png'">
+
+                    <img src="http://i69.servimg.com/u/f69/17/76/96/09/11010.png" name="vao4rum" border="0"></a>
+
+
+                </td>
+
+            </tr>
+
+            
+
+            <tr>
+
+                <td>
+
+                    <a href="https://www.facebook.com/dieukhientaubien" target="_parent" onmouseover="blog.src='http://i69.servimg.com/u/f69/17/76/96/09/31010.png'" onmouseout="blog.src='http://i69.servimg.com/u/f69/17/76/96/09/41010.png'">
+
+                    <img src="http://i69.servimg.com/u/f69/17/76/96/09/41010.png" name="blog" border="0"></a>
+
+
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <a href="/h4-" target="_parent" onmouseover="dangky.src='http://i69.servimg.com/u/f69/17/76/96/09/61010.png'" onmouseout="dangky.src='http://i69.servimg.com/u/f69/17/76/96/09/51110.png'">
+
+                    <img src="http://i69.servimg.com/u/f69/17/76/96/09/51110.png" name="dangky" border="0"></a>
+
+
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                   <a href="http://web.dktb.net" target="_parent" onmouseover="lienhe.src='http://i69.servimg.com/u/f69/17/76/96/09/71010.png'" onmouseout="lienhe.src='http://i69.servimg.com/u/f69/17/76/96/09/81010.png'">
+
+                    <img src="http://i69.servimg.com/u/f69/17/76/96/09/81010.png" name="lienhe" border="0"></a>
+
+
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                   <a href="/contact" target="_parent" onmouseover="thanhvien.src='http://i69.servimg.com/u/f69/17/76/96/09/01010.png'" onmouseout="thanhvien.src='http://i69.servimg.com/u/f69/17/76/96/09/011010.png'">
+
+                    <img src="http://i69.servimg.com/u/f69/17/76/96/09/011010.png" name="thanhvien" border="0"></a>
+
+
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                   <a href="ymsgr:sendIM?nhocpro_hp91" target="_parent" onmouseover="nhomthanhvien.src='http://i69.servimg.com/u/f69/17/76/96/09/y1010.png'" onmouseout="nhomthanhvien.src='http://i69.servimg.com/u/f69/17/76/96/09/t1010.png'">
+
+                    <img src="http://i69.servimg.com/u/f69/17/76/96/09/t1010.png" name="nhomthanhvien" border="0"></a>
+
+
+                  </td>
+
+            </tr>
+
+            <tr>
+
+                <td align="center" valign="bottom">
+
+                    <a href="/forum"><embed src="http://www.clocklink.com/clocks/bloguru003-black.swf?TimeZone=GMT0700&"  width="150" height="150" wmode="transparent" type="application/x-shockwave-flash"></a>
+
+                </td>
+
+            </tr>
+
+           
+
+           
+
+        </table>
+
+        
+
+        </td>
+
+        
+
+        
+    
+        <!---------------------------/RIGHT MENU----------------------------------->
+
+        
+
+        <td width="9" rowspan="2">
+
+        <img border="0" src="http://i69.servimg.com/u/f69/17/76/96/09/right110.png" width="9" height="396"></td>
+
+    </tr>
+
+    <tr>
+
+        <td align="center" width="211" style="background: url(http://i69.servimg.com/u/f69/17/76/96/09/bg_men10.png); width: 211px;">
+
+            
+
+        </td>
+
+        
+
+        
+
+    </tr>
+
+    <tr>
+
+        <td colspan="5">
+
+        <a href="http://class"><img border="0" src="http://i69.servimg.com/u/f69/17/76/96/09/bottom13.png" width="875" height="20"></a></td>
+
+    </tr>
+
+
+</table>
+
+</center>
+
+
+</body>
+
+
+
+</html>
+
+
+<style>
+
+#fdbk_tab{z-index: 105;}
+
+a#fdbk_tab {background-color:#ff6633;top: 50px;left: 0;width: 42px;height: 102px;color: #FFF;cursor: pointer;position: fixed;margin-left: -9px;background-image: url('http://i69.servimg.com/u/f69/17/76/96/09/f8d2f710.png');}
+
+a#fdbk_tab:hover {background-color:#82D23D;margin-left: -5px; }
+
+</style><a title="Đăng ký thành viên" href="/register" id="fdbk_tab" class="fdbk_tab_left"></a>
+
+
+
+<script language="javascript" type="text/javascript" >
+
+</script>
+<script language=JavaScript>
+var message="";
+function clickIE() {if (document.all) {(message);return false;}} 
+function clickNS(e) {if  (document.layers||(document.getElementById&&!document.all)) { 
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers)  {document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS;} 
+else{document.onmouseup=clickNS;
+document.oncontextmenu=clickIE;} 
+document.oncontextmenu=new Function("return false")  
+</script>
+
+<script type='text/javascript'> 
+    document.getElementById("imgLOAD").style.display="none";
+    document.getElementById("loaded").style.opacity="1";
+</script> 
+
+
+
+<script id="_waupig">var _wau = _wau || [];
+_wau.push(["tab", "ooacvaxet3qy", "pig", "left-middle"]);
+(function() {var s=document.createElement("script"); s.async=true;
+s.src="http://widgets.amung.us/tab.js";
+document.getElementsByTagName("head")[0].appendChild(s);
+})();</script>
+
+
+
+
+<script language="javascript">
+var msg = "Diễn Đàn Sinh Viên Điều Khiển Tàu Biển";
+var pos = 0;
+var spacer = " || ";
+var time_length = 200;
+function ScrollTitle()
+{
+document.title = msg.substring(pos, msg.length) + spacer + msg.substring(0, pos);
+pos++;
+if (pos > msg.length) pos=0;
+window.setTimeout("ScrollTitle()",time_length);
+}
+ScrollTitle();
+</script> 
+<DIV style="HEIGHT: 200px; LEFT: 0px; POSITION: absolute; top: 15px; WIDTH: 1000px; Z-INDEX: 1">
+  <object width=1300 height=150 align="left">
+    <embed src="http://www.coo.me/out/users/clubteen9x/1.swf" width="1300" height="150" align="left" quality="high"
+pluginspage="http://www.macromedia.com/go/getflashplayer"
+type="application/x-shockwave-flash" menu="false"
+wmode="transparent"></embed>
+  </object>
+</DIV>
+
+
+
+
+<script type="text/javascript">
+var pagearBigImg = 'http://i.imm.io/sL4Q.jpeg'; 
+var jumpTo = 'http://dktb.Net' ;
+var pageearColor = 'FFFFFF';  
+setDirection = 'lt';
+var openOnLoad = 3; 
+var closeOnLoad = 30; 
+</script>
+
+<script type="text/javascript" src="http://www.coo.me/out/users/clubteen9x/js/flashlattrang.js"></script>
+<!--[if lt IE]>
+<script type="text/javascript">
+alert ("Bạn đang sử dụng  Internet Explorer. Forum chúng tôi hiển thị tốt nhất trên Firefox or Chrome")
+</script><![endif]-->
+
+
+<script type="text/javascript" src="http://nhocpro9x.googlecode.com/files/jquery.jgrowl.js"></script> 
+
+
+<script>(function($){
+ 
+
+        $(document).ready(function(){
+ 
+
+           $.jGrowl.defaults.closer = false;
+ 
+
+           if ( !$.browser.safari ) {
+ 
+
+              $.jGrowl.defaults.animateOpen = {
+ 
+
+                 width: 'show'
+ 
+
+              };
+ 
+
+              $.jGrowl.defaults.animateClose = {
+ 
+
+                 width: 'hide'
+ 
+
+              };
+ 
+
+           }
+ 
+
+           $.jGrowl("thông báo hiện tại diễn đàn DKTB.NET đang xây dựng lại từ đầu , rất mong mọi người ủng hộ diễn đàn nhiệt tình ^^", { life:5000 });
+ 
+
+        });
+ 
+
+     })(jQuery);</script>
+
+<style> 
+
+        div.jGrowl-notification {
+ 
+
+           float:          right;
+ 
+
+           margin-left:    6px;
+ 
+
+        }
+ 
+
+div.jGrowl {
+    padding:          10px;
+    z-index:          9999;
+    color:             #fff;
+    font-size:          11px;
+ }
+ 
+
+/** Special IE6 Style Positioning **/
+ div.ie6 {
+    position:          absolute;
+ }
+ 
+
+div.ie6.top-right {
+    right:             auto;
+    bottom:          auto;
+    left:             expres​sion( ( 0 - jGrowl.offsetWidth + ( document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+      top:             expres​sion( ( 0 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+ }
+ 
+
+div.ie6.top-left {
+    left:             expres​sion( ( 0 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+    top:             expres​sion( ( 0 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+ }
+ 
+
+div.ie6.bottom-right {
+    left:             expres​sion( ( 0 - jGrowl.offsetWidth + ( document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+    top:             expres​sion( ( 0 - jGrowl.offsetHeight + ( document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+ }
+ 
+
+div.ie6.bottom-left {
+    left:             expres​sion( ( 0 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+    top:             expres​sion( ( 0 - jGrowl.offsetHeight + ( document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+ }
+ 
+
+div.ie6.center {
+    left:             expres​sion( ( 0 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+    top:             expres​sion( ( 0 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+    width:             100%;
+ }
+ 
+
+/** Normal Style Positions **/
+ div.jGrowl {
+    position:         absolute;
+ }
+ 
+
+body > div.jGrowl {
+    position:         fixed;
+ }
+ 
+
+div.jGrowl.top-left {
+    left:             0px;
+    top:             0px;
+ }
+ 
+
+div.jGrowl.top-right {
+    right:             0px;
+    top:             0px;
+ }
+ 
+
+div.jGrowl.bottom-left {
+    left:             0px;
+    bottom:            0px;
+ }
+ 
+
+div.jGrowl.bottom-right {
+    right:             0px;
+    bottom:          0px;
+ }
+ 
+
+div.jGrowl.center {
+    top:             0px;
+    width:             50%;
+    left:             25%;
+ }
+ 
+
+/** Cross Browser Styling **/
+ div.center div.jGrowl-notification, div.center div.jGrowl-closer {
+    margin-left:       auto;
+    margin-right:       auto;
+ }
+ 
+
+div.jGrowl div.jGrowl-notification, div.jGrowl div.jGrowl-closer {
+    background-color:       #666666;
+    opacity:             .85;
+     -ms-filter:          "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+     filter:             progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+    zoom:                1;
+    width:                235px;
+    padding:             10px;
+    margin-top:          5px;
+    margin-bottom:          5px;
+    font-family:          Tahoma, Arial, Helvetica, sans-serif;
+    font-size:             1em;
+    text-align:          left;
+    display:             none;
+    -moz-border-radius:    5px;
+    -webkit-border-radius:   5px;
+ }
+ 
+
+div.jGrowl div.jGrowl-notification {
+    min-height:          40px;
+ }
+ 
+
+div.jGrowl div.jGrowl-notification div.jGrowl-header {
+    font-weight:          bold;
+    font-size:            .85em;
+ }
+ 
+
+div.jGrowl div.jGrowl-notification div.jGrowl-close {
+    z-index:            99;
+    float:                right;
+    font-weight:          bold;
+    font-size:             1em;
+    cursor:               pointer;
+ }
+ 
+
+div.jGrowl div.jGrowl-closer {
+    padding-top:          4px;
+    padding-bottom:       4px;
+    cursor:             pointer;
+    font-size:            .9em;
+    font-weight:          bold;
+    text-align:          center;
+ }
+ 
+
+/** Hide jGrowl when printing **/
+ @media print {
+    div.jGrowl {
+       display:          none;
+    }
+ }</style>
+
+
+
+<a href="http://www.forumvi.com" target="_blank"></a>
+
+<center>Diễn Đàn Sinh Viên Điều Khiển Tàu Biển </br>
+Xây dựng và phát triển bởi thành viên DKTB.NET</br>
+BQT diễn đàn sẽ không chịu trách nhiệm bất kỳ nội dung nào thành viên đưa lên. </br>
+Mọi chi tiết xin liên hệ trực tiếp : Email : marioh8866@gmail.com - Yahoo : nhocpro_hp91 - Hotline : 01228397557</br></center>
