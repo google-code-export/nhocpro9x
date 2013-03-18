@@ -1,0 +1,5 @@
+<code>    <tr><th nowrap="nowrap" colspan="2">Liên kết - Quảng cáo</th></tr>
+    <tr>
+    <td class="row1" align="center" valign="middle"><marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" direction="left" class="text_normal" align="baseline" loop="10000" scrollamount="3" scrolldelay="10" width="100%" height="100"><a target="_blank" href="http://so2phumy.com"><img src="http://i24.servimg.com/u/f24/15/44/78/93/untitl11.jpg" border="0" height="100"></a>-<a target="_blank" href="http://maydongluc49.tk"><img src="http://i617.photobucket.com/albums/tt252/iamtainguyenvan/MaDoLu49/Logoutc2.jpg" border="0" height="100"></a>-<a target="_blank" href="http://binhdinhonline.org"><img src="http://binhdinhonline.org/diendan/images/styles/AnimatedArena/style/footerLogo.png" border="0" height="100"></a>-<a target="_blank" href="http://diendanlhp.com"><img src="http://img815.imageshack.us/img815/4172/zzzv.png" border="0" height="100"></a>-<a target="_blank" href="http://so2phumy.com"><img src="http://i1009.photobucket.com/albums/af217/trung_9x/ico%204rum/footer10.gif" border="0" height="100"></a>
+    </span></td>
+    </tr></code>
