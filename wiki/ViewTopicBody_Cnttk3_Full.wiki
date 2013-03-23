@@ -1,0 +1,880 @@
+Thông tin :
+Vewtopic_body style ngang , có kèm theo 2 thanh level Gunny
+Có nút Like + Diske vote ko chuyển trang
+http://i77.servimg.com/u/f77/16/58/45/96/110.jpg
+
+
+    Add thêm bộ rank này vào cho phù hợp với vew nha
+    http://www.cntt-k3.org/t7101-topic
+
+
+
+Cách làm :
+
+Bước 1 : Vào MODULES >> Points and reputation >> >> Points system :
+ở mục General options >>
+Activate points system : Có
+Display average points per message : Có
+như hình dưới
+
+http://i77.servimg.com/u/f77/16/58/45/96/210.jpg
+
+
+Tiếp theo >> Reputation
+Activate reputation system : Có
+Activate "Thanks" button : Có
+như hình dưới
+http://i77.servimg.com/u/f77/16/58/45/96/310.jpg
+
+
+
+Bước 2 : Vào viewtopic_body thay toàn bộ code đó = code sau
+
+<code>
+      <style>
+    div[id*="c9"][style="background-color:#ffe5cf;"] {
+    background: url(http://i11.servimg.com/u/f11/17/98/40/25/g10.png)no-repeat right bottom;
+    }
+    .pun .user{width:12em}
+    .pun .postmain{margin-left:14em}
+    .pun .post .user,.postfoot{margin-left: auto;}
+    .postmain .postfoot,.pun .postmain{margin:0}
+    .postmain .user{margin:0;width:100%;padding:0;border-bottom:1px dashed #CCC}
+
+    .pun  .postmain .posthead {margin:0}
+    .postmain .username{font-variant:small-caps;font-weight:bold}
+     .postmain .user-basic-info div{display:inline-block}
+    .user-ident{text-align:center}
+     .postmain .user-ident{float:left}
+    .postmain .user-info{float:right}
+    .pun .post {
+    border-width: 0 0 1px;
+    }.pun .entry-content {
+      padding: .8em;
+    }
+       
+    .ribbon li {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-top-right-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -khtml-border-top-right-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -khtml-border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -khtml-border-top-left-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -khtml-border-top-left-radius: 0px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0, 0.25);
+    -khtml-box-shadow: 0px 1px 3px rgba(0,0,0, 0.25);
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0, 0.25);
+    -khtml-box-shadow: 0px 1px 3px rgba(0,0,0, 0.25);
+    padding: 1px;
+    position: relative;
+    margin-bottom: 5px;
+    }
+
+    .ribbon {
+    font-size: 12px;
+    font-weight: bold;
+    margin: -5px -5px -2px;
+    text-align: center;
+      margin-bottom: -30px;
+      width: auto;
+    }
+
+
+
+
+
+
+    .ribbon li:last-child {
+    margin-bottom: 0px;
+    }
+
+    .ribbonStaff {
+    background: rgb(138, 150, 150);
+    border: 1px solid #B3B3B3;
+    color: white;
+    }
+    .ribbon li .left {
+    border-top-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -khtml-border-top-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -khtml-border-top-left-radius: 3px;
+    left: -1px;
+    }
+    .ribbon li div {
+    position: absolute;
+    top: -4px;
+    width: 4px;
+    height: 4px;
+    }
+    .ribbonStaff div {
+    background: rgb(138, 150, 150);
+    }
+
+
+
+
+    .ribbon li .right {
+    border-top-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -khtml-border-top-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -khtml-border-top-right-radius: 3px;
+    right: -1px;
+    }
+
+
+
+
+    .rank2 img{
+      width: 200px;
+      margin-left: -44px;
+      margin-top: -25px;
+    }
+
+    .maii {
+    background: #FAFAFA !important;
+    border: 1px solid #DDD !important;
+    border-radius: 4px;
+    }
+    /* vote */
+    #profile-advanced-details .autobot{color:#2220fb!important;font-size:14px!important;text-shadow:1px 1px 1px #000!important}
+    .post .post-options{height:22px;position:relative}
+    .hihi {background-color: #1F537B;color: #DEDFDF;font-weight: 400;padding: 0.7em 0.1em;}
+    .numtopF{margin-right:-12px!important}
+    a.mainmenu[href='/groups'],a.mainmenu[href='/privmsg?folder=inbox'],#left,#textarea_content dt,#dulieutip,#dulieupostter,#sapxepdulieu{display:none}
+
+
+
+    .ost,.share,.c3zvau .qua,.no{background-position:5px 50%;background-repeat:no-repeat;border:1px solid #C2D5E3;margin:6px 2px 0;padding:5px 8px 5px 25px}
+    .share{background-image:url(http://i43.servimg.com/u/f43/16/03/04/56/fav10.png)}.qua{background-image:url(http://i43.servimg.com/u/f43/16/03/04/56/no10.gif);padding-left:29px!important}.no{padding:5px 8px}
+
+    .no .vop{background:url(http://i42.servimg.com/u/f42/17/92/41/65/discou10.png) no-repeat left center;padding:0 0 0 18px}
+    .no .vom{background:url(http://i42.servimg.com/u/f42/17/92/41/65/discou11.png) no-repeat left center;padding:0 0 0 18px}
+    .vote-button{float:left;width:60px}
+    .c3zplus:hover{background-color:#ebedf4;border-color:#9dacce}
+    .c3zminus:hover{background-color:#ebedf4;border-color:#9dacce}
+    .c3zplus {
+    background: url(http://i42.servimg.com/u/f42/17/92/41/65/discou10.png) no-repeat scroll 0 0 #E0E0E0;
+    background-position: 6px 36%;
+    background-repeat: no-repeat;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px 3px 3px 3px;
+    color: white!important;
+    display: block;
+    float: left;
+    height: 13px;
+    margin: -4px 2px 0;
+    padding: 4px 4px 5px 24px;
+    position: relative;
+    text-align: left;
+    width: 25px;
+    }
+    .c3zminus {
+    background: url(http://i42.servimg.com/u/f42/17/92/41/65/discou11.png) no-repeat scroll #E0E0E0;
+    background-position: 6px 36%;
+    background-repeat: no-repeat;
+    border: 1px solid #CAD4E7;
+    border-radius: 3px 3px 3px 3px;
+    color: white!important;
+    display: block;
+    float: left;
+    height: 13px;
+    margin: -4px 0px 0;
+    padding: 4px 4px 5px 24px;
+    position: relative;
+    text-align: left;
+    width: 45px;
+    }
+
+    .pun #main .main-content.topic {
+    background: #fff!important;
+    border: 1px solid #DDD!important;
+    border-radius: 4px;
+    margin: 0;
+    padding: 10px!important;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 12px rgba(0,0,0,0.5);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    }
+    .user>div{margin:12px}
+    .rankn {
+    position: relative;
+    padding: 10px;
+    display: block;
+
+    width: 100px;
+
+    }
+
+
+    .postmain .post-entry{clear:left}
+    .pun .post .user{margin-left: 0;
+    float: left;
+    width: 100%;
+    background: #F7F7F7;
+    border-bottom: 1px solid #DDD;
+
+    }
+    .pun .post .user {
+    margin-top: 0;
+    }
+    .pun .user .user-ident {
+      display: block;
+    float: left;
+    padding: 10px;
+    padding-top: 0;
+    }.pun .user-ident .user-basic-info {
+    display: table;
+      margin-left: 10px;
+    }
+    .post .postmain .user .user-basic-info a img {
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #DDD;
+    }
+
+
+    b.username {
+    width: 10em;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    }
+    b.username strong {
+    float: none !important;
+    font-size: 12px;
+    }
+
+
+    .pun .posthead {
+    border-top: 1px solid #D7D7D7;
+    border-bottom: 1px solid #D7D7D7;
+    background: #E6E6E6 url('http://i16.servimg.com/u/f16/15/23/22/46/highli10.png') repeat-x 0 0;
+    padding: 0 10px;
+    height: 36px;
+    line-height: 36px;
+    font-weight: normal;
+    font-size: 10px;
+    text-shadow: rgba(255, 255, 255, 0.9) 0px 1px 0px;
+    color: #777;
+    }
+
+    .pun .paged-foot, .pun .paged-head {
+    background: none;
+    border: none;
+    padding-bottom: 7px;
+    }
+
+
+    .main .main-head.crumbb {
+    border: 0;
+    border-bottom: 1px solid #EAEAEA;
+    background: whiteSmoke url("http://i16.servimg.com/u/f16/15/23/22/46/highli11.png") repeat-x 0 0;
+    color: #333;
+    padding: 7px;
+    font-size: 12px;
+    font-weight: 300;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    border-radius: 4px 4px 0 0;
+    overflow: hidden;
+    box-shadow: none;
+    }
+
+    .crumbs {
+    text-align: right;
+    }
+
+
+
+    /* đóng khung trong vew */
+    .chupy {
+    Padding-left: 2px;
+    Padding-right: 2px;
+    Padding-top: 2px;
+    Padding-bottom: 2px;
+    Background-color: rgb(240,240,240);
+    Border-top: 1px solid #dddddd;
+    Border-right: 1px solid #dddddd;
+    Border-left: 4px solid #c4c4c4;
+    Border-bottom: 1px solid #c4c4c4;
+    Margin-bottom: 3px;
+    }
+
+    .thanhlv1 {
+      width: 21%;
+      float: left;
+
+    }
+
+    .user-info {
+    width: 172px;
+    float: right;
+    }
+    </style>
+     
+
+     
+
+
+
+    <script type="text/javascript">//<![CDATA[
+    $(window).load(function(){$(".post").first().find('a[href*="mode=quote"]').remove();$('div.post-entry').find('img').each(function () {var relx = $('div.post-entry').attr('id');var $this = $(this), width = $this.width();var src = $this.attr('src');var a = $('<a/>').attr('href', src).addClass('lightbox').attr('rel', "op"+i);if (width > 200) {$this.wrap(a);}});});//]]>  </script>
+    <script type="text/javascript">//<![CDATA[
+    $(window).load(function(){var relx = $('div.post-entry ').attr('id');$('a[href$=".png"]').addClass('topictit').attr('rel', "op"+i);});//]]>  </script>
+     
+     
+
+    <style>#fa_ticker_block .module.main, .pun .main .main-content p.message {
+    padding: 8px 35px 8px 14px;
+    margin: 8px !important;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #D9EDF7;
+    border-color: #BCE8F1;
+    color: #3A87AD;
+    }.pun .frm .frm-form table {
+    border: none !important;
+    }</style>
+
+
+    <script type="text/javascript">//<![CDATA[
+    var multiquote_img_off = '{JS_MULTIQUOTE_IMG_OFF}', multiquote_img_on = '{JS_MULTIQUOTE_IMG_ON}', _atr = '{JS_DIR}addthis/', _ati = '{PATH_IMG_FA}addthis/'{ADDTHIS_LANG}, addthis_localize = { share_caption: "{L_SHARE_CAPTION}", email: "{L_EMAIL}", email_caption: "{L_EMAIL_CAPTION}", favorites: "{L_SHARE_BOOKMARKS}", print: "{L_PRINT}", more: "{L_MORE}" };
+    $(function(){
+      _atc.cwait = 0;
+      $('.addthis_button').mouseup(function(){
+          if ($('#at15s').css('display') == 'block') {
+            addthis_close();
+            addthis_close();
+          }
+      });
+    });
+      var code="Copyright By notme. Edit by IceFox";
+      function level(Posts,Coins,Thanked){var d=(Posts*20+Coins*15);var e=(d/1500);var f=Math.floor((e-Math.floor(e))*100);var g=Math.floor(e+parseInt(1));if(g<2){(g="1 [<img src='http://img.zing.vn/union/client/gunny/level-image/1.png'>]")};if(g<3){(g="2 [<img src='http://img.zing.vn/union/client/gunny/level-image/2.png'>]")};if(g<4){(g="3 [<img src='http://img.zing.vn/union/client/gunny/level-image/3.png'>]")};if(g<5){(g="4 [<img src='http://img.zing.vn/union/client/gunny/level-image/4.png'>]")};if(g<6){(g="5 [<img src='http://img.zing.vn/union/client/gunny/level-image/5.png'>]")};if(g<7){(g="6 <img src='http://img.zing.vn/union/client/gunny/level-image/6.png'>")}; if(g<8){(g="7 <img src='http://img.zing.vn/union/client/gunny/level-image/7.png'>]")};if(g<9){(g="8 <img src='http://img.zing.vn/union/client/gunny/level-image/8.png'>]")};if(g<10){(g="9 <img src='http://img.zing.vn/union/client/gunny/level-image/9.png'>]")};if(g<11){(g="10 <img src='http://img.zing.vn/union/client/gunny/level-image/10.png'>]")};if(g<12){(g="11 <img src='http://img.zing.vn/union/client/gunny/level-image/11.png'>]")};if(g<13){(g="12 <img src='http://img.zing.vn/union/client/gunny/level-image/12.png'>]")};if(g<14){(g="13 <img src='http://img.zing.vn/union/client/gunny/level-image/13.png'>]")};if(g<15){(g="14 <img src='http://img.zing.vn/union/client/gunny/level-image/14.png'>]")};if(g<16){(g="15 <img src='http://img.zing.vn/union/client/gunny/level-image/15.png'>]")};if(g<17){(g="16 <img src='http://img.zing.vn/union/client/gunny/level-image/16.png'>]")};if(g<18){(g="17 <img src='http://img.zing.vn/union/client/gunny/level-image/17.png'>]")};if(g<19){(g="18 <img src='http://img.zing.vn/union/client/gunny/level-image/18.png'>]")};if(g<20){(g="19 <img src='http://img.zing.vn/union/client/gunny/level-image/19.png'>]")};if(g<21){(g="20 <img src='http://img.zing.vn/union/client/gunny/level-image/20.png'>]")};if(g<22){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/21.png'>]")};if(g<23){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/22.png'>]")};if(g<24){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/23.png'>]")};if(g<25){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/24.png'>]")};if(g<26){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/25.png'>]")};if(g<27){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/26.png'>]")};if(g<28){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/27.png'>]")};if(g<29){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/28.png'>]")};if(g<30){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/29.png'>]")};if(g<31){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/30.png'>]")};if(g<32){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/31.png'>]")};if(g<33){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/32.png'>]")};if(g<34){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/33.png'>]")};if(g<35){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/34.png'>]")};if(g<36){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/35.png'>]")};if(g<37){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/36.png'>]")};if(g<38){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/37.png'>]")};if(g<39){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/38.png'>]")};if(g<40){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/39.png'>]")};if(g<41){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/40.png'>]")};if(g<42){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/41.png'>]")};if(g<43){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/42.png'>]")};if(g<44){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/43.png'>]")};if(g<45){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/44.png'>]")};if(g<46){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/45.png'>]")};if(g<47){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/46.png'>]")};if(g<48){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/47.png'>]")};if(g<49){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/48.png'>]")};if(g<50){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/49.png'>]")};if(g<51){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/50.png'>]")};if(g<52){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/51.png'>]")};if(g<50){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/52.png'>]")};if(g<54){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/49.png'>]")};if(g<55){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/54.png'>]")};if(g<56){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/55.png'>]")};if(g<57){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/56.png'>]")};if(g<58){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/57.png'>]")};if(g<59){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/58.png'>]")};if(g<60){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/59.png'>]")};if(60<g){(g="21 <img src='http://img.zing.vn/union/client/gunny/level-image/60.png'>]")&&(f="60")};var h=(Math.floor((Thanked*10)+(Posts*2)+(Coins*1)));if(h>8000){h=8000};if(d>25000){(d=25000)};var i=(Math.floor((h/8000)*100)-2);var j=(Math.floor((d/25000)*100)-2);document.write('<fieldset style="padding:7px;width: 137px;border: 0px solid #D4D4D4;color: gray;font-size: 7pt;border-radius: 2px;"><legend><font color="red"><span style="font-size: 0px;" class="lv '+g+' "><b><img src="http://i16.servimg.com/u/f16/17/22/61/18/lv10.png">'+g+'</b></span></font></legend><b><font color=orange> Sức sống : </font></b>('+d+' / 25000)<div class="strengthbg"><div class="strengthbg2"><fieldset style="padding: 1px;border: 1px solid #666;border-radius: 3px 3px 3px 3px;"><img src="/users/2211/12/43/96/album/orange10.gif" width="'+j+'%" title="'+d+'" height="9px"><img src="/users/2211/12/43/96/album/hp1010.gif" width="2px" title="'+d+'" height="9px"></fieldset></div></div><b><font color=green> Hoạt động : </font></b>('+h+' / 8000)<div class="abilitybg"><div class="abilitybg2"><fieldset style="padding: 1px;border: 1px solid #666;border-radius: 3px 3px 3px 3px;"><img src="/users/2211/12/43/96/album/green110.gif" width="'+i+'%" title="'+h+'" height="9px"><img src="/users/2211/12/43/96/album/mp1010.gif" width="2px" title="'+h+'" height="9px"></fieldset></div></div><font color=RoyalBlue1> <b>Kinh nghiệm :</b></font> '+f+'%<div class="expbg"><div class="expbg2"><fieldset style="padding: 1px;border: 1px solid #666;border-radius: 3px 3px 3px 3px;"><img src="/users/2211/12/43/96/album/blue10.gif" width="'+(f-1)+'%" title="'+(f)+'%" height="9px"><img src="/users/2211/12/43/96/album/exp1010.gif" width="2px" title="'+(f)+'%" height="9px"></fieldset></div></div></fieldset>')};
+    //]]>
+    </script>
+    <script type="text/javascript">//<![CDATA[
+      var code="Copyright By notme. Edit by Chupy";
+      function level2(Posts,Coins,Thanked){var d=(Posts*20+Coins*15);var e=(d/1500);var f=Math.floor((e-Math.floor(e))*100);var g=Math.floor(e+parseInt(1));if(g<2){(g="1 <img src='http://i47.servimg.com/u/f47/17/57/92/32/c1410.gif'>")};if(g<3){(g="2 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/1_zps7e1f8d4c.jpg'>")};if(g<4){(g="3 <img src='http://nu7.upanh.com/b3.s35.d4/c9dd4b03581cd48d89e89edbc8c1d4ce_52888377.2.jpg'>")};if(g<5){(g="4 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/3_zps0432eeb5.jpg'>")};if(g<6){(g="5 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/4_zpsf9565735.jpg'>")};if(g<7){(g="6 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/5_zps836628b4.jpg'>")}; if(g<8){(g="7 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/6_zpse3d152d4.jpg'>")};if(g<9){(g="8 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/7_zps4e80c958.jpg'>")};if(g<10){(g="9 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/8_zpse40c2daf.jpg'>")};if(g<11){(g="10 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/9_zps0f80a716.jpg'>")};if(g<12){(g="11 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/10_zps42c509e3.jpg'>")};if(g<13){(g="12 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/11_zpsd421029d.jpg'>")};if(g<14){(g="13 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/12_zpsd639da28.jpg'>]")};if(g<15){(g="14 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/13_zpse34c5edd.jpg'>]")};if(g<16){(g="15 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/14_zps76d85496.jpg'>]")};if(g<17){(g="16 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/15_zps658f0eaa.jpg'>]")};if(g<18){(g="17 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/16_zps9c1dc0c8.jpg'>]")};if(g<19){(g="18 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/17_zps65e9d1fd.jpg'>]")};if(g<20){(g="19 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/18_zps4b3d3bff.jpg'>]")};if(g<21){(g="20 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/19_zpsdf578d26.jpg'>]")};if(g<22){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/20_zps58c5cf8e.jpg'>]")};if(g<23){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/21_zpsf7b0ef49.jpg'>")};if(g<24){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/22_zps4744dabd.jpg'>")};if(g<25){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/23_zps9d7d4ff3.jpg'>")};if(g<26){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/24_zps6d184003.jpg'>")};if(g<27){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/25_zps28c94cbc.jpg'>")};if(g<28){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/26_zpsab2a2d02.jpg'>")};if(g<29){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/27_zpsaab2799b.jpg'>")};if(g<30){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/28_zps030c0345.jpg'>")};if(g<31){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/29_zpsb0d1dc95.jpg'>")};if(g<32){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/30_zpsbfd5ad50.jpg'>")};if(g<33){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/31_zpsba8f4c17.jpg'>")};if(g<34){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/32_zps92a45146.jpg'>]")};if(g<35){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/33_zps78f513e3.jpg'>]")};if(g<36){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/34_zpse58ce920.jpg'>]")};if(g<37){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/35_zps39b2dbb1.jpg'>]")};if(g<38){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/36_zps228176d3.jpg'>]")};if(g<39){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/37_zpsc18243b3.jpg'>]")};if(g<40){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/38_zpsa0dae062.jpg'>]")};if(g<41){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/39_zps69cd321a.jpg'>]")};if(g<42){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/40_zps024c89aa.jpg'>]")};if(g<43){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/41_zps997cc300.jpg'>]")};if(g<44){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/42_zps594dac9f.jpg'>")};if(g<45){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/43_zpsbbdc4807.jpg'>")};if(g<46){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/44_zpsf6e74af8.jpg'>]")};if(g<47){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/45_zpsd8973420.jpg'>]")};if(g<48){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/46_zps495804de.jpg'>]")};if(g<49){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/47_zps5203cc7a.jpg'>]")};if(g<50){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/48_zps8c8cbde5.jpg'>]")};if(g<51){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/49_zps8b1f8820.jpg'>]")};if(g<52){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/50_zps80c0fd7f.jpg'>]")};if(g<50){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/51_zps74188ecd.jpg'>]")};if(g<54){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/52_zps869ba309.jpg'>]")};if(g<55){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/53_zps11ebda81.jpg'>]")};if(g<56){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/54_zps42681d71.jpg'>]")};if(g<57){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/55_zpsacac3640.jpg'>]")};if(g<58){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/56_zps9d13c301.jpg'>]")};if(g<59){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/57_zps8e0a7499.jpg'>]")};if(g<60){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/58_zpsb0f05526.jpg'>]")};if(60<g){(g="21 <img src='http://i302.photobucket.com/albums/nn120/nguyenanhdung_2008/12/shop%20nhan%20vat%20gunny/59_zps3cad26c2.jpg'>]")&&(f="60")};var h=(Math.floor((Thanked*10)+(Posts*2)+(Coins*1)));if(h>8000){h=8000};if(d>25000){(d=25000)};var i=(Math.floor((h/8000)*100)-2);var j=(Math.floor((d/25000)*100)-2);document.write('<fieldset style="position: absolute;border-radius: 9px 9px;white-space: nowrap;width: 165px;font-size: 11px;border-color: #666;border-width: 2px;margin: -18px 0px 0;padding: 5px;"><legend><font color="red"><span style="font-size: 0px;" class="lv '+g+' "><b>'+g+'</b></span></font></legend><b><font color=red> Phát triển : </font></b>('+d+' / 25000)<div class="strengthbg"><div class="strengthbg2"><fieldset style="padding: 1px;border: 1px solid #666;border-radius: 3px 3px 3px 3px;"><img src="http://i16.servimg.com/u/f16/18/06/63/74/9810.gif" width="'+j+'%" title="'+d+'" height="9px"><img src="http://i16.servimg.com/u/f16/18/06/63/74/8710.gif" width="2px" title="'+d+'" height="9px"></fieldset></div></div>')};
+    //]]>
+    </script>
+
+    <!-- BEGIN switch_user_logged_in -->
+    <div id="pun-visit" class="clearfix">
+       <ul>
+          <!-- BEGIN switch_plus_menu -->
+          <li>
+             <script type="text/javascript">//<![CDATA[
+                var url_favourite = '{switch_user_logged_in.U_FAVOURITE_JS_PLUS_MENU}';
+                var url_newposts = '{U_NEWPOSTS_JS_PLUS_MENU}';
+                var url_egosearch = '{U_EGOSEARCH_JS_PLUS_MENU}';
+                var url_unanswered = '{U_UNANSWERED_JS_PLUS_MENU}';
+                var url_watchsearch = '{U_WATCHSEARCH_JS_PLUS_MENU}';
+                var url_tellfriend = '{U_TELLFRIEND_JS_PLUS_MENU}';
+                insert_plus_menu_new('f{FORUM_ID}&amp;t={TOPIC_ID}','{JS_SESSION_ID}', {JS_AUTH_FAVOURITES});
+             //]]>
+             </script>
+          </li>
+          <!-- END switch_plus_menu -->
+          <li><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=forumotion">{L_SHARE}</a></li>
+          <li><a href="{U_SEARCH_NEW}">{L_SEARCH_NEW}</a></li>
+          <li><a href="{U_SEARCH_SELF}">{L_SEARCH_SELF}</a></li>
+          <!-- BEGIN watchtopic -->
+          <li>{S_WATCH_TOPIC}</li>
+          <!-- END watchtopic -->
+       </ul>
+       <p>{LOGGED_AS}. {LAST_VISIT_DATE}</p>
+    </div>
+    <!-- END switch_user_logged_in -->
+    <!-- BEGIN switch_user_logged_out -->
+    <div id="pun-visit">
+       <p>{L_NOT_CONNECTED} {L_LOGIN_REGISTER}</p>
+    </div>
+    <!-- END switch_user_logged_out -->
+
+
+
+    <div class="main paged">
+       <div class="paged-head clearfix">
+          <!-- BEGIN topicpagination -->
+          <p class="paging">{PAGINATION}</p>
+          <!-- END topicpagination -->
+          <p class="posting">
+             <!-- BEGIN switch_user_authpost -->
+             <a href="{U_POST_NEW_TOPIC}" rel="nofollow"><img src="{POST_IMG}" class="{POST_IMG_CLASS}" alt="{L_POST_NEW_TOPIC}" /></a>  
+             <!-- END switch_user_authpost -->
+
+             <!-- BEGIN switch_user_authreply -->
+             <a href="{U_POST_REPLY_TOPIC}"><img src="{REPLY_IMG}" class="i_reply" alt="{L_POST_REPLY_TOPIC}" /></a>
+             <!-- END switch_user_authreply -->
+          </p>
+       </div>
+       {POLL_DISPLAY}
+
+       <div class="main-content topic">
+              <div class="maii">
+
+       <div class="main-head crumbb clearfix">
+       <p class="crumbs">
+
+          <a href="{U_INDEX}">{L_INDEX}</a>{NAV_CAT_DESC} » 
+          <strong><a href="{TOPIC_URL}">{TOPIC_TITLE}</a></strong>
+          <!-- BEGIN switch_twitter_btn -->
+          <span id="twitter_btn" style="margin-left: 6px; ">
+             <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
+             <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+          </span>
+          <!-- END switch_twitter_btn -->
+          <!-- BEGIN switch_fb_likebtn -->
+          <span id="fb_likebtn" style="margin-left: 6px; ">
+             <iframe src="http://www.facebook.com/plugins/like.php?href={FORUM_URL}{TOPIC_URL}&amp;layout=button_count&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:auto; height:21px;" allowTransparency="true"></iframe>
+          </span>
+          <!-- END switch_fb_likebtn -->
+       </p>
+                                                             
+    </div>
+          <!-- BEGIN postrow -->
+             <!-- BEGIN displayed -->
+
+             <div id="u8" class="post"{postrow.displayed.THANK_BGCOLOR}>
+                              <div id="p{postrow.displayed.U_POST_ID}" class="posthead"{postrow.displayed.THANK_BGCOLOR}>
+                      <h2>
+
+                                                      <b class="username">
+    {postrow.displayed.POSTER_NAME}</b>
+                         <strong>{postrow.displayed.COUNT_POSTS}</strong>
+                         {postrow.displayed.ICON} <a href="{postrow.displayed.POST_URL}">{postrow.displayed.POST_SUBJECT}</a> {postrow.displayed.POST_DATE_NEW}
+                      </h2>
+                   </div>
+                             
+                             
+     
+    <style>.post-entry a.lightbox {
+    display: inline-block;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: inset 0 2px 5px rgba(0, 0, 0, .3), 0 1px 2px rgba(255, 255, 255, 1);
+    -moz-box-shadow: inset 0 2px 5px hsla(0,0%,0%,.3), 0 1px 2px hsla(0,0%,100%,1);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, .3), 0 1px 2px rgba(255, 255, 255, 1);
+    margin: 10px;
+    }
+
+      .post-entry img {
+    max-width: 300px;
+      float: center;
+    }
+    .post-entry .lightbox:hover img {
+    -webkit-transform: scale(.94, .9);
+    -moz-transform: scale(.94, .9);
+    -o-transform: scale(.94, .9);
+    -ms-transform: scale(.94, .9);
+    transform: scale(.94, .9);
+    -webkit-transition: -webkit-transform .2s cubic-bezier(.5,.1,.1,1);
+    -moz-transition: -moz-transform .2s cubic-bezier(.5,.1,.1,1);
+    -o-transition: -o-transform .2s cubic-bezier(.5,.1,.1,1);
+    -ms-transition: -ms-transform .2s cubic-bezier(.5,.1,.1,1);
+    transition: transform .2s cubic-bezier(.5,.1,.1,1);
+    }
+    .post-entry .lightbox:active img {
+       -webkit-transform: scale(.8);
+       -moz-transform: scale(.8);
+       -o-transform: scale(.8);
+       -ms-transform: scale(.8);
+       transform: scale(.8);
+
+       -webkit-transition: -webkit-transform .06s cubic-bezier(.5,.1,.1,1);
+       -moz-transition: -moz-transform .06s cubic-bezier(.5,.1,.1,1);
+       -o-transition: -o-transform .06s cubic-bezier(.5,.1,.1,1);
+       -ms-transition: -ms-transform .06s cubic-bezier(.5,.1,.1,1);
+       transition: transform .06s cubic-bezier(.5,.1,.1,1);
+    }
+      }</style>
+                <a name="{postrow.displayed.U_POST_ID}"></a>
+                <div class="postmain"{postrow.displayed.THANK_BGCOLOR}>
+
+
+                   
+                                     
+                                     
+                                     
+
+                   <div id="c9" class="postbody"{postrow.displayed.THANK_BGCOLOR}>
+                      <div class="user">
+                         <div class="user-ident">
+
+    <div class="user-basic-info" style="float:left;">
+        <ul class="ribbon">
+                   
+                        <li class="ribbonStaff">
+                            <div class="left"></div>
+                            <div class="right"></div>
+                          <em class="userTitle" itemprop="title">
+                            {postrow.displayed.POSTER_RANK_NEW}</em>
+                        </li>
+                   
+                </ul>
+                               {postrow.displayed.POSTER_AVATAR}<br />
+                                                                     
+                                                                     
+                                                                     
+                             
+                                                                <span class="rankn">
+                                                                             
+                                                                  <div class="rank2">{postrow.displayed.RANK_IMAGE}</div></span>
+                                                                      <div class="online1"> {postrow.displayed.ONLINE_IMG}</div>
+                                                                     
+                                                                     
+                                                                     
+                               
+
+                                                             
+                                                              </div>
+
+                         </div>
+                         
+                                                     
+                                                     
+                                                      <div class="thanhlv1">
+
+                                                      <script>level(<!-- BEGIN profile_field -->'{postrow.displayed.profile_field.CONTENT}',<!-- END profile_field -->1);</script>
+                                                </div>
+
+
+                                                          <div class="thanhlv1">
+
+                                                      <script>level2(<!-- BEGIN profile_field -->'{postrow.displayed.profile_field.CONTENT}',<!-- END profile_field -->2);</script>
+                                                </div>
+
+                                                        <div class="user-info">
+
+
+                            <!-- BEGIN profile_field -->
+
+     <div class=chupy>
+                            {postrow.displayed.profile_field.LABEL}{postrow.displayed.profile_field.CONTENT}{postrow.displayed.profile_field.SEPARATOR}
+                                                            </div>
+                                                             
+                                                                <!-- END profile_field -->
+                            {postrow.displayed.POSTER_RPG}
+                         </div>   
+                                                     
+                                                     
+                                                     
+                         
+                      </div>
+
+                                             
+                                             
+                                             
+                      <div class="post-entry">
+                         <div class="entry-content">
+                            
+                            <div>
+                               <div>{postrow.displayed.MESSAGE}</div>
+                               <!-- BEGIN switch_attachments -->
+                               <dl class="attachbox">
+                                  <dt>{postrow.displayed.switch_attachments.L_ATTACHMENTS}</dt>
+                                  <dd>
+                                     <!-- BEGIN switch_post_attachments -->
+                                     <dl class="file">
+                                        <dt>
+                                           <img src="{postrow.displayed.switch_attachments.switch_post_attachments.U_IMG}" />
+
+                                           <!-- BEGIN switch_dl_att -->
+                                           <a class="postlink" href="{postrow.displayed.switch_attachments.switch_post_attachments.switch_dl_att.U_ATTACHMENT}">{postrow.displayed.switch_attachments.switch_post_attachments.switch_dl_att.ATTACHMENT}</a> {postrow.displayed.switch_attachments.switch_post_attachments.switch_dl_att.ATTACHMENT_DEL}
+                                           <!-- END switch_dl_att -->
+
+                                           <!-- BEGIN switch_no_dl_att -->
+                                           {postrow.displayed.switch_attachments.switch_post_attachments.switch_no_dl_att.ATTACHMENT} {postrow.displayed.switch_attachments.switch_post_attachments.switch_no_dl_att.ATTACHMENT_DEL}
+                                           <!-- END switch_no_dl_att -->
+                                        </dt>
+
+                                        <!-- BEGIN switch_no_comment -->
+                                        <dd>
+                                           <em>{postrow.displayed.switch_attachments.switch_post_attachments.switch_no_comment.ATTACHMENT_COMMENT}</em>
+                                        </dd>
+                                        <!-- END switch_no_comment -->
+
+                                        <!-- BEGIN switch_no_dl_att -->
+                                        <dd>
+                                           <em><strong>{postrow.displayed.switch_attachments.switch_post_attachments.switch_no_dl_att.TEXT_NO_DL}</strong></em>
+                                        </dd>
+                                        <!-- END switch_no_dl_att -->
+
+                                        <dd>({postrow.displayed.switch_attachments.switch_post_attachments.FILE_SIZE}) {postrow.displayed.switch_attachments.switch_post_attachments.NB_DL}</dd>
+                                     </dl>
+                                     <!-- END switch_post_attachments -->
+                                  </dd>
+                               </dl>
+                               <!-- END switch_attachments -->
+                               <div class="clear"></div>
+                            </div>
+                            <p>
+                               {postrow.displayed.EDITED_MESSAGE}
+                            </p>
+                         </div>
+                      </div>
+                   </div>
+
+                   <!-- BEGIN switch_signature -->
+                   <div class="sig-content">
+                      {postrow.displayed.SIGNATURE_NEW}
+                   </div>
+                   <!-- END switch_signature -->
+
+             <div class="postfoot">
+                     
+                              <div class="user-contact">
+                       
+                                                                                  </div>
+                   <div class="post-options">
+
+                                   
+                                           
+
+                <div style="float: left; left:220px;position:absolute;top:2px;">
+                                             
+                                     
+                    <!-- BEGIN switch_vote_active -->
+        <div class="vote vote-button">
+              <!-- BEGIN switch_vote -->
+          <a target="v{postrow.displayed.U_POST_ID}" href="{postrow.displayed.switch_vote_active.switch_vote.U_VOTE_PLUS}" alt="c3zplus" class="c3zplus lvote"><span style="margin-left: -2px; color: #3B5998;">Like</span></a>
+     <!-- END switch_vote -->
+          </div>
+          <div class="vote vote-button">
+     <!-- BEGIN switch_vote -->
+            <a target="v{postrow.displayed.U_POST_ID}" href="{postrow.displayed.switch_vote_active.switch_vote.U_VOTE_MINUS}" alt="c3zminus" class="c3zminus lvote"><span style="margin-left: -2px; color: #3B5998;">Dislike</span></a>
+     <!-- END switch_vote -->
+                                      </div><div id="v{postrow.displayed.U_POST_ID}" class="loadding" style="display: none"><img src="http://i43.servimg.com/u/f43/16/03/04/56/icon_l12.gif"> Chờ chút nhé ^^! </div>
+                                                    <!-- END switch_vote_active -->
+                                                    </div>
+
+                                     
+                                     
+     <div style="text-align: right;">{postrow.displayed.THANK_IMG}{postrow.displayed.QUOTE_IMG}{postrow.displayed.EDIT_IMG} {postrow.displayed.DELETE_IMG} {postrow.displayed.REPORT_IMG}</div></div>
+                   <div style="clear:both;"></div>
+                     
+             </div>
+          
+                             
+                              <p style="border-bottom: 1px solid #ddd;">
+                            <div class="hihi clearfix" style="background-color: #fff;"><font color="black">
+    <!-- BEGIN switch_vote_active -->       
+      <iframe name="v{postrow.displayed.U_POST_ID}" class="ajaxvote" style="display:none"></iframe> 
+    <!-- BEGIN switch_no_bar -->
+      <span class="c3zvau v{postrow.displayed.U_POST_ID}" title="{postrow.displayed.switch_vote_active.L_VOTE_TITLE}">{postrow.displayed.switch_vote_active.L_VOTE_TITLE}</span>
+     <!-- END switch_no_bar -->
+    <!-- BEGIN switch_bar -->
+      <span class="c3zvau v{postrow.displayed.U_POST_ID}" title="{postrow.displayed.switch_vote_active.L_VOTE_TITLE}">{postrow.displayed.switch_vote_active.L_VOTE_TITLE}</span>
+     <!-- END switch_bar -->
+      <!-- END switch_vote_active -->
+    <div style="float:right;font-weight:bold;text-align:right">
+
+    <a href="#top" class="postbit" style="margin:0;" original-title="">Back to top</a>
+
+    <div align="center" style="width:600px;display:none; padding-top:6px" ></div></div> 
+
+                              </font></div>  </span>
+                     
+                       
+                      </div>
+                      </div>
+                     
+                     
+                     
+             <!-- END displayed -->
+             <!-- BEGIN hidden -->
+                <p class="p-hidden">{postrow.hidden.MESSAGE}</p>
+             <!-- END hidden -->
+          <!-- END postrow -->
+       </div>
+    </div><style>.maii {
+    background: #FAFAFA !important;
+    border: 1px solid #DDD !important;
+    border-radius: 4px;
+      }</style>
+       <div class="main-foot clearfix">
+          <p class="h2">
+             <a href="{U_VIEW_OLDER_TOPIC}">{L_VIEW_PREVIOUS_TOPIC}</a> <a href="{U_VIEW_NEWER_TOPIC}">{L_VIEW_NEXT_TOPIC}</a> <a href="#top">{L_BACK_TO_TOP}</a>  
+             {L_MESSAGE} [{PAGE_NUMBER}]
+          </p>
+          <p class="options">
+             <input type="hidden" name="t" value="{TOPIC_ID}" />
+
+             <!-- <input type="hidden" name="sid" value="{S_SID}" /> -->
+             <input type="hidden" name="{SECURE_ID_NAME}" value="{SECURE_ID_VALUE}" />
+
+             <!-- BEGIN viewtopic_bottom -->
+             {S_TOPIC_ADMIN}
+             <!-- END viewtopic_bottom -->
+          </p>
+       </div>
+
+       <a name="bottomtitle"></a>
+
+       <div class="paged-foot clearfix">
+          <!-- BEGIN topicpagination -->
+          <p class="paging">{PAGINATION}</p>
+          <!-- END topicpagination -->
+          <p class="posting">
+             <!-- BEGIN switch_user_authpost -->
+             <a href="{U_POST_NEW_TOPIC}" rel="nofollow"><img src="{POST_IMG}" class="{POST_IMG_CLASS}" alt="{L_POST_NEW_TOPIC}" /></a>  
+             <!-- END switch_user_authpost -->
+
+             <!-- BEGIN switch_user_authreply -->
+             <a href="{U_POST_REPLY_TOPIC}"><img src="{REPLY_IMG}" class="i_reply" alt="{L_POST_REPLY_TOPIC}" /></a>
+             <!-- END switch_user_authreply -->
+          </p>
+       </div>
+
+    </div>
+
+    <div class="pun-crumbs">
+       <p class="crumbs">
+          <a href="{U_INDEX}">{L_INDEX}</a>{NAV_CAT_DESC} » 
+          <strong><a href="{TOPIC_URL}">{TOPIC_TITLE}</a></strong>
+       </p>
+    </div>
+
+    <!-- BEGIN promot_trafic -->
+    <div class="main" id="ptrafic_close" style="display:none">
+       <div class="main-head clearfix">
+          <p class="h2">{PROMOT_TRAFIC_TITLE}</p>
+          <p class="options"><a href="javascript:ShowHideLayer('ptrafic_open','ptrafic_close');"><img src="{TABS_MORE_IMG}" alt="+" align="" border="0" /></a></p>
+       </div>
+    </div>
+    <div class="main" id="ptrafic_open" style="display:''">
+       <div class="main-head clearfix">
+          <p class="h2">{PROMOT_TRAFIC_TITLE}</p>
+          <p class="options"><a href="javascript:ShowHideLayer('ptrafic_open','ptrafic_close');"><img src="{TABS_LESS_IMG}" alt="-" align="" border="0" /></a></p>
+       </div>
+       <div class="main-content clearfix">
+          <!-- BEGIN link -->
+          » <a href="{promot_trafic.link.U_HREF}" target="_blank" title="{promot_trafic.link.TITLE}">{promot_trafic.link.TITLE}</a><br />
+          <!-- END link -->
+       </div>
+    </div>
+    <!-- END promot_trafic -->
+
+    <!-- BEGIN switch_forum_rules -->
+    <div class="main" id="forum_rules">
+       <div class="main-head clearfix">
+          <p class="h2">{L_FORUM_RULES}</p>
+       </div>
+       <table class="main-content frm">
+          <tr>
+             <!-- BEGIN switch_forum_rule_image -->
+             <td class="logo">
+                <img src="{RULE_IMG_URL}" />
+             </td>
+             <!-- END switch_forum_rule_image -->
+             <td class="rules entry-content">
+                {RULE_MSG}
+             </td>
+          </tr>
+       </table>
+    </div>
+    <!-- END switch_forum_rules -->
+
+    <!-- BEGIN switch_user_logged_in -->
+    <a name="quickreply"></a>
+    {QUICK_REPLY_FORM}
+    <!-- END switch_user_logged_in -->
+
+    <div id="pun-info" class="main">
+       <div class="main-content">
+          <div id="stats">
+             <p>{L_TABS_PERMISSIONS} <br />{S_AUTH_LIST}</p>
+          </div>
+       </div>
+    </div>
+
+    <!-- BEGIN switch_image_resize -->
+    <script type="text/javascript">
+    //<![CDATA[
+    $(resize_images({ 'selector' : '.post-entry .entry-content', 'max_width' : {switch_image_resize.IMG_RESIZE_WIDTH}, 'max_height' : {switch_image_resize.IMG_RESIZE_HEIGHT} }));
+    //]]>
+    </script>
+    <!-- END switch_image_resize -->
+
+    <script src="{JS_DIR}addthis/addthis_widget.js" type="text/javascript"></script>
+        <script type="text/javascript">
+       
+     function chvote(a, b) {
+       "Message not voted" == b && (b = "c3zone z vietk 0% (0 vote)");
+       var d = parseInt(b.split(" ")[3], 10) / 100,
+          c = parseInt(b.split(" ")[4].substr(1), 10),
+          b = "Message reputation : " + Math.round(100 * ("c3zplus" == a ? (d * c + 1) / (c + 1) : d * c / (c + 1))) + "% (" + (c + 1) + " vote)";
+       return votetrans(b)
+    }
+    $(".c3zvau").each(function () {
+       var a = $(this).text();
+       $(this).html(votetrans(a))
+    });
+
+    function votetrans(a) {
+       if ("Message not voted" == a) return "<span class='qua'>Hãy là người đầu tiên thích điều này</span>";
+       var b = parseInt(a.split(" ")[3], 10) / 100,
+          a = parseInt(a.split(" ")[4].substr(1), 10),
+          d = 0 != b ? "<span class=vop>" + Math.round(b * a) + "+</span>" : "",
+          c = 0 != b && 1 != b ? ' <span style="color:#C2D5E3">|</span> ' : "",
+          a = 1 != b ? "<span class=vom>" + Math.round(a - b * a) + "-</span>" : "",
+          b = Math.round(100 * b);
+       return "<span class=no>" + d + c + a + "</span> <span class=qua>Đánh giá: " + b + "%</span>"
+    }
+    $(".lvote").click(function () {
+       "c3zplus" == $(this).attr("alt") ? $(this).parent().html("").next().html("") : $(this).parent().html("").prev().html("");
+       var a = $(this).attr("target"),
+          b = $(this).attr("alt"),
+          d = $("." + a).attr("title");
+       $("#" + a).show();
+       $("." + a).html(chvote(b, d));
+       $("#" + a).fadeIn("slow").animate({
+          opacity: 1
+       }, 1500).fadeOut("slow", function () {
+          $("." + a).fadeOut("slow").animate({
+             opacity: 1
+          }, 1E3).fadeIn()
+       });
+       $("." + $(this).attr("target")).removeAttr("title")
+    });
+    </script>
+
+
+</code>
+
+Thế là xong ^^
