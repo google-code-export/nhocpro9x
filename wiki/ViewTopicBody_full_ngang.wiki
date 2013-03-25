@@ -1,0 +1,779 @@
+http://i32.servimg.com/u/f32/17/52/69/11/demo10.png
+<code>        <script type="text/javascript">
+        <script src="{JQUERY_PATH}" type="text/javascript"></script>
+        <script src="{JS_DIR}{L_LANG}.js" type="text/javascript"></script>
+
+        <![CDATA[
+        var multiquote_img_off = '{JS_MULTIQUOTE_IMG_OFF}';
+        var multiquote_img_on = '{JS_MULTIQUOTE_IMG_ON}';
+        //]]>
+        </script>
+        <center>
+
+
+        <table width="100%" border="0" cellspacing="2" cellpadding="0">
+
+          <tr>
+              <td align="left" valign="middle" nowrap="nowrap">
+                <span class="nav">
+                <!-- BEGIN switch_user_authpost -->
+     
+              <a href="{U_POST_NEW_TOPIC}" rel="nofollow"><img
+    src="{POST_IMG}" id="{POST_IMG_ID}one" alt="{L_POST_NEW_TOPIC}"
+    align="middle"
+
+        border="0" /></a>
+                <!-- END switch_user_authpost -->
+                <!-- BEGIN switch_user_authreply -->
+     
+              <a href="{U_POST_REPLY_TOPIC}"><img
+    src="{REPLY_IMG}" id="i_reply" alt="{L_POST_REPLY_TOPIC}" align="middle"
+     border="0" /></a>
+                <!-- END switch_user_authreply -->
+                </span>
+              </td>
+                    <!-- BEGIN insert_plus_menu -->
+              <td align="right" valign="bottom" nowrap="nowrap" width="100%">
+                <span class="smallfont bold">
+                    <script type="text/javascript">
+        <script src="{JQUERY_PATH}" type="text/javascript"></script>
+        <script src="{JS_DIR}{L_LANG}.js" type="text/javascript"></script>
+
+                    <![CDATA[
+                      insert_plus_menu('f{FORUM_ID}&t={TOPIC_ID}','{JS_SESSION_ID}', {JS_AUTH_FAVOURITES});
+                    //]]>
+                    </script>
+                </span>
+              </td>
+              <!-- END insert_plus_menu -->
+          </tr>
+        </table><br>
+
+
+        <table class="tborder" width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr align="right">
+              <td class="catHead" colspan="2" height="28">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="9%" class="tcat" height="28"></td>
+     
+                    <td align="center" nowrap="nowrap"
+    class="tcat"><!-- google_ad_section_start
+    -->{TOPIC_TITLE}<!--
+
+        google_ad_section_end --></td>
+                      <td align="right" nowrap="nowrap" width="9%" class="tcat"><a
+
+     
+      href="{U_VIEW_OLDER_TOPIC}">{L_VIEW_PREVIOUS_TOPIC}</a>
+    <a href="{U_VIEW_NEWER_TOPIC}">{L_VIEW_NEXT_TOPIC}</a> <a
+     href="#bottom">{L_GOTO_DOWN}</a> </td>
+                    </tr>
+                </table>
+              </td>
+          </tr>
+          <tr>
+     
+            <td class="alt1" colspan="2" align="right"
+    valign="top"><span
+    class="smallfont">{PAGINATION}</span></td>
+          </tr>
+       
+          {POLL_DISPLAY}
+          <!-- BEGIN postrow -->
+          <!-- BEGIN displayed -->
+        <table class="tborder" width="100%" border="0" cellspacing="1" cellpadding="0">
+     
+        <tr><td  class="thead" height="20" colspan="3"><span
+     class="smallfont">  <img src="{postrow.displayed.MINI_TIME_IMG}"
+
+        alt="" border="0" />{postrow.displayed.POST_DATE}</span></td></tr>
+        <br>
+     
+      <table width="100%" border="0" cellspacing="0"
+    cellpadding="0"><tr><td colspan="5"><table border="0"
+    cellspacing="0" cellpadding="0" align="left"
+    width="100%"><tr><td width="30px"><img
+    src=http://i1209.photobucket.com/albums/cc400/dothinh1105/linhtinh2/blast_13.gif></td><td
+     align="left"><div style="background:
+    url(http://i1209.photobucket.com/albums/cc400/dothinh1105/linhtinh2/blastb11.png)
+     repeat-x top left; height: 61px;"><div style="background:
+    url(http://i1209.photobucket.com/albums/cc400/dothinh1105/linhtinh2/blastl11.png)
+     no-repeat top left; height: 61px;"><div style="background:
+    url(http://i1209.photobucket.com/albums/cc400/dothinh1105/linhtinh2/blastr11.png)
+     no-repeat top right; height: 61px;"><table style="width: 85%;
+    height: 100%; " align="center"><tbody><tr><td
+    align="center"><span class="gen"><i><font
+    color=green>{postrow.displayed.POSTER_HUMOR}</font></i></span></td></tr></tbody></table></td></tr></table><br>
+          <tr class="post">
+              <td class="alt2" valign="top" width="200" colspan="3">
+                 
+
+        <table cellpadding="0" cellspacing="6" border="0" width="100%">
+                      <tr>
+
+
+                                    <td class="alt2">
+        <!-- BEGIN-----AVATA -->
+
+
+     
+      <table style="width: auto;" border="0" cellpadding="0"
+    cellspacing="0"><tbody><tr><td style="padding:
+    0px;"><img
+    src="http://i69.servimg.com/u/f69/12/89/57/83/ava_0110.gif"></td><td
+     style="padding: 0px;" background="
+    http://i69.servimg.com/u/f69/12/89/57/83/ava_0210.gif"></td><td
+     style="padding: 0px;"><img
+    src="http://i69.servimg.com/u/f69/12/89/57/83/ava_0310.gif"></td></tr><tr><td
+     style="padding: 0px;" background="
+    http://i69.servimg.com/u/f69/12/89/57/83/ava_0410.gif"
+    valign="top"></td><td style="padding: 0px; background-color:
+     rgb(255, 255, 255);" bgcolor="#ffffff"> <center>
+        {postrow.displayed.POSTER_AVATAR}
+        </center>
+     
+      </td><td style="padding: 0px;" background="
+    http://i69.servimg.com/u/f69/12/89/57/83/ava_0510.gif"></td></tr><tr><td
+     style="padding: 0px;"><img
+    src="http://i69.servimg.com/u/f69/12/89/57/83/ava_0610.gif"></td><td
+     style="padding: 0px;" background="
+    http://i69.servimg.com/u/f69/12/89/57/83/ava_0710.gif"></td><td
+     style="padding: 0px;"><img
+    src="http://i69.servimg.com/u/f69/12/89/57/83/ava_0810.gif"></td></tr></tbody></table>
+
+
+
+
+        <!-- END-----AVATA -->
+
+        <td align="left" width="60%">
+           
+     
+      <a
+    name="{postrow.displayed.U_POST_ID}"></a><strong><b>{postrow.displayed.POSTER_NAME}</b></strong><br
+     />
+
+                <span class="smallfont">
+                <strong>{postrow.displayed.POSTER_RANK}</strong><br>
+        {postrow.displayed.RANK_IMAGE}   
+                    </span>
+        <table cellspacing="0"
+     
+          cellpadding="0"><tr><td style="background: #ededed
+    url(http://i954.photobucket.com/albums/ae27/tuyetson10/offlinet1_thumb.gif)
+     ;
+            height: 16px;
+            width: 64px;
+            border: 0px;
+            ">{postrow.displayed.ONLINE_IMG}</td></tr></table>
+        </td>
+               
+           
+              <td align="left" width="20%">
+        <div class="fmlevel" align="left">
+        <span style="font-size:11px;font-family:Tahoma;font-weight:normal; display: none;">
+        <!-- BEGIN profile_field -->
+        {postrow.displayed.profile_field.LABEL}{postrow.displayed.profile_field.CONTENT}{postrow.displayed.profile_field.SEPARATOR}
+        <!-- END profile_field -->
+        {postrow.displayed.POSTER_RPG}
+        </span></div>
+        </td>
+       
+                                  <td align="left" width="20%"><span class="smallfont">
+
+                    <!-- BEGIN profile_field -->
+     
+                        <div style="border:1px dashed
+    #195cd2;padding:2px;margin:3px;background:#fff;"><span
+    class="transtitle">{postrow.displayed.profile_field.LABEL}</span>{postrow.displayed.profile_field.CONTENT}{postrow.displayed.profile_field.SEPARATOR}</div>
+                    <!-- END profile_field -->
+               
+        </span><br />
+                <img src="http://illiweb.com/fa/vide.gif" alt="" style="width: 200px; height: 1px;" /></td>
+                                </tr></table>
+              </td>
+
+                </tr>
+        <td height="27" width=100% background="http://www.fileden.com/files/2009/2/13/2319435/p310.gif" colspan=3>
+        </td>
+                <tr>
+              <td class="alt1" valign="top" width="100%" height="28" colspan="3">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+     
+      <td><span class="smallfont"><img
+    src="{postrow.displayed.MINI_POST_IMG}"
+    alt="{postrow.displayed.L_MINI_POST_ALT}"
+
+       
+    title="{postrow.displayed.L_MINI_POST_ALT}" border="0"
+    />{L_POST_SUBJECT}:
+    {postrow.displayed.POST_SUBJECT}</span></td>
+                      <td align="right" valign="top" nowrap="nowrap" class="post-options">
+                      <table border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td valign="middle" nowrap="nowrap">
+                 
+
+
+     
+      {postrow.displayed.PROFILE_IMG} {postrow.displayed.PM_IMG}
+    {postrow.displayed.EMAIL_IMG} {postrow.displayed.YIM_IMG}
+    {postrow.displayed.WWW_IMG}
+
+        {postrow.displayed.AIM_IMG}  {postrow.displayed.MSN_IMG} {postrow.displayed.SKYPE_IMG}
+                      <script type="text/javascript"><!--
+     
+                    if (
+    navigator.userAgent.toLowerCase().indexOf('mozilla') != -1
+    &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;
+     navigator.userAgent.indexOf('5.') == -1
+    &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;
+
+        navigator.userAgent.indexOf('6.') == -1 ) {
+                          document.write('{postrow.displayed.ICQ_IMG}');
+                      } else {
+     
+                        document.write('</td><td>
+    </td><td
+    valign=&amp;amp;amp;amp;amp;quot;top&amp;amp;amp;amp;amp;quot;
+    nowrap=&amp;amp;amp;amp;amp;quot;nowrap&amp;amp;amp;amp;amp;quot;><div
+     
+    style=&amp;amp;amp;amp;amp;quot;position:relative&amp;amp;amp;amp;amp;quot;><div
+
+     
+     
+    style=&amp;amp;amp;amp;amp;quot;position:absolute&amp;amp;amp;amp;amp;quot;>{postrow.displayed.ICQ_IMG}</div><div
+     
+    style=&amp;amp;amp;amp;amp;quot;position:absolute;left:3px;top:-1px&amp;amp;amp;amp;amp;quot;>{postrow.displayed.ICQ_STATUS_IMG}</div></div>');
+                      }
+                      //-->
+                      </script>
+                      <noscript>{postrow.displayed.ICQ_IMG}</noscript>
+                      </td>
+                    </tr>
+                </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="hr">
+                          <hr />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2"><!-- google_ad_section_start --><tr>
+        <td colspan="2">
+       
+        <!-- google_ad_section_start -->
+       
+          <table cellpadding="0" cellspacing="0" width="100%" align="center">
+            <tbody><tr>
+
+        <td style="padding: 0px; width: 1%;">
+                <img alt="" src="http://i69.servimg.com/u/f69/12/89/57/83/baivie10.gif"></td>
+
+     
+              <td style="padding: 0px; background-image:
+    url(http://i69.servimg.com/u/f69/12/89/57/83/baivie12.gif);"
+    width="100%"><img alt=""
+    src="http://i69.servimg.com/u/f69/12/89/57/83/baivie11.gif"></td>
+                <td style="padding: 0px;" width="1%">
+                <img alt="" src="http://i69.servimg.com/u/f69/12/89/57/83/baivie13.gif"></td>
+
+            </tr>
+            <tr>
+     
+              <td style="padding: 0px; background-image:
+    url(http://i69.servimg.com/u/f69/12/89/57/83/baivie14.gif); width:
+    1%;">
+                </td>
+                <td
+    style="padding: 0px;background-image:
+    url(http://taochu.com/backgrounds/thumbs/bgrnew29.gif.thumb.jpg)"
+    width="100%"; >
+
+         
+        <span class="postbody"><div align="left">
+        <center><strong><font color=red> </font>
+
+        <font color=red>Tiêu Ðề : </font> {TOPIC_TITLE}<br>
+
+     
+     
+    </strong><br>--------------------------------------------------<br></center><div
+     class="postbody">
+                          <div class="postbody">
+                          {postrow.displayed.MESSAGE}
+                          </div></span>
+
+
+
+        </td>
+        <td style="padding: 0px; background-image: url(http://i69.servimg.com/u/f69/12/89/57/83/baivie15.gif);"></td>
+
+            </tr>
+
+            <tr>
+                <td style="padding: 0px;" valign="top">
+                <img alt="" src="http://i69.servimg.com/u/f69/12/89/57/83/baivie16.gif"></td>
+                <td style="padding: 0px; background-image: url(http://i69.servimg.com/u/f69/12/89/57/83/baivie17.gif);">
+
+       
+                <img valign="left" alt="" src="http://i69.servimg.com/u/f69/12/89/57/83/baivie18.gif" style="float: right;">
+                </td>
+                <td style="padding: 0px;" align="right">
+
+                <img alt="" src="http://i69.servimg.com/u/f69/12/89/57/83/baivie19.gif"></td>
+
+        </tr></tbody></table>
+       
+          <!-- google_ad_section_end -->
+        <br>
+
+
+
+        <!-- sig --><div class="sig_02"><div class="sig_01"><div class="sig_03">
+        </div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+     
+      <div class="sig"><div
+    style="width:100%;"><div><fieldset style="border: 1px dashed
+     #C0C0C0; -moz-border-radius:3px" class="alt3"
+    <legend=""><table width="100%" border="0" cellpadding="0"
+    cellspacing="0"> <tbody><tr> <td width="9"
+    height="34"> <img
+    src="http://i40.servimg.com/u/f40/16/40/00/83/1_0110.gif" width="9"
+    height="34" alt=""></td> <td
+    background="http://i40.servimg.com/u/f40/16/40/00/83/1_1010.gif">
+    <img src="http://kythuat.vn/images/icons/chuky.gif" height="34"
+    alt=""></td> <td width="9" height="34"> <img
+    src="http://i40.servimg.com/u/f40/16/40/00/83/1_0310.gif" width="9"
+    height="34" alt=""></td> </tr> <tr> <td
+    background="http://i40.servimg.com/u/f40/16/40/00/83/1_0410.gif">
+    <img src="http://i40.servimg.com/u/f40/16/40/00/83/1_0410.gif"
+    width="9" alt=""></td> <td valign="top"> <div
+    style="padding: 3px;"> <div style="overflow: auto; height: 140px;
+    width: 100%;"> <a href="http://illiweb.com/fa/empty.gif"
+    class="highslide" onclick="return hs.expand(this)"><img
+    src="http://illiweb.com/fa/empty.gif" border="0" alt=""
+    onload="HSImageResizer.createOn(this);"
+    id="hs_imageresizer_container_23"></a><br><div
+    class="sig-content"><!--
+        sig --><div
+    class="sig_02"><div class="sig_01"><div
+    class="sig_03"></div></div></div><div
+    class="sig"><div style="width:100%;"><div><fieldset
+    style="border: 1px dashed #C0C0C0; -moz-border-radius:3px" class="alt3"
+    ;=""><legend
+    class="signtop"><spanstyle=width:100;height:30;text-align:center;color:#000000;filter:glow(color=#000000)><fontcolor="#cc3300">Chữ
+     Ký Của <b><span style="color:#FF0000"><img
+    src="http://mynetimages.com/779d56e3c0_th.png"><strong>{postrow.displayed.POSTER_NAME}</strong></span>
+
+        </legend>
+
+
+
+
+
+     
+      <div
+    class="sig-content"style="margin:auto;text-align:center;width:100%"><strong><center>{postrow.displayed.SIGNATURE}<center></strong></div>
+     </div></fieldset><!--
+        show inventory
+    --><span
+    class="gensmall"></span></div></div></div><div
+     class="sig_05"><div class="sig_04"><div
+    class="sig_06"></div></div></div><!--
+        /
+    sig --></div></div></td><td
+    background="http://i40.servimg.com/u/f40/16/40/00/83/1_0610.gif">
+    <img src="http://i40.servimg.com/u/f40/16/40/00/83/1_0610.gif"
+    width="9" alt=""></td> </tr> <tr> <td>
+    <img src="http://i40.servimg.com/u/f40/16/40/00/83/1_0410.gif"
+    width="9" height="11" alt=""></td> </tr><tr>
+    <td> <img
+    src="http://i40.servimg.com/u/f40/16/40/00/83/1_0710.gif" width="9"
+    height="11" alt=""></td><td
+    background="http://i40.servimg.com/u/f40/16/40/00/83/1_0810.gif">
+    <img src="http://i40.servimg.com/u/f40/16/40/00/83/1_0810.gif"
+    height="11" alt=""></td> <td> <img
+    src="http://i40.servimg.com/u/f40/16/40/00/83/1_0910.gif" width="9"
+    height="11" alt=""></td> </tr>
+    </tbody></table><fieldset><legend><b>Tài
+    Sản Của
+    {postrow.displayed.POSTER_NAME}</strong></span></a></legend><div
+     align="left">
+        <div
+    style="margin:auto;text-align:left;height: 105px;overflow:
+    auto;width:100%">{postrow.displayed.POSTER_RPG}</div></div></fieldset></fieldset></div></div><!--
+        / sig -->
+
+              <!-- / sig -->
+         
+
+
+
+        </center>
+        <br>
+
+
+
+
+
+          <span class="gensmall">{postrow.displayed.EDITED_MESSAGE}</span>
+        </td>
+        </tr></p>
+                </table>
+                <div align="right" width="100%">
+     
+        {postrow.displayed.MULTIQUOTE_IMG} {postrow.displayed.QUOTE_IMG}
+    {postrow.displayed.EDIT_IMG} {postrow.displayed.DELETE_IMG}
+    {postrow.displayed.REPORT_IMG}
+
+
+
+
+
+
+        <!-- BEGIN switch_vote_active -->
+
+                            <!-- BEGIN switch_vote -->
+
+
+
+
+
+
+
+
+                            <!-- END switch_vote --><br><br>
+     
+      <b><font color=red>Số lần được cám ơn
+    :</font></b> <b><font
+    color=#000000>{postrow.displayed.switch_vote_active.L_VOTE_TITLE}</font></b>
+          <!-- END switch_vote_active -->
+
+        <br>
+        <!-- BEGIN switch_vote_active --><!-- BEGIN switch_vote -->
+        <span id="{postrow.displayed.U_POST_ID}">
+     
+      <a
+    href="{postrow.displayed.switch_vote_active.switch_vote.U_VOTE_PLUS}"
+    target="v{postrow.displayed.U_POST_ID}v"
+    onclick="document.getElementById('{postrow.displayed.U_POST_ID}').innerHTML='<img
+     
+    src=http://i1202.photobucket.com/albums/bb362/tnpu_ilusm/thanked-2.png>';var
+     str ='{postrow.displayed.switch_vote_active.L_VOTE_TITLE}';
+        if (str=='Message not voted')
+        {str='Bài viết này chưa được cám ơn.';
+        }else {str=str.replace('Message reputation :','Ðu?c c?m on:');
+        str=str.replace('100%','');
+        str=str.replace('(','');
+        str=str.replace(')','');str=str.replace('vote','l?n.');
+        str=str.replace('s','');
+        } if(str=='Bài vi?t này chua du?c c?m on.')
+        {str='Ðu?c c?m on: 1 l?n';
+        }else{
+        for (i=0; i<=(str.length-1);i++)
+        {if (str.charCodeAt(i)>=48 && str.charCodeAt(i)<=57 && str.charAt(i+1)==' ')
+     
+     
+    {str=str.replace(String.fromCharCode(str.charCodeAt(i)),String.fromCharCode((str.charCodeAt(i))+1));}}}document.getElementById('kk{postrow.displayed.U_POST_ID}').innerHTML='<span
+     class=gensmall>'+ str+'</span>';
+        "><img
+    src="http://img.forum.zing.vn/images/bluestyle/buttons/post_thanks.gif"
+    id="{postrow.displayed.U_POST_ID}" border="0" alt="B?n chua c?m on ngu?i
+     này" vspace="1" /></a>
+        </span><!-- END
+    switch_vote --><!-- END switch_vote_active --><iframe
+    name="v{postrow.displayed.U_POST_ID}v" height="0"
+    frameborder="0"width="0"></iframe>
+
+
+
+        </div>
+              </td>
+          </tr>
+
+
+          </table>
+
+          <!-- END displayed -->
+
+          <!-- BEGIN hidden -->
+        <table class="tborder" width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr>
+     
+            <td class="postdetails {postrow.hidden.ROW_CLASS}"
+    colspan="2" align="center">{postrow.hidden.MESSAGE}</td>
+          </tr></table>
+
+          <!-- END hidden -->
+          <!-- END postrow -->
+          <!-- BEGIN no_post -->
+        <table class="tborder" width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr align="center">
+              <td class="alt1" colspan="2" height="28">
+                <span class="smallfont">{no_post.L_NO_POST}</span>
+              </td>
+          </tr></table>
+          <!-- END no_post -->
+       
+
+        <table class="tborder" width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr align="right">
+              <td class="tfoot" colspan="2" height="28">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="9%"></td>
+     
+                    <td align="center" nowrap="nowrap"><a
+    name="bottomtitle"></a><h1
+    class="cattitle">{TOPIC_TITLE}</h1></td>
+               
+        <td align="right" nowrap="nowrap" width="9%"><a
+    href="{U_VIEW_OLDER_TOPIC}">{L_VIEW_PREVIOUS_TOPIC}</a> <a
+
+        href="{U_VIEW_NEWER_TOPIC}">{L_VIEW_NEXT_TOPIC}</a> <a href="#top">{L_BACK_TO_TOP}</a> </td>
+                    </tr>
+                </table>
+              </td>
+          </tr>
+        </table>
+
+        <table class="tborder" width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr>
+     
+            <td class="alt2" valign="top" {COLSPAN_PAGINATION}
+    width="150"><span
+    class="smallfont">{PAGE_NUMBER}</span></td>
+              <!-- BEGIN topicpagination -->
+              <td class="alt1" align="right" valign="top"><span class="smallfont">{PAGINATION}</span></td>
+              <!-- END topicpagination -->
+          </tr>
+          <!-- BEGIN switch_user_logged_in -->
+          <!-- BEGIN watchtopic -->
+          <tr>
+     
+            <td class="alt2" colspan="2" align="right"
+    valign="top"><span
+    class="smallfont">{S_WATCH_TOPIC}</span></td>
+          </tr>
+          <!-- END watchtopic -->
+          <!-- END switch_user_logged_in -->
+          <tr>
+              <td class="alt2" colspan="2" align="center" style="padding:0px">
+                <!-- BEGIN switch_user_logged_in -->
+        <table width=100% border=0 cellspacing=1 cellpadding=1>
+        <tr>
+        <td>
+     
+      <center><font color="green" face="tahoma"
+    size="2"><span style="font-weight: bold;">* Viết Tiếng Việt,
+     là tôn trọng nguười d?c.</span><br style="font-weight:
+    bold;"><span style="font-weight: bold;">* Chia sẽ bài sưu
+    tầm có  ghi rõ nguồn , là tôn trọng người viết
+    .</span><br style="font-weight: bold;"><span
+    style="font-weight: bold;">* Thực hiện những điều trên, là tôn
+    trọng chính mình .</span><br><span style="color: Red;
+    font-weight: bold;">- Khi bạn thấy một bài viết hay , hãy bấmn
+    nút "THANKS" để cám ơn để thể hiện
+    !</span><br></font></center><div
+    style="text-align: center;"><font color="red" face="tahoma"
+    size="2"><b>- Níu chèn smilies thì bấm A/a trên phãi khung
+    viết bài</b></font><b><a
+    name="quickreply"></a></b><br></div><p></p>
+        </td>
+        </tr>
+        </table><br>
+        <!-- Code Blog poster --><div align="center">
+        <center>
+        <table>
+        <TR>
+        <TD>
+        <center><img src=http://i69.servimg.com/u/f69/12/89/57/83/guiban10.gif></center>
+     
+      <textarea style="background: #2D2D2D
+    url(http://i190.photobucket.com/albums/z134/anhdao1991/rank/tuccagb54fdgzsujfwn1.gif);color:
+     #0033FF;font: 11px verdana, geneva, lucida, 'lucida grande', arial,
+    helvetica, sans-serif;" rows="2" cols="100" readonly="readonly"
+    onclick="this.select()">{TOPIC_TITLE} -
+    http://www.mcm9x.tk{TOPIC_URL} Ðây là m?t bài vi?t hay mà mình mu?n g?i
+    d?n các b?n. Hãy tham gia vào 4rum c?a chúng mình d? cùng th?o lu?n nhé
+    ^^!!!</textarea>
+        </TD></TR>
+        </table>
+        </center>
+        </div>
+        <!-- / Code Blog poster -->
+
+
+
+
+
+        <br/>
+     
+         
+         
+         
+         
+        {QUICK_REPLY_FORM}<br/>
+        <!-- END switch_user_logged_in -->
+              </td>
+          </tr>
+          <tr>
+              <td style="margin:0; padding: 0;" colspan="2">
+                <table border="0" cellpadding="0" width="100%" cellspacing="0" id="info_open" style="display:''">
+                    <tbody>
+              <!-- BEGIN show_permissions -->
+              <tr>
+     
+              <td class="alt2" valign="top" width="25%"><span
+    class="smallfont">{L_TABS_PERMISSIONS}</span></td>
+                <td class="alt1" valign="top" width="75%"><span class="smallfont">{S_AUTH_LIST}</span></td>
+              </tr>
+              <!-- END show_permissions -->
+              <tr>
+                <td class="tfoot" colspan="2" height="28">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+     
+                        <td valign="middle" width="100%"><span
+    class="nav"><a class="nav"
+    href="{U_INDEX}">{L_INDEX}</a>{NAV_SEP}<a
+
+        class="nav" href="{U_ALBUM}">{L_ALBUM}</a>{NAV_CAT_DESC_SECOND}</span></td>
+                          <!-- BEGIN show_permissions -->
+                          <td align="right" valign="middle"><span class="smallfont"><a
+
+     
+      href="javascript:ShowHideLayer('info_open','info_close');"><img
+     src="{TABS_LESS_IMG}" alt="-" align="middle" border="0"
+    /></a></span></td>
+                          <!-- END show_permissions -->
+                      </tr>
+                    </table>
+                </td>
+              </tr>
+          </tbody>
+                </table>
+              </td>
+          </tr>
+          <tr>
+              <td style="margin:0; padding: 0;" colspan="2">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" id="info_close" style="display:none;">
+                    <tbody>
+              <tr>
+                <td class="tfoot" colspan="2" height="28">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+     
+                        <td valign="middle" width="100%"><span
+    class="nav"><a class="nav"
+    href="{U_INDEX}">{L_INDEX}</a>{NAV_SEP}<a
+
+        class="nav" href="{U_ALBUM}">{L_ALBUM}</a>{NAV_CAT_DESC_SECOND}</span></td>
+                          <td align="right" valign="middle"><span class="smallfont"><a
+
+     
+      href="javascript:ShowHideLayer('info_open','info_close');"><img
+     src="{TABS_MORE_IMG}" alt="+" align="middle" border="0"
+    /></a></span></td>
+                      </tr>
+                    </table>
+                </td>
+              </tr>
+          </tbody>
+                </table>
+              </td>
+          </tr>
+
+
+        </table>
+
+     
+      <form action="{S_JUMPBOX_ACTION}" method="get" name="jumpbox"
+    onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+        <table class="noprint" width="100%" border="0" cellspacing="2" cellpadding="0" align="center">
+          <tr>
+              <td align="left" valign="middle" nowrap="nowrap" {WIDTH_GALLERY}>
+                <span class="nav">
+                    <!-- BEGIN switch_user_authpost -->
+     
+                  <a href="{U_POST_NEW_TOPIC}" rel="nofollow"><img
+     src="{POST_IMG}" id="{POST_IMG_ID}Newtopic" alt="{L_POST_NEW_TOPIC}"
+
+        align="middle" border="0" /></a>
+                    <!-- END switch_user_authpost -->
+                    <!-- BEGIN switch_user_authreply -->
+     
+                  <a href="{U_POST_REPLY_TOPIC}"><img
+    src="{REPLY_IMG}" alt="{L_POST_REPLY_TOPIC}" align="middle" border="0"
+    /></a>
+                    <!-- END switch_user_authreply -->
+                </span>
+              </td>
+              <!-- BEGIN viewtopic_bottom -->
+     
+            <td align="right" nowrap="nowrap"><span
+    class="smallfont">{L_JUMP_TO}: {S_JUMPBOX_SELECT} <input
+    class="liteoption" type="submit"
+
+        value="{L_GO}" /></span></td>
+              <!-- END viewtopic_bottom --><!-- BEGIN switch_image_resize -->
+        <script type="text/javascript">
+        <script src="{JQUERY_PATH}" type="text/javascript"></script>
+        <script src="{JS_DIR}{L_LANG}.js" type="text/javascript"></script>
+        //<![CDATA[
+     
+      $(resize_images({ 'selector' : '.postbody', 'max_width' :
+    {switch_image_resize.IMG_RESIZE_WIDTH}, 'max_height' :
+    {switch_image_resize.IMG_RESIZE_HEIGHT} }));
+        //]]>
+        </script>
+        <!-- END switch_image_resize -->
+
+              <!-- BEGIN moderation_panel -->
+              <td align="center">
+                <span class="smallfont">{moderation_panel.U_YOUR_PERSONAL_MODERATE}</span>
+              </td>
+              <td align="center" width="250">
+                <span class="smallfont"> </span>
+              </td>
+              <!-- END moderation_panel -->
+          </tr>
+        </table>
+        </form>
+
+          <!-- BEGIN viewtopic_bottom -->
+        <table class="noprint" width="100%" border="0" cellspacing="2" cellpadding="0" align="center">
+          <tr>
+              <td colspan="2" align="left" valign="top" nowrap="nowrap">
+        {S_TOPIC_ADMIN}
+
+                <form name="action" method="get" action="{S_FORM_MOD_ACTION}">
+                    <input type="hidden" name="t" value="{TOPIC_ID}" />
+                    <input type="hidden" name="sid" value="{S_SID}" />
+                    <span class="gen">{L_MOD_TOOLS}
+        {S_SELECT_MOD} <input class="liteoption" type="submit" value="{L_GO}" /></span>
+                </form>
+              </td>
+          </tr>
+        </table>
+        <!-- END viewtopic_bottom -->
+
+
+
+
+</code>
