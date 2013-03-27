@@ -1,0 +1,13 @@
+// Writen by Zero (mark.polo.nguyen@gmail.com)
+$(function () {
+    tooltip = $('body').find('[data-tooltip]');
+    $(tooltip).hover(function (e) {
+        content = this.getAttribute('data-tooltip');
+        $('#tooltip').html(content).css("top", (e.pageY - xOffset) + "px").css("left", (e.pageX + yOffset) + "px").fadeIn("fast");
+    }, function () {
+        $("#tooltip").hide();
+    });
+    $(tooltip).mousemove(function (e) {
+        $("#tooltip").css("top", (e.pageY - xOffset) + "px").css("left", (e.pageX + yOffset) + "px")
+    })
+});
