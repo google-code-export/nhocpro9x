@@ -1,0 +1,4 @@
+/* zTip powered by JQuery (www.jquery.com)
+ *  Written by Zero (www.dion-designs.com)
+ */
+$(function(){tooltip=$('body').find('[data-tooltip]');$(tooltip).hover(function(e){content=this.getAttribute('data-tooltip');filename=content.substring(content.lastIndexOf('.')+1);if($.inArray(filename,extension)>-1){$('#tooltip').html('<img src='+content+' width='+img_width+' height='+img_height+'></img><br/>'+this.getAttribute('href'))}else{$('#tooltip').html(content)}$("#tooltip").css("top",(e.pageY-xOffset)+"px").css("left",(e.pageX+yOffset)+"px").fadeIn("fast")},function(){$("#tooltip").fadeOut("fast")});$(tooltip).mousemove(function(e){$("#tooltip").css("top",(e.pageY-xOffset)+"px").css("left",(e.pageX+yOffset)+"px")})});
