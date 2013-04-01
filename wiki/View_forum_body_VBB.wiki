@@ -1,0 +1,191 @@
+http://i75.servimg.com/u/f75/17/72/98/89/310.png
+
+Vào Viewforum_body tìm code
+
+<code>
+    <!-- BEGIN switch_legend -->
+    ....
+    đến
+    ...
+    <!-- END switch_legend -->
+
+</code>
+và thay nó = code sau đây
+
+<code>
+    <!-- BEGIN switch_legend -->
+    <div class="contenedorxp"><div class="options_block"> <div class="collapse">
+      <h4 class="blockhead">Ý nghĩa biểu tượng</h4> </div>
+      <div id="forum_icon_legend" class="forum_info_block blockbody formcontrols" style="">
+        <dl id="icon_legends" class="forum_info_subblock icon_legends">
+          <dt class="minilegend"><img src="{FOLDER_NEW_IMG}" title="{L_FOLDER_NEW_IMG}"></dt><dd> {L_FOLDER_NEW_IMG}</dd>
+          <dt class="minilegend"><img src="{FOLDER_HOT_NEW_IMG}" title="{L_FOLDER_HOT_NEW_IMG}"></dt><dd> {L_FOLDER_HOT_NEW_IMG}</dd>
+          <dt class="minilegend"><img src="{FOLDER_LOCKED_NEW_IMG}" title="{L_FOLDER_LOCKED_NEW_IMG}"></dt><dd> {L_FOLDER_LOCKED_NEW_IMG}</dd>
+          <dt class="minilegend"><img src="{FOLDER_IMG}" title="{L_FOLDER_IMG}"></dt><dd> {L_FOLDER_IMG}</dd>
+          <dt class="minilegend"><img src="{FOLDER_HOT_IMG}" title="{L_FOLDER_HOT_IMG}"></dt><dd> {L_FOLDER_HOT_IMG}</dd>
+          <dt class="minilegend"><img src="{FOLDER_LOCKED_IMG}" title="{L_FOLDER_LOCKED_IMG}"></dt><dd> {L_FOLDER_LOCKED_IMG}</dd>
+          <dt class="minilegend"><img src="{FOLDER_ANNOUNCE_IMG}" title="{L_FOLDER_ANNOUNCE_IMG}"></dt><dd> {L_FOLDER_ANNOUNCE_IMG}</dd>
+          <dt class="minilegend"><img src="{FOLDER_STICKY_IMG}" title="{L_FOLDER_STICKY_IMG}"></dt><dd> {L_FOLDER_STICKY_IMG}</dd>
+            <dt class="minilegend"><img src="{FOLDER_GLOBAL_ANNOUNCE_IMG}" title="{L_FOLDER_GLOBAL_ANNOUNCE_IMG}"></dt><dd> {L_FOLDER_GLOBAL_ANNOUNCE_IMG}</dd> 
+            </dl> </div> </div>
+    <div class="options_block2"> <div class="collapse">  <h4 class="blockhead">Quyền sử dụng</h4> </div>
+      <div id="posting_rules" class="forum_info_block blockbody formcontrols floatcontainer">
+        <div id="forumrules" class="info_subblock"> 
+          <p>{S_AUTH_LIST}</p>
+        </div> </div> </div></div>
+
+           
+            <style>
+            /* SubForums */
+    #pun-desc {
+    display: none;
+    }
+    .options_block, .options_block2 {
+    clear: right;
+    position: relative;
+    width: 49.5%;
+    float: left;
+    margin-right: 5px;
+    }
+    .blockhead {
+    font: normal 12px arial,helvetica,sans-serif;
+    color: white;
+    background: #363636 url(http://www.webcheats.com.br/forum/images/buttons/newbtn_middle.png) repeat-x;
+    _background-image: none;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid #rgb(194, 194, 194);
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    }
+    #forum_icon_legend, #posting_rules{
+    border-bottom: 1px solid #C7D6E7;
+    border-left: 1px solid #C7D6E7;
+    border-right: 1px solid #C7D6E7;
+    background: white url(http://i.imgur.com/VluyE.png) repeat-x;
+    }
+    #icon_legends, #forumrules{
+    padding: 5px 10px;
+    }
+    .minilegend {
+    float: left;
+    clear: right;
+    margin-right: 5px;
+    }
+    .minilegend img {
+    width: 17px;
+    height: 17px;
+    }
+    #icon_legends dd{margin-bottom: 5px;
+      display: block;}
+    .contenedorxp {
+    overflow-y: auto;
+    }
+    .visitepost {
+    background: #F2F6F8 url(http://i.imgur.com/q25ZK.png) repeat-x left bottom!important;
+    text-align: center;
+    }
+    .post_field {
+    background: #EEF5FC;
+    color: #495359;
+    border: 1px solid #C4D8EC;
+    padding: 6px 3px 3px 10px;
+    margin-top: 2px;
+    text-align: left;
+    color: #495359;
+    font-weight: 700;
+    }
+    .postfoot {
+    background: #F0F5FA none;
+    border-top: 1px solid #C7D6E7;
+    padding: 0em;}
+    .user-ident {
+    text-align: center;
+    }
+    .pun .posthead {
+    background: #AB0000 url() repeat-x top center;
+    color: #6E7175;
+    font: normal 12px arial, helvetica, sans-serif;
+    padding: 2px 5px;
+    border-top: 1px solid #93B1CD;
+    font-weight: 400;
+    border-bottom: 1px solid #93B1CD;
+    }
+    .pun .posthead h2 {
+    font: normal 12px arial,helvetica,sans-serif;
+    }
+    .pun .post {
+    border: none;
+    }
+    #pun-about fieldset {
+    display: none;
+    }
+    .pun .user-ident .username {
+    position: relative;
+    margin-bottom: 5px;
+    }
+    .copyright a {
+    color: #75BCFF!important;
+    }
+    .copyright a:hover {
+    color: white!important;
+    }
+    .pun .postmain {
+    border-left: 1px solid #C7D6E7;
+    }
+    .title.icon {
+    border-bottom: 1px solid #C7D6E7;
+    margin-bottom: 8px;
+    padding: 5px;
+    font: bold 14px arial,helvetica,sans-serif;
+    }
+    .pun table .tdtopics .status{
+    margin-left: -40px;
+    }
+    .pun .paged .posting {
+    float: left;
+    }
+    .pun .post .user {
+    margin-top: 5px;
+    }
+    .topicoptions {
+    text-align: center;
+    }
+    .onlineuserpost {
+    top: 0px;
+    position: absolute;
+    }
+    .inlineimg.onlinestatus {
+    z-index: -999;
+    }
+    #i_icon_online {
+    z-index: 999;
+    margin-left: -15px;
+    }
+            </style>
+
+    <!-- END switch_legend -->
+
+</code>
+
+Tiếp theo cũng trong Vewforum_body tìm đoạn này và xóa đi
+
+<code>
+    <div id="pun-info" class="main">
+       <div class="main-content">
+          <div id="stats">
+             <p class="right">{L_MODERATOR} : {MODERATORS}</p>
+             {LOGGED_IN_USER_LIST}
+          </div>
+          <div id="onlinelist">
+             <p>{L_TABS_PERMISSIONS} <br />{S_AUTH_LIST}</p>
+          </div>
+       </div>
+    </div>
+
+</code>
+
+Thế là xong
