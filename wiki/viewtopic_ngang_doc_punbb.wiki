@@ -1,0 +1,29 @@
+Demo :
+Kick vào ảnh để xem to hơn
+
+http://i14.servimg.com/u/f14/16/58/45/96/23410.jpg
+
+Chú thích : bài viết đầu tiên sẽ là ngang và các bài tiếp theo sẽ là dọc quỷ sứ
+Cách làm :
+Thêm đoạn này vào Css :
+
+<code>
+    .pun .user{width:12em}
+    .pun .postmain{margin-left:14em}
+    .pun .post .user,.postfoot{margin-left:-13em}
+    .post:first-child .postmain .postfoot,.pun .post:first-child .postmain{margin:0}
+    .post:first-child .postmain .user{margin:0;width:100%;padding:0;border-bottom:1px dashed #CCC}
+    .post:first-child .postmain .user>div{margin:12px}
+    .post:first-child .postmain .post-entry{clear:left}
+    .pun .post .user{margin-top:0}
+    .pun .posthead {margin-left: -14em}
+    .pun .post:first-child .postmain .posthead {margin:0}
+    .postmain .username{font-variant:small-caps;font-weight:bold}
+    .post:first-child .postmain .user-basic-info div{display:inline-block}
+    .user-ident{text-align:center}
+    .post:first-child .postmain .user-ident{float:left}
+    .post:first-child .postmain .user-info{float:right}
+
+</code>
+Thế là xong
+đoạn trên là dùng cho vew mặc định nhá ^^
