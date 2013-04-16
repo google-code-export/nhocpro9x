@@ -1,0 +1,257 @@
+Phpbb2:
+
+Demo : http://cubimtq20.forumvi.com/t1-topic
+
+Lưu ý: Viewtopic_body phpbb2 này chỉ sử dụng cho skin daknongcity. Và có thể áp dụng cho cả skin 9xna.
+
+Thay viewtopic bằng code sau:
+
+
+Cuối cùng cho cái này vào CSS
+
+<code>
+    .ust {
+    background: #C8E5E9;
+    border: #D0ECFB 0px solid;
+    }
+    .p2 {
+    background: #FBFDFF url(http://daknongcity.com/forum/fullvn/nst/alt.jpg) repeat;
+    padding: 5px;
+    border: #9FDAE0 1px solid;
+    font-size: 12px;
+    color: #273D49;
+    font-family: arial;
+    -webkit-box-shadow: 0 2px 6px #B3B3B3;
+    }
+    .thead {
+    background: #5C7099 url(http://daknongcity.com/forum/fullvn/nst/gradient_thead.gif) repeat-x top left;
+    color: #666;
+    font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+    }
+    td.row1.over:hover, td.row2 {
+    background-color: #ffffff;
+    }
+</code>
+
+Rip by cubimtq!
+
+Punbb:
+Có người nhờ mình convers qua punbb vì bản mình rip là phpbb2 cười nhăn răng
+Giờ convers qua rồi, ai dùng thì dùng nhé 1234
+Còn có thêm 1 chi tiết nhỏ ở bản punbb này là nền thời gian gửi và số bài 1234
+View dành cho punbb có thể áp dụng hầu hết các skin 1234
+Demo:
+http://i76.servimg.com/u/f76/15/64/85/86/untitl61.jpg
+
+Code:
+- Thay hết viewtopic_body của bạn bằng code sau:
+
+
+- Cho vào cuối CSS.
+
+<code>
+    .main .main-foot, .main .main-head {
+    background: #869BBF url(http://daknongcity.com/forum/fullvn/nst/tcat.gif) repeat-x top left;
+    color: #FFFFFF;
+    font: bold 12pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+    text-shadow: 1px 1px 1px #0066FF;
+    padding-top: 8px;
+    padding-left: 15px;
+    }
+    .ust {
+    background: #C8E5E9;
+    border: #D0ECFB 0px solid;
+    }
+    .bim {
+    background: #C8E5E9;
+    border: #D0ECFB 0 solid;
+    }
+    .pun .user-ident .user-basic-info {
+    background: #FBFDFF url(http://daknongcity.com/forum/fullvn/nst/alt.jpg) repeat;
+    padding: 5px;
+    border: #9FDAE0 1px solid;
+    font-size: 12px;
+    color: #273D49;
+    font-family: arial;
+    -webkit-box-shadow: 0 2px 6px #B3B3B3;
+    }
+    .bimtq {
+    -webkit-box-shadow: 0 2px 6px #B3B3B3;
+    background: #FBFDFF url(http://daknongcity.com/forum/fullvn/nst/alt.jpg) repeat;
+    border: #9FDAE0 1px solid;
+    color: #273D49;
+    font-family: arial;
+    font-size: 12px;
+    padding: 5px;
+    width: 139px;
+    }
+    .user-info {
+    -webkit-box-shadow: 0 2px 6px #B3B3B3;
+    background: #FBFDFF url(http://daknongcity.com/forum/fullvn/nst/alt.jpg) repeat;
+    border: #9FDAE0 1px solid;
+    color: #273D49;
+    font-family: arial;
+    font-size: 12px;
+    margin-left: 550px;
+    margin-right: 10px;
+    }
+    .alt1, .alt1Active {
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px #eaeaea solid;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    }
+    .pun .paged .posting {
+    float: left;
+    font-size: 1.2em;
+    font-weight: 700;
+    }
+    .pun .postbody {
+    width: 100%;
+    background: #f3f3f3;
+    color: #000000;
+    border: 1px #eaeaea solid;
+    }
+    .user-contact {
+    padding-left: 11px;
+    padding-top: 11px;
+    }
+    .ngaygio {
+    background: #f26c4f;
+    width: 170px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    box-shadow: 0 1px 2px #d9d9d9;
+    margin-left: -13px;
+    color: #fff;
+    font-family: PTSansNarrow,sans-serif;
+    line-height: 1.3em;
+    margin-top: -2px;
+    text-shadow: 0 -2px 2px #ce6b58;
+    text-transform: uppercase;
+    }
+    .bimmm {
+    background: #f26c4f;
+    box-shadow: 0 1px 2px #d9d9d9;
+    color: #fff;
+    font-family: PTSansNarrow,sans-serif;
+    line-height: 1.3em;
+    margin-left: -13px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    text-shadow: 0 -2px 2px #ce6b58;
+    text-transform: uppercase;
+    width: 17px;
+    float: right;
+    padding-right: 10px;
+    margin-right: -17px;
+    }
+</code>
+
+
+*#* Nếu CSS của bạn quá dài và không đủ chỗ thì cho vào cuối viewtopic_body với code sau:
+<code>
+    <style>.main .main-foot, .main .main-head {
+    background: #869BBF url(http://daknongcity.com/forum/fullvn/nst/tcat.gif) repeat-x top left;
+    color: #FFFFFF;
+    font: bold 12pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+    text-shadow: 1px 1px 1px #0066FF;
+    padding-top: 8px;
+    padding-left: 15px;
+    }
+    .ust {
+    background: #C8E5E9;
+    border: #D0ECFB 0px solid;
+    }
+    .bim {
+    background: #C8E5E9;
+    border: #D0ECFB 0 solid;
+    }
+    .pun .user-ident .user-basic-info {
+    background: #FBFDFF url(http://daknongcity.com/forum/fullvn/nst/alt.jpg) repeat;
+    padding: 5px;
+    border: #9FDAE0 1px solid;
+    font-size: 12px;
+    color: #273D49;
+    font-family: arial;
+    -webkit-box-shadow: 0 2px 6px #B3B3B3;
+    }
+    .bimtq {
+    -webkit-box-shadow: 0 2px 6px #B3B3B3;
+    background: #FBFDFF url(http://daknongcity.com/forum/fullvn/nst/alt.jpg) repeat;
+    border: #9FDAE0 1px solid;
+    color: #273D49;
+    font-family: arial;
+    font-size: 12px;
+    padding: 5px;
+    width: 139px;
+    }
+    .user-info {
+    -webkit-box-shadow: 0 2px 6px #B3B3B3;
+    background: #FBFDFF url(http://daknongcity.com/forum/fullvn/nst/alt.jpg) repeat;
+    border: #9FDAE0 1px solid;
+    color: #273D49;
+    font-family: arial;
+    font-size: 12px;
+    margin-left: 550px;
+    margin-right: 10px;
+    }
+    .alt1, .alt1Active {
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px #eaeaea solid;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    }
+    .pun .paged .posting {
+    float: left;
+    font-size: 1.2em;
+    font-weight: 700;
+    }
+    .pun .postbody {
+    width: 100%;
+    background: #f3f3f3;
+    color: #000000;
+    border: 1px #eaeaea solid;
+    }
+    .user-contact {
+    padding-left: 11px;
+    padding-top: 11px;
+    }
+    .ngaygio {
+    background: #f26c4f;
+    width: 170px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    box-shadow: 0 1px 2px #d9d9d9;
+    margin-left: -13px;
+    color: #fff;
+    font-family: PTSansNarrow,sans-serif;
+    line-height: 1.3em;
+    margin-top: -2px;
+    text-shadow: 0 -2px 2px #ce6b58;
+    text-transform: uppercase;
+    }
+    .bimmm {
+    background: #f26c4f;
+    box-shadow: 0 1px 2px #d9d9d9;
+    color: #fff;
+    font-family: PTSansNarrow,sans-serif;
+    line-height: 1.3em;
+    margin-left: -13px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    text-shadow: 0 -2px 2px #ce6b58;
+    text-transform: uppercase;
+    width: 17px;
+    float: right;
+    padding-right: 10px;
+    margin-right: -17px;
+    }</style>
+
+
+</code>
+- Xem thành quả cười nhăn răng
