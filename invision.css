@@ -1,0 +1,826 @@
+﻿.avatar {
+border: 1px solid #D8D8D8;
+width: 50px;
+background-color: white;
+padding: 2px;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+#blog-lienquan {
+border: 1px solid #DDD;
+padding: 5px;
+min-height: 300px;
+}
+#blog-xemthem {
+cursor: pointer;
+color: white;
+float: right;
+}
+/* giao diá»‡n blog */
+#bookmarks{float:none;margin-top:20px;text-align:center}
+#bookmarks a{border:1px solid;box-shadow:-2px -2px 2px #4B4646;height:30px!important;padding-bottom:4px;text-align:center;vertical-align:middle!important;width:20px!important;margin:0 10px!important}
+#bookmarks a:hover{box-shadow:-2px -2px 2px red}
+#bookmarks a:active{box-shadow:-2px -2px 2px #000}
+
+
+/* Avatar in index */
+.avatar-index {float: left;}
+.avatar-index img {width: 40px;height: 40px;background: #F4F4F4;border: 1px solid #DDD;margin: 0 5px;padding: 1px;}
+.avatar-index img:hover {border: 1px dashed #CCC;}
+
+
+
+
+
+
+
+.popupmenu .avatar {
+background: url(http://illiweb.com/fa/invision/pp-blank-thumb-50px.png) no-repeat;
+background-color: #fff;
+border: 0px;
+float: right;
+height: 0px;
+margin: 0px;
+width: 50px;
+}
+
+.member-list .popmenubutton .mini-avatar {
+background: url(http://illiweb.com/fa/invision/pp-blank-thumb-38px.png) no-repeat;
+background-color: #fff;
+border: 0px;
+display: block;
+float: right;
+height: 38px;
+margin: 5px;
+width: 38px;
+}
+
+
+
+
+
+
+
+
+*/ Css làm di chuyển khung mỗi box khi dê chuột vào */
+
+
+    dl.icon {
+    background-position: 10px 50%;
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 35px;
+    width: 100%;opacity:0.9;
+    filter:alpha(opacity=90);
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    font-size: 10px;}
+
+
+    dl.icon:hover {
+    background-position: 10px 50%;
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 35px;
+    width: 102%;
+    opacity: 1;
+    filter:alpha(opacity=100);
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    font-size: 10px;}
+
+
+
+
+*/ Nút ôm các Box */
+ul.forums li.row dl {
+     min-height: 30px;
+     margin-left: -18px;
+     }
+     ul.topiclist dd {
+     border-left-color: gainsboro;
+     }
+     ul.topiclist {
+     color: #838383;
+     }
+     dl.icon dd.dterm, dl.icon dt {
+     border: none!important;
+     }
+ 
+
+
+
+  
+  */ khung viền mỗi chuyên mục */
+  
+  
+  
+    .forabg {-webkit-box-shadow: 0px 0px 6px #6F7B82;
+    -moz-box-shadow: 0px 0px 6px #6F7B82;
+    box-shadow: 0px 0px 6px #6F7B82;
+    border: 4px solid #ffffff;
+    margin-top: 10px;
+    }
+  
+
+  */ Hiệu ứng thay đổi màu khi rê chuột lên các box  */
+
+
+    ul.forums {
+      background: none;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    i, cite, em, var, address, dfn {
+      font-style: normal;
+    }
+    li.row {
+      background-image: url(http://i.imgur.com/39NbO.png);
+      border: 1px solid black;
+      -webkit-border-radius:3px;
+      -moz-border-radius:3px;
+      -o-border-radius:3px;
+      border-radius:3px;
+      margin-bottom: 5px;
+      transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -moz-opacity: 0.5 !important;
+    -webkit-opacity: 0.5!important;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)" !important;
+    filter: alpha(opacity=80) !important;
+    opacity: 0.5 !important;
+    }
+    li.row:hover {
+      background: #141414;
+      -moz-opacity: 1.0 !important;
+    -webkit-opacity: 1.0!important;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+    filter: alpha(opacity=100) !important;
+    opacity: 1.0 !important;
+    }
+
+
+ 
+
+  
+  
+    td.row2:hover, td.row1:hover {
+    background-color:#f4f9fd;
+    padding:.25em;
+    -moz-opacity: 1.0 !important;
+    -webkit-opacity: 1.0!important;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+    filter: alpha(opacity=100) !important;
+    opacity: 1.0 !important;
+    }
+
+
+  
+  
+
+
+
+
+  
+  
+
+
+
+
+  /*gallery*/
+.gallery-cat img { margin: .25em; width: 100px; height: 100px; box-shadow: 0 0 5px #AAA; position: relative; padding: 2px; }
+.gallery-cat .info-gallery { clear: none; font-size: .9em; text-align: center; }
+.gallery-cat { border: 0px; float: left; margin-bottom: .5em; margin-left: 1%; min-height: 125px; }
+.pun .main p.left-box a, .pun .main p.right-box a {color: #197FFC;}
+
+
+
+
+    /*Ban be*/
+.friend-block{
+width:68px;
+height:84px;
+}
+.friend-block .avatar img{
+width:50px;
+height:50px;
+}
+.avatar {
+border: 1px solid #D8D8D8;
+width: 50px;
+background-color: white;
+padding: 2px;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+.post-entry img{border: 1px solid #CCC; padding: 3px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -khtml-border-radius: 3px; box-shadow: 0px 0px 5px #CCC; -webkit-box-shadow: 0px 0px 5px #CCC; -moz-box-shadow: 0px 0px 5px #ccc; -khtml-box-shadow: 0px 0px 5px #ccc; margin-right: 5px; }
+/*gallery*/
+.gallery-cat img { margin: .25em; width: 100px; height: 100px; box-shadow: 0 0 5px #AAA; position: relative; padding: 2px; }
+.gallery-cat .info-gallery { clear: none; font-size: .9em; text-align: center; }
+.gallery-cat { border: 0px; float: left; margin-bottom: .5em; margin-left: 1%; min-height: 125px; }
+.pun .main p.left-box a, .pun .main p.right-box a {color: #197FFC;}
+
+/* Fancy kính lúp rê chuột vào ảnh */
+.fancyimg-fmvi{cursor:-moz-zoom-in;cursor:-webkit-zoom-in}
+
+
+
+
+
+  
+  /*gallery*/
+.cat-img img { margin: .25em; width: 110px; height: 85px; box-shadow: 0 0 5px #AAA; position: relative; padding: 2px; }
+
+
+.gallery .gallery-desc {
+color: #666;
+font-size: 11px;
+height: 16px;
+overflow-y: auto;
+padding: 5px;
+vertical-align: top;
+}
+
+ 
+  
+  
+.borderwrapm, div.borderwrap, .activeusers {
+padding: 1px;
+border-radius: 8px;
+box-shadow: 0px 5px 10px #888; }
+
+.borderwrap.thumbnails .thumb {
+min-height: 130px;
+}
+.borderwrap.thumbnails .gal_caption {
+font-size: 14px;
+font-weight: 700;
+margin: 0px;
+text-align: center;
+padding-bottom: 12px;
+}
+.borderwrap.thumbnails .thumbnail img {
+background-color: #fff;
+border: 1px solid #464c55!important;
+display: block;
+height: 50px;
+margin: .5em auto;
+padding: 2px 2px 12px;
+text-align: center;
+}
+.borderwrap.thumbnails .thumbwrap {
+border: 0px;
+}
+  
+
+
+
+  
+  /*Ban be*/
+.friend-block{
+width:68px;
+height:84px;
+}
+.friend-block .avatar img{
+width:50px;
+height:50px;
+}
+.avatar {
+border: 1px solid #D8D8D8;
+width: 50px;
+background-color: white;
+padding: 2px;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+/*CPLastTopic*/
+.CPLastBox {
+overflow: auto;
+height: 200px;
+background: white url(http://i69.servimg.com/u/f69/17/76/96/09/loadin11.gif) center center no-repeat;
+}
+.CPlastR {
+background: white;
+padding: 5px 0;
+}
+.CPLTopic, .CPLBox,.CPLUser,.CPLTime {
+display: inline-block;
+width: 308px;
+height: 14px;
+overflow: hidden;
+}
+.CPLBox {
+padding: 0 10px;
+width: 135px;
+}
+.CPLTime {float:right}
+.CPLUser {width:120px}
+.CPLTime {
+text-align: right;
+width: 140px;
+float: right;
+}
+
+
+#Load{display:none;position:fixed;left:50%;top:40%;width:50px;height:50px;border:20px solid rgba(130,210,60,.3);border-radius:50px;margin-left:-25px;background:url(http://i69.servimg.com/u/f69/17/76/96/09/loadaj11.gif) no-repeat 50% 50% #FFF}
+
+
+ /*QTAN*/
+.hottest {margin-top:300px}
+  /* ---style groups--- */
+span[style="color:#FA0000"]:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/admin112.gif);padding-right:2px}
+span[style="color:#FF00FF"]:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/06377010.gif);padding-right:2px}
+span[style="color:#8F15D6"]:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/doctha10.gif);padding-right:2px}
+span[style="color:#0000FF"]:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/mod11110.gif);padding-right:2px}
+span[style="color:#FF7B08"]:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/star1010.png);padding-right:2px}
+span[style="color:#00FF00"]:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/3qz4a110.png);padding-right:2px}
+span[style="color:#008000"]:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/friend10.gif);padding-right:2px}
+span[style="color:#08F7EB"]:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/72172710.gif);padding-right:2px}
+span[style="color:#FFF000"]:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/icon_v10.png);padding-right:2px}
+span[style="color:#C9BF06"]:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/88c21f10.gif);padding-right:2px}
+span[style="color:#FCA23A1"]:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/mod1110.gif);padding-right:2px}
+
+
+
+/* ---Background nhóm--- */
+.re-Admin .post-entry{background:url(http://i69.servimg.com/u/f69/17/76/96/09/admin_10.png) repeat-y center right}
+.re-Smod .post-entry{background:url(http://i69.servimg.com/u/f69/17/76/96/09/iaza1510.gif) repeat-y center right}
+.re-Security .post-entry{background:url(http://i69.servimg.com/u/f69/17/76/96/09/iaza1511.gif) repeat-y center right}
+.re-Mod .post-entry{background:url(http://i69.servimg.com/u/f69/17/76/96/09/iaza1512.gif) repeat-y center right}
+.re-Designer .post-entry{background:url(http://i69.servimg.com/u/f69/17/76/96/09/iaza1513.gif) repeat-y center right}
+.re-Instructor .post-entry{background:url(http://i69.servimg.com/u/f69/17/76/96/09/iaza1514.gif) repeat-y center right}
+.re-Honour .post-entry{background:url(http://i69.servimg.com/u/f69/17/76/96/09/cp341010.png) repeat-y center right}
+.re-Ambassador .post-entry{background:url(http://i69.servimg.com/u/f69/17/76/96/09/cp321010.png) repeat-y center right}
+.re-Reviewer .post-entry{background:url(http://i69.servimg.com/u/f69/17/76/96/09/iaza1515.gif) repeat-y center right}
+ 
+
+
+/*---danh dau link anh trong bai viet--*/
+.post-entry a:before{padding-right:2px;content:url(http://i69.servimg.com/u/f69/17/76/96/09/link-i10.png)}
+.post-entry [href$=".jpg"]:before,.post-entry [href$=".jpeg"]:before,.post-entry [href$=".png"]:before,.post-entry [href$=".gif"]:before{padding-right:2px;content:url(http://i69.servimg.com/u/f69/17/76/96/09/links-10.png)}
+.post-entry [href="/"]:before,.post-entry [href="http://www.dktb.net"]:before{padding-right:2px;content:url(http://i69.servimg.com/u/f69/17/76/96/09/insert10.png)!important}
+a.fancy-ytbFmvi.fancybox.iframe::before,a.fancyimg-fmvi::before{display:none!important}
+a[class="fancy-ytbFmvi fancybox.iframe"]::before,a.fancyimg-fmvi::before{display:none!important}
+ 
+  
+
+
+
+
+
+        /* fancybox2 - www.fmvi.vn */
+        .fancybox-wrap,.fancybox-skin,.fancybox-outer,.fancybox-inner,.fancybox-image,.fancybox-wrap iframe,.fancybox-wrap object,.fancybox-nav,.fancybox-nav span,.fancybox-tmp{border:0;outline:none;vertical-align:top;margin:0;padding:0}
+        .fancybox-wrap{position:absolute;top:0;left:0;z-index:8020}
+        .fancybox-skin{position:relative;background:#f9f9f9;color:#444;text-shadow:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+        .fancybox-opened{z-index:8030}
+        .fancybox-opened .fancybox-skin{-webkit-box-shadow:0 10px 25px rgba(0,0,0,0.5);-moz-box-shadow:0 10px 25px rgba(0,0,0,0.5);box-shadow:0 10px 25px rgba(0,0,0,0.5)}
+        .fancybox-outer,.fancybox-inner{position:relative}
+        .fancybox-type-iframe .fancybox-inner{-webkit-overflow-scrolling:touch}
+        .fancybox-error{color:#444;font:14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;white-space:nowrap;margin:0;padding:15px}
+        .fancybox-image,.fancybox-iframe{display:block;width:100%;height:100%}
+        .fancybox-image{max-width:100%;max-height:100%}
+        #fancybox-loading,.fancybox-close,.fancybox-prev span,.fancybox-next span{background-image:url(http://i69.servimg.com/u/f69/17/76/96/09/fancyb15.png)}
+        #fancybox-loading{position:fixed;top:50%;left:50%;margin-top:-22px;margin-left:-22px;background-position:0 -108px;opacity:0.8;cursor:pointer;z-index:8060}
+        #fancybox-loading div{width:44px;height:44px;background:url(http://i69.servimg.com/u/f69/17/76/96/09/fancyb11.gif) center center no-repeat}
+        .fancybox-close{position:absolute;top:-18px;right:-18px;width:36px;height:36px;cursor:pointer;z-index:8040}
+        .fancybox-nav{position:absolute;top:0;width:40%;height:100%;cursor:pointer;text-decoration:none;background:transparent url(http://i69.servimg.com/u/f69/17/76/96/09/blank111.gif);-webkit-tap-highlight-color:rgba(0,0,0,0);z-index:8040}
+        .fancybox-prev{left:0}
+        .fancybox-next{right:0}
+        .fancybox-nav span{position:absolute;top:50%;width:36px;height:34px;margin-top:-18px;cursor:pointer;z-index: 999;visibility:hidden}
+        .fancybox-prev span{left:10px;background-position:0 -36px}
+        .fancybox-next span{right:10px;background-position:0 -72px}
+        .fancybox-tmp{position:absolute;top:-99999px;left:-99999px;visibility:hidden;max-width:99999px;max-height:99999px;overflow:visible!important}
+        .fancybox-overlay{position:absolute;top:0;left:0;overflow:hidden;display:none;z-index: 999;background:url(http://i69.servimg.com/u/f69/17/76/96/09/fancyb14.png)}
+        .fancybox-overlay-fixed{position:fixed;bottom:0;right:0}
+        .fancybox-lock .fancybox-overlay{overflow:auto;overflow-y:scroll}
+        .fancybox-title{display:none;visibility:hidden;font:normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;position:relative;text-shadow:none;z-index:8050}
+        .fancybox-title-float-wrap{position:absolute;bottom:0;right:50%;margin-bottom:-35px;z-index: 999;text-align:center}
+        .fancybox-title-float-wrap .child{display:inline-block;margin-right:-100%;background:rgba(0,0,0,0.8);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;text-shadow:0 1px 2px #222;color:#FFF;font-weight:700;line-height:24px;white-space:nowrap;padding:2px 20px}
+        .fancybox-title-outside-wrap{position:relative;margin-top:10px;color:#fff}
+        .fancybox-title-inside-wrap{padding-top:10px}
+        .fancybox-title-over-wrap{position:absolute;bottom:0;left:0;color:#fff;background:rgba(0,0,0,.8);padding:10px}
+        .fancybox-inner,.fancybox-lock{overflow:hidden}
+        .fancybox-nav:hover span,.fancybox-opened .fancybox-title{visibility:visible}
+        .fancybox-wrap:hover .fancybox-title{display:block}
+        #fancybox-buttons{position:fixed;left:0;width:100%;z-index:999}
+        #fancybox-buttons.top{top:10px}
+        #fancybox-buttons.bottom{bottom:10px}
+        #fancybox-buttons ul{background-color:#292626;border:1px solid #111;border-radius:3px 3px 3px 3px;box-shadow:0 0 0 1px rgba(255,255,255,0.05) inset;display:block;height:30px;left:50%;list-style:none outside none;margin-left:-93px;position:absolute;width:166px;padding:3px 0}
+        #fancybox-buttons ul li{float:left;margin:0;padding:0}
+        #fancybox-buttons a{display:block;width:30px;height:30px;text-indent:-9999px;background-image:url(http://i69.servimg.com/u/f69/17/76/96/09/fancyb13.png);background-repeat:no-repeat;outline:none;opacity:0.8}
+        #fancybox-buttons a:hover{opacity:1}
+        #fancybox-buttons a.btnPrev{background-position:5px 0}
+        #fancybox-buttons a.btnNext{background-position:-33px 0;border-right:1px solid #3e3e3e}
+        #fancybox-buttons a.btnPlay{background-position:0 -30px}
+        #fancybox-buttons a.btnPlayOn{background-position:-30px -30px}
+        #fancybox-buttons a.btnToggle{background-position:3px -60px;border-left:1px solid #111;border-right:1px solid #3e3e3e;width:35px}
+        #fancybox-buttons a.btnToggleOn{background-position:-27px -60px}
+        #fancybox-buttons a.btnClose{border-left:1px solid #111;width:35px;background-position:-56px 0}
+        #fancybox-buttons a.btnDisabled{opacity:0.4;cursor:default}
+        .fancy-ytb{position:relative;text-align:center;height:260px}
+        .fancy-ytb img{width:450px}
+        .fancy-ytb span{display:block;height:50px;width:50px;background:url(http://i69.servimg.com/u/f69/17/76/96/09/icon_c11.png) no-repeat scroll center center transparent;position:absolute;top:0;left:50%;margin-left:-220px}
+        .iconPlayer{background:url(http://i69.servimg.com/u/f69/17/76/96/09/play-o11.png) no-repeat scroll center center transparent;display:block;height:80px;left:50%;margin-left:-40px;margin-top:-40px;position:absolute;top:50%;width:80px;z-index:99}
+        /* queryloader2 - www.fmvi.vn */
+        #qLoverlay{width:100%;position:fixed;z-index: 999;height:5px;left:0;bottom:0;background-color:#000}
+        #qLbar{overflow:hidden;height:3px;background-color:red;width:0;min-width:0;margin:1px 0}
+        #qLtip{position:absolute;text-align:center;background:url(http://i69.servimg.com/u/f69/17/76/96/09/12-28-11.png) no-repeat scroll left top transparent;width:35px;height:32px;top:-32px;color:#fff;font-size:.8em;line-height:25px;margin-left:-17px;display:none;left:0}
+
+/* Fancy kính lúp rê chuột vào ảnh */
+.fancyimg-fmvi{cursor:-moz-zoom-in;cursor:-webkit-zoom-in}
+/* Fancybox2 - www.FMvi.org */
+.fancybox-tmp iframe,.fancybox-tmp object{vertical-align:top;margin:0;padding:0}
+.fancybox-wrap{position:absolute;top:0;left:0;z-index:1002}
+.fancybox-outer{background:#f9f9f9;color:#444;text-shadow:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin:0;padding:0}
+.fancybox-opened{z-index:1003}
+.fancybox-opened .fancybox-outer{-webkit-box-shadow:0 10px 25px rgba(0,0,0,0.5);-moz-box-shadow:0 10px 25px rgba(0,0,0,0.5);box-shadow:0 10px 25px rgba(0,0,0,0.5)}
+.fancybox-inner{width:100%;height:100%;position:relative;outline:none;overflow:hidden;margin:0;padding:0}
+.fancybox-error{color:#444;font:14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0;padding:10px}
+.fancybox-image,.fancybox-iframe{display:block;width:100%;height:100%;border:0;vertical-align:top;margin:0;padding:0}
+.fancybox-image{max-width:100%;max-height:100%}
+#fancybox-loading{position:fixed;top:50%;left:50%;margin-top:-21px;margin-left:-21px;width:42px;height:42px;background:url(http://i69.servimg.com/u/f69/17/76/96/09/fancyb12.gif);opacity:0.8;cursor:pointer;z-index:1010}
+.fancybox-close,.fancybox-prev span,.fancybox-next span{background-image:url(http://i69.servimg.com/u/f69/17/76/96/09/fancyb16.png)}
+.fancybox-close{position:absolute;top:-18px;right:-18px;width:36px;height:36px;cursor:pointer;z-index:1004}
+.fancybox-prev,.fancybox-next{position:absolute;top:0;width:40%;height:100%;cursor:pointer;background:transparent url(http://i69.servimg.com/u/f69/17/76/96/09/blank112.gif);z-index:1003}
+.fancybox-prev{left:0}
+.fancybox-next{right:0}
+.fancybox-prev span,.fancybox-next span{position:absolute;top:50%;left:-9999px;width:36px;height:36px;margin-top:-18px;cursor:pointer;z-index:1003}
+.fancybox-prev span{background-position:0 -36px}
+.fancybox-next span{background-position:0 -72px}
+.fancybox-prev:hover span{left:20px}
+.fancybox-next:hover span{left:auto;right:20px}
+.fancybox-tmp{position:absolute;top:-9999px;left:-9999px;overflow:visible;visibility:hidden;padding:0}
+#fancybox-overlay{position:absolute;top:0;left:0;overflow:hidden;display:none;z-index: 999;background:#000}
+.fancybox-title{display:none}
+.fancybox-title-float-wrap{position:absolute;bottom:0;right:50%;margin-bottom:-35px;z-index: 999;text-align:center}
+.fancybox-title-float-wrap .child{display:inline-block;margin-right:-100%;background:rgba(0,0,0,0.8);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;text-shadow:0 1px 2px #222;color:#FFF;font-weight:700;line-height:24px;white-space:nowrap;padding:2px 20px}
+.fancybox-title-outside-wrap{position:relative;margin-top:10px;color:#fff}
+.fancybox-title-inside-wrap{margin-top:10px}
+.fancybox-title-over-wrap{position:absolute;bottom:0;left:0;color:#fff;background:rgba(0,0,0,.8);padding:10px}
+#fancybox-buttons{position:fixed;left:0;width:100%;z-index:1005}
+#fancybox-buttons.top{top:10px}
+#fancybox-buttons.bottom{bottom:10px}
+#fancybox-buttons ul{display:block;width:170px;height:30px;list-style:none;-webkit-box-shadow:0 1px 3px #000,0 0 0 1px rgba(0,0,0,.7),inset 0 0 0 1px rgba(255,255,255,.05);-moz-box-shadow:0 1px 3px #000,0 0 0 1px rgba(0,0,0,.7),inset 0 0 0 1px rgba(255,255,255,.05);background:#111 0 0 50% 50% 100%;border-radius:3px;margin:0 auto;padding:0}
+#fancybox-buttons ul li{float:left;margin:0;padding:0}
+#fancybox-buttons a{display:block;width:30px;height:30px;text-indent:-9999px;background-image:url(http://i69.servimg.com/u/f69/17/76/96/09/fancyb17.png);background-repeat:no-repeat;outline:none}
+#fancybox-buttons a.btnPrev{width:32px;background-position:6px 0}
+#fancybox-buttons a.btnNext{background-position:-33px 0;border-right:1px solid #3e3e3e}
+#fancybox-buttons a.btnPlay{background-position:0 -30px}
+#fancybox-buttons a.btnPlayOn{background-position:-30px -30px}
+#fancybox-buttons a.btnToggle{background-position:3px -60px;border-left:1px solid #111;border-right:1px solid #3e3e3e;width:35px}
+#fancybox-buttons a.btnToggleOn{background-position:-27px -60px}
+#fancybox-buttons a.btnClose{border-left:1px solid #111;width:38px;background-position:-57px 0}
+#fancybox-buttons a.btnDisabled{opacity:0.5;cursor:default}
+.fancybox-prev:hover,.fancybox-next:hover,.fancybox-opened .fancybox-title{visibility:visible}
+.post-entry .entry-content img{max-width:350px}
+.iconPlayer{background:url(//ssl.gstatic.com/s2/tt/images/play-overlay.png) no-repeat scroll center center transparent;left:140px;opacity:0.8;position:absolute;top:-155px;z-index:99;padding:40px !important}
+
+
+
+ /*LIKE*/
+
+        .ivau .qua,.no,.ost,.share{background-position:5px 50%;background-repeat:no-repeat;border:1px solid #C2D5E3!important;margin:6px 2px 0;padding:5px 8px 5px 25px}
+        .share{background-image:url(http://i69.servimg.com/u/f69/17/76/96/09/fav1010.png)}
+        .qua{background-image:url(http://i69.servimg.com/u/f69/17/76/96/09/no1010.gif);padding-left:31px!important}
+        .no{padding:5px 8px}
+        .no .vop{background:url(http://i69.servimg.com/u/f69/17/76/96/09/discou13.png) no-repeat left center;padding:0 0 0 18px}
+        .no .vom{background:url(http://i69.servimg.com/u/f69/17/76/96/09/discou12.png) no-repeat left center;padding:0 0 0 18px}
+        .vote-button{float:left;width:60px}
+        .iplus{background:url(http://i69.servimg.com/u/f69/17/76/96/09/discou11.png) no-repeat scroll 0 0 #E0E0E0;background-position:6px 36%;background-repeat:no-repeat;border:1px solid #E0E0E0;border-radius:3px 3px 3px 3px;color:#fff!important;display:block;float:left;height:13px;position:relative;text-align:left;width:25px;margin:-4px 2px 0;padding:4px 4px 5px 24px}
+        .iminus{background:url(http://i69.servimg.com/u/f69/17/76/96/09/discou10.png) no-repeat scroll #E0E0E0;background-position:6px 36%;background-repeat:no-repeat;border:1px solid #CAD4E7;border-radius:3px 3px 3px 3px;color:#fff!important;display:block;float:left;height:13px;position:relative;text-align:left;width:45px;margin:-4px 0 0;padding:4px 4px 5px 24px}
+        .iplus:hover,.iminus:hover{background-color:#ebedf4;border-color:#9dacce}
+        .plus,.minus,.qu{font-weight:700;font-size:12px}
+        .plus{color:green}.minus{color:red}.qu{color:violet}
+
+
+
+
+ /* Đăng nhập sử dụng Light Box*/
+
+        /* Bloque Login Flotante Style LightBox ©Copyright by giObanii - MTMY . */
+        #TGlogin_form {position: fixed;z-index: 999; height: 130px; padding: 0; verflow: auto;  width: 330px; margin: 0; background: #f9f9f9; color: #444; /* ©Copyright by giObanii.*/ text-shadow: none; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);}
+        .TGlogin_form-float-content{width: 320px; height: 120px; background: none repeat scroll 0% 0% transparent;}
+        .TGlogin_form-float-div {background: url("http://i69.servimg.com/u/f69/17/76/96/09/2jci9c10.png") no-repeat scroll left center transparent;margin: 0 auto;padding: 20px 0 0 60px;width: 250px;}
+        .TGlogin_form-float-div label {font-family: Verdana;display: block;font-size: 12px;padding-bottom: 5px;text-align: right;}
+        .TGlogin_form-float-div label em {color: #000000;font-family: Verdana;display: block;float: left;font-style: normal;width: 80px;font-size: 12px;text-align: right;}
+        .TGlogin_form-float-div input {border: 1px solid #CCCCCC;height: 22px;width: 146px;}
+        .TGlogin_form-float-div input.submit {background: url("http://i69.servimg.com/u/f69/17/76/96/09/eumpmp10.gif") repeat-x scroll 0 0 #DDDDDD;padding: 3px 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;border: 1px solid #BBB;float: right;height: auto;width: auto;}
+        .TGlogin_form-float-div input.submit:active {position:relative; top: 1px;}
+        .TGlogin_form-float-div input.submit:hover, .TGlogin_form-float-div input.submit:focus {cursor:pointer;color:#000;}
+        .TGlogin_form-float_overlay{display: none;position:fixed;top: 0%;left: 0%;width: 100%;height: 100%; background-color: black;z-index: 9;-moz-opacity: 0.8;opacity:.80;filter: alpha(opacity=80);}
+        #TGlogin_form .TGClose {cursor: pointer;bottom: 3px;color: #000000;font-size: 15px;font-weight: 700;position: absolute;right: 5px;}
+        #TGlogin_form .TGClose:active {color: #FF0000 !important;bottom: 2px;}
+        /* ©Copyright by giObanii -MTMY. All Rights Reserved. */
+
+
+
+
+  
+   
+/*---việt hóa registered_and_logged----*/
+.post-entry span[style="color:#f00"], .post-entry span[style="color:red"]  {
+font-size: 0px;display: inline-block;
+}
+.post-entry span[style="color:#f00"]::before, .post-entry span[style="color:red"]::before {
+content: "[ Bạn cần ";
+font-size: 12px;
+}
+.post-entry span[style="color:#f00"]::after, .post-entry span[style="color:red"]::after {
+content: " để xem được liên kết. ]";
+font-size: 12px;
+}.post-entry span[style="color:#f00"] a, .post-entry span[style="color:red"] a {
+display: inline-block;
+}
+.post-entry span[style="color:#f00"] a[href*="/register"]::before, .post-entry span[style="color:red"] a[href*="/register"]::before {
+content: "Đăng Ki";
+font-size: 12px;border-bottom: 1px dotted red;
+}
+.post-entry span[style="color:#f00"] a[href*="/login"]::before, .post-entry span[style="color:red"] a[href*="/login"]::before {
+content: "\0000a0 hoặc\0000a0";
+font-size: 12px;
+color: red;
+}
+.post-entry span[style="color:#f00"] a[href*="/login"]::after, .post-entry span[style="color:red"] a[href*="/login"]::after {
+content: "Đăng Nhập";
+font-size: 12px;border-bottom: 1px dotted red;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    /* button */
+.button:hover,.mainoption:hover,input[type=submit]:hover,input[type=button]:hover,input[type=reset]:hover {border:1px solid #00C6D4 !important;color:#00C6D4;background-position:0 100%;}
+.button,.mainoption,input[type=submit],input[type=button],input[type=reset] {background:#F4F5F4 url(http://i41.servimg.com/u/f41/16/71/67/11/tabbg110.png);padding:2px 5px;}
+.button, .mainoption, input[type="submit"], input[type="button"], input[type="reset"] {background: #F4F5F4 url(http://i69.servimg.com/u/f69/17/76/96/09/tabbg110.png);padding: 2px 5px;}input:focus, input:hover {-moz-border-radius: 2px!important;-moz-box-shadow: 0 0 3px #1391E6!important;-moz-transition: all .25s ease-in-out!important;-webkit-border-radius: 2px!important;-webkit-box-shadow: 0 0 3px #1391E6!important;-webkit-transition: all .25s ease-in-out!important;border: #1391E6 1px solid!important;box-shadow: 0 0 5px #1391E6!important;transition: all .25s ease-in-out!important;}
+
+  
+   
+
+  
+  
+
+   /* Thu gọn bài viết - www.FMvi.org */
+    .baivietdai{overflow:hidden}
+    .thugon span:hover{text-shadow:1px 1px 1px #000;cursor:pointer}
+    .thugon{background-color:#F6FF9D;clear:both;margin:0;padding:2px 10px}
+    .viewfull{background:url(//ssl.gstatic.com/ui/v1/zippy/arrow_down.png) no-repeat scroll 3px 7px transparent;padding:0 15px}
+    .viewhide{display:none;background:url(//ssl.gstatic.com/ui/v1/icons/mail/arrow_up.png) no-repeat scroll 3px 7px transparent;padding:0 15px}
+    .fullOff{background:url(http://i69.servimg.com/u/f69/17/76/96/09/power_10.png) no-repeat scroll 0 2px transparent;margin-top:-2px;padding:2px 5px 2px 20px}
+    .fullOn{display:none;background:url(http://i69.servimg.com/u/f69/17/76/96/09/power_11.png) no-repeat scroll 0 2px transparent;margin-top:-2px;padding:2px 5px 2px 20px}
+
+
+  
+
+
+/* Cảnh báo trước khi thoát - www.FMvi.vn
+         Confirm User’s Action - webstuffshare.com */
+         .question,.yes,.cancel{font-family:Georgia,Serif!important;font-style:italic!important;line-height:21px!important;text-align:center}
+         .question{position:absolute;display:inline;text-align:center;width:174px;height:78px;font-size:13px;line-height:1.5em;background:url(http://i69.servimg.com/u/f69/17/76/96/09/bubble10.png) left top no-repeat;text-shadow:0 1px 0 #fff;margin-left:-10em;margin-top:-6em;opacity:0;padding:10px 0 0}
+         .yes,.cancel{margin:0.5em 0.5em 0 0!important;padding:0!important;cursor:pointer;display:inline-block;width:63px;height:21px;color:#fff!important;text-shadow:0 1px 0 #000;background:url(http://i69.servimg.com/u/f69/17/76/96/09/button10.png) left top no-repeat}
+ 
+
+
+
+
+   /* BBcode tab - www.fmvi.vn */
+    .fmvitab{display:none;margin:0 auto}
+    .fmvitab > tbody > tr > td > strong{cursor:pointer;display:inline-block;padding:5px 10px}
+    .fmvitab > tbody > tr > td > strong.active{background-color:#6F6E6E;color:#FFF;cursor:default}
+    .fmvitab > tbody > tr > td > ul{border:1px solid #DDD;list-style:none outside none;width:100%;margin:0!important;padding:10px}
+    .fmvitab > tbody > tr > td > ul > li{display:none}
+    .fmvitab > tbody > tr > td > ul > li.active{display:block}
+    /* BBcode column - www.fmvi.vn */
+    .fmvicolumn{width:100%}
+    .fmvicolumn > tbody > tr > td{padding:0 10px;vertical-align:top}
+    .fmvicolumn > tbody > tr > td.line{border-left:1px solid #131313}
+        /* CSS BBcode tab */
+         .fmvitab{display:none;margin:0 auto}
+         .fmvitab td > strong{cursor:pointer;display:inline-block;padding:5px 10px}
+         .fmvitab td > strong.active{background-color:#6F6E6E;color:#FFF;cursor:default}
+         .fmvitab ul{border:1px solid #DDD;list-style:none outside none;width:100%;margin:0!important;padding:0 10px 15px}
+         .fmvitab li{display:none}
+         .fmvitab li.active{display:block}
+.item{border:1px solid #DDD;margin:10px 0;padding:10px 20px}
+    .item p{height:1.3em;line-height:1.3em;margin-top:2px}
+    .item input{1px solid #DDDDDD;display:inline-block;height:1.4em}
+.fmvicolumn{width:100%}
+.fmvicolumn td{padding:0 10px}
+    .fmvicolumn td.line{border-left:1px solid #131313}
+
+
+
+
+
+
+
+.fa_postbody_xy{
+   background: url("http://i69.servimg.com/u/f69/17/76/96/09/xy1010.png");
+min-height: 500px;
+}
+  
+.fa_postbody_xx {
+   background: url("http://i69.servimg.com/u/f69/17/76/96/09/xx1010.png");
+min-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+  
+ 
+
+
+
+iframe#obj_servimg {
+border: 1px solid #CCC;
+border-radius: 3px;
+margin: 5px;
+padding: 5px;
+}
+
+#smilies_categ p select {
+width: 79px!important;
+height: 27px;
+border: 1px solid #CCC;
+outline: none;
+border-radius: 2px;
+padding: 1px;
+}
+
+.select {
+background-color: white;
+border: 1px solid #BCBCBC;
+left: 0;
+overflow: hidden;
+position: absolute;
+top: 0;
+width: 0;
+z-index: 100;
+border-radius: 2px;
+margin-top: 5px;
+box-shadow: 0px 0px 11px #ccc;
+}
+
+.select button {
+border: none;
+font-size: .9em;
+margin: 0;
+padding: 4px;
+text-align: left;
+background: rgb(255, 255, 255);
+border-bottom: 1px dashed #CCC;
+}
+
+.select#video p a {
+background: #FCFCFC;
+border-radius: 2px;
+padding: 4px;
+border: 1px solid #CCC;
+margin: 2px;
+position: relative;
+top: 7px;
+}
+
+
+
+
+body.smiley-frame {
+background: #FAFAFA!important;
+border: 1px solid #CCC;
+margin: 3px;
+border-radius: 2px;
+padding: 3px;
+}
+
+.attachbox {
+background-color: #FAFAFA;
+border: 1px dashed #CCC;
+clear: left;
+color: #444;
+float: left;
+margin: 7px;
+padding: 6px;
+width: auto;
+border-radius: 4px;
+border-bottom-width: 3px;
+border-bottom-style: solid;
+}
+
+
+  
+  button.button2,input.button2, button {
+text-decoration:none;
+font-family: arial, sans-serif!important;
+border-width:1px;
+border-style:solid;
+cursor:pointer;
+font-size: 12px!important;
+border-width:1px;border-style:solid;border-radius:2px;box-shadow:0px 1px 0px rgba(0,0,0,0.05);
+box-shadow:0px 1px 0px rgba(255,255,255,0.75);
+background:#f9f9f9;background: -moz-linear-gradient(top, #f9f9f9 0%, #eee 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#eeeeee));background: -webkit-linear-gradient(top, #f9f9f9 0%,#eee 100%);background: -o-linear-gradient(top, #f9f9f9 0%,#eee 100%);background: -ms-linear-gradient(top, #f9f9f9 0%,#eee 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#eeeeee',GradientType=0 );background:linear-gradient(top, #f9f9f9 0%,#eee 100%);border-color:#ccc;color:#666;text-shadow:0px 1px 0px #fff
+
+}
+
+button.button2:hover,input.button2:hover {
+background:#fff;background: -moz-linear-gradient(top, #fff 0%, #eee 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee));background: -webkit-linear-gradient(top, #fff 0%,#eee 100%);background: -o-linear-gradient(top, #fff 0%,#eee 100%);background: -ms-linear-gradient(top, #fff 0%,#eee 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );background:linear-gradient(top, #fff 0%,#eee 100%);border-color:#bbb;color:#4c4c4c
+}
+  
+  .blog_comment-avatar img:hover {
+opacity: 11.6;
+}
+  
+  
+  
+  
+  
+  #sel_smilies_content button {
+width: initial!important;
+}
+
+#sel_smilies_content button:hover {
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+transition: all .3s;
+position: relative;
+bottom: 5px;
+}
+  
+  
+  
+
+
+/* Member Info Box */
+
+    a[href="/u1"]:hover::before,[href="/u3"]:hover::before{position:fixed;top:0;z-index:999;right:0;margin-right:314px;border:4px solid #DDD}
+    a[href="/u1"]:hover::after,[href="/u3"]:hover::after{font-weight:normal;line-height:124%;font-size:12px;position:fixed;right:0;padding:5px;top:0;width:300px;height:100px;background:rgba(0, 0, 0, 0.85);border:4px solid #DDD;color:white;text-shadow: 1px 1px 2px white;z-index:999;text-align:justify}
+
+    a[href="/u3"]:hover::before{content:url(http://i72.servimg.com/u/f72/17/76/96/12/untitl10.png)}
+    a[href="/u3"]:hover::after{content:"-X-- THÔNG TIN -------X-------X------X-------- @NhocPro9x là một trong những thành viên xuất sắc của teen 9x nắm giữ các trọng trách quan trọng như: a1mod, . Hoạt động chính trong các lĩnh vực, thông báo, dọn dep, quản lí box, kiêm cảnh sát forum."}
+    a[href="/u1"]:hover::before{content:url(http://i72.servimg.com/u/f72/17/76/96/12/6610.png)}
+    a[href="/u1"]:hover::after{content:"-X-- THÔNG TIN -------X-------X------X-------- @Admin là một trong những thành viên Sáng lập teen 9x nắm giữ các trọng trách quan trọng như: a1admin, a1Developer, a1Security. Hoạt động chính trong các lĩnh vực quản lí và làm đẹp cho diễn đàn."}
+
+
+
+/* BBcode tạo playlist từ các video đơn lẻ trên youtube */
+.bgytblist{
+    background-color: #000000;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 3px #999999;
+    left: 5px;
+    margin: 10px 0 15px 5px;
+    min-height: 40px;
+    overflow: visible;
+    padding: 10px;
+    position: relative;
+    top: 6px;
+    width: 640px;
+}
+.imgytblist img:hover{
+  cursor:pointer;
+  opacity: 0.7;
+}
+
+
+/* Icon - 3D - Banner trước nick */
+.counter {font-size: 24px; padding: 0 5px; color: #000}
+        c3ad:before,.c3ql:before,.c3sd:before,.c3md:before,.c3sm:before,.c3vip:before{line-height:17px;padding:0 3px 0 0;vertical-align:middle}.c3tv:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/member14.gif)}.c3ad:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/admin114.gif)}.c3ql:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/mod13110.gif)}.c3sd:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/th_smo13.gif)}.c3md:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/09347912.gif)}.c3sm:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/sn101010.gif)}.c3vip:before{content:url(http://i69.servimg.com/u/f69/17/76/96/09/th_vip12.gif)}
+span[style="color: rgb(255, 0, 0);"],span[style="color:#FF0000"],span[style="color: rgb(92, 84, 77);"],span[style="color:#5C544D"],span[style="color: rgb(0, 255, 242);"],span[style="color:#00FFF2"],span[style="color: rgb(255, 0, 166);"],span[style="color:#FF00A6"],span[style="color: rgb(60, 0, 255);"],span[style="color:#3C00FF"],span[style="color: rgb(0, 255, 60);"],span[style="color:#00FF3C"]{color:#fff;text-shadow: 0 0 .1em black, 0 0 .1em black, 0 0 .2em black;}
+span[style="color: rgb(255, 255, 255);"],span[style="color:#FFFFFF"]{color:#fff;text-shadow: 0 0 .1em red, 0 0 .1em red, 0 0 .2em red;}
+
+     span[style="color: rgb(5, 0, 0);"],span[style="color:#050000"]{text-decoration:line-through;}
+
+
+
+
+
+/*--- classic level ------------------*/
+.miachar{line-height: 13px;background: url(http://i69.servimg.com/u/f69/17/76/96/09/levelc10.png) no-repeat;width: 120px; height: 13px;padding-top: 2px;padding-left: 2px;}
