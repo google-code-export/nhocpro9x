@@ -1,0 +1,493 @@
+Có điểm khác biệt :
+
+1. mình làm Tin Tức Cập Nhập Giống Phutu
+2. Bài Viết Liên Quan Có Hình
+3. Có Thiếu Xót Gì Thì Comment
+
+topic_blog_box:
+<code>
+    <style>
+      #baiviet1 .an_phutu {
+    height: 30px;
+    overflow: hidden;
+    }
+    #baiviet .hien_thi {
+        margin-top: 0;
+    float: left;
+      }
+     
+    #hinh {
+      margin-top: 0;
+    float: left;
+      }
+    .baiviet #hinh embed,.baiviet #hinh span,#baiviet1 #hinh,.baiviet .phutu_html,.baiviet .size_new1,#baiviet1 .baimoibloga1,.baiviet .an_phutu1,#baiviet1 .baimoiblog2{display:none}
+    #baiviet1 .hien_thi{width:100%;height:48px;overflow:hidden;border-bottom: 1px solid #E3E3E3;}
+    #baiviet br{display:none}#baiviet{font-size:0px} #baiviet img{
+                width: 70px;
+    height: 40px;
+    border: 0px;
+    background-color: white;
+    margin-right: 10px;
+          }
+    #baiviet1 .an_phutu{font-size:12px}
+    #baiviet1  a:hover{text-decoration: none!important} .blog_comment-avatar img{
+                    max-width:110px;
+          background-color:#ffffff;
+          border:1px solid #FFCC33;
+            padding:2px;
+       
+      }
+    .baimoiblog2 a:hover{text-decoration: none!important;}
+    .baimoiblog2 {border-bottom: 1px dashed #E3E3E3;padding-top:2px; padding-bottom:2px;padding-left:5px}
+    #gui_bai img{display:none}
+    #gui_bai {width:112px;height:24px;display: inline-block;background: url(http://i48.servimg.com/u/f48/16/18/15/10/untitl92.png)no-repeat}
+    div.baimoiblog1,.bai_new1 div.baimoiblog2,.bai_new2 div.baimoiblog2,div.aba123{display:none}
+    .avatarcp span{display:none}
+    #hinh font{display:none}
+    #hinh a{display:none}
+    #hinh strong{font-weight: normal;font-style: normal;font-size:12px}
+    .bai_new1 .avatarcp img{
+                  width:126px;height:86px;
+          background-color:beige;
+          border:1px solid #626263;}
+    .bai_new2 .avatarcp img{
+
+                  width:126px;height:86px;
+          background-color:beige;
+          border:1px solid #626263;}
+    .bai_new2 .ptspan12 {font-size: 14px; line-height: normal;font-weight:bold;}
+    .bai_new1 .ptspan12 {font-size: 14px; line-height: normal;font-weight:bold;}
+    .bai_new2 .hien_thi{height:84px; width:100%;overflow:hidden}
+    .bai_new1 .hien_thi{height:84px; width:100%;overflow:hidden}
+    .quote {display:none}
+    .avatarcp embed,#hinh embed,#hinh br,.bai_new1 #hinh img,.bai_new2 #hinh img{ display:none}
+    .bai_new2 .avatarcp {font-size:0px;height:88px; width:128px;overflow:hidden; font-family:none;background:url(http://i48.servimg.com/u/f48/16/18/15/10/untitl85.png) no-repeat 0px 5px
+    }
+    div.phutu_html{display:none;}
+    td.pagination b{background-color: #ffedcf;
+    border: 1px solid #e6913c;
+    color: #ff6600;padding: 3px 4.5px;font-size:12px;text-decoration: none!important;}
+    .bai_new1 .an_phutu1,.bai_new2 .an_phutu1{display:none}
+    td.pagination a{background: url(http://i28.servimg.com/u/f28/16/18/15/10/untitl12.png);
+    border: 1px solid #cccccc;
+    color: #000000;
+    ;padding: 3px 4.5px;font-size:12px;text-decoration: none!important;}
+    td.pagination span{padding:0px;color: #fff;display: inline-block;font-size:1px;text-decoration: none!important;}
+    td.pagination a:hover{background: url(http://i28.servimg.com/u/f28/16/18/15/10/untitl12.png);
+    border: 1px solid #417394;
+    color: #0000000;
+    padding: 3px 4.5px;text-decoration: none!important;}
+    .baimoibloga1 br{display:none}
+    .bai_new2 .avatarcp{float: left;}
+    .bai_new2 .bai_new3{float: left;width:440px;padding-top:4px;padding-left:10px;height:90px;padding-right:20px;overflow:hidden;
+      border: 1px solid #D4D4D4;
+      }
+    .bai_new1 .bai_new3{float: left;width:340;padding-top:4px;padding-left:10px;height:90px;overflow:hidden;}
+    .bai_new1 .hien_thi {border-bottom : 1px dashed hsl(0, 0%, 94%);}
+    </style>
+    <!-- BEGIN topics_blog_box -->
+    <div class="boxcontainer"> <div class="box_04"> <div class="box_05"> <table style="width: 100%" cellpadding="0" cellspacing="0" dir="ltr"> <tr> <td class="box_01"> <img class="imgborder" src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="13" height="37" alt="" /></td> <td class="boxheaderbar"> <table border="0" width="100%" cellpadding="0" style="border-collapse: collapse"> <tr> <td class="width100"> <div class="boxbar"> <table border="0" width="100%" cellpadding="0" style="border-collapse: collapse"> <tr> <td class="boxcolorbar_01"> <img class="imgborder" src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="6" height="24" alt="" /></td>
+
+    <td class="boxcolorbar_03"> <img src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="6" height="24" alt="" class="imgborder" /></td> </tr> </table> </div> </td>  </tr> </table> </td> <td class="box_03"> <img class="imgborder" src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="13" height="37" alt="" /></td> </tr> </table> <div class="boxcontents"><table width="100%"cellspacing="0" cellpadding="0" border="0" style="padding-bottom:5px;padding-top:5px;padding-left:10px;padding-right:5px" class="alt1" id="ba{FORUM_ID}"><tr><td style="width:600px; border: 1px solid #D4D4D4" valign="top">
+
+    <div class="bai_new2"><!-- BEGIN row --><!-- BEGIN topic -->
+        <div id="vovanan966">
+
+             <div class="bai_new3"><span class="baimoiblog"><div class="hien_thi"><div class="avatarcp"><a href="{topics_blog_box.row.U_VIEW_TOPIC}">{topics_blog_box.row.FIRST_POST_TEXT}</a></div><a href="{topics_blog_box.row.U_VIEW_TOPIC}" class="an_phutu"><span class="ptspan12">{topics_blog_box.row.TOPIC_TITLE}</span></a>
+    <a href="{topics_blog_box.row.U_VIEW_TOPIC}" class="an_phutu1" target="_blank">{topics_blog_box.row.TOPIC_TITLE}</a>
+    <div class="size_new1" style="font-family:Courier New;font-size:12px">({topics_blog_box.row.FIRST_POST_DMY_VALUE0}/
+                   {topics_blog_box.row.FIRST_POST_DMY_VALUE1}/
+                   {topics_blog_box.row.FIRST_POST_DMY_VALUE2}) Trả lời {topics_blog_box.row.REPLIES} | Xem {topics_blog_box.row.VIEWS}</div><div id="hinh" class="krokodil">
+                        </div></div></span>
+    </div>
+    </div>  </div><div class="bai_new2">
+    <!-- END topic --><!-- END row --></div></td>
+    </tr></table>
+    </div></div></div></div> <div class="duoi"> <div class="duoi_trai"> <div class="duoi_phai"> </div></div></div></div></div></div></div></td>
+    </tr></table></div> <table style="width: 100%" cellpadding="0" cellspacing="0" dir="ltr"> <tr> <td class="box_06"> <img class="imgborder" src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="8" height="6" alt="" /></td> <td style="width: 100%" class="boxfooterbar"></td> <td class="box_08"> <img class="imgborder" src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="8" height="6" alt="" /></td> </tr> </table> </div> </div> </div>
+    <!-- END topics_blog_box -->
+    <script>$(".krokodil").each(function(){
+            if ($(this).text().length > 155) {$(this).text($(this).text().substr(0, 150));$(this).append('...');
+            }
+        });
+    </script>
+    <script>var a=Math.floor((Math.random()*4)+3);$(function() {$('<span class="bv" />').load('/f2p'+a+'5-forum .blog_tintuc li:not(".blog_tintuc li:contains(\'Chú ý\'),.blog_tintuc li:gt(8)")', {limit: 10}, function() {jQuery(this).hide().appendTo('.baiviet').fadeIn(1);});return false;});</script>
+    <script>
+    $(function() {
+    $('<span class="bv" />').load('/f{FORUM_ID}- .baimoiblog:not(".baimoiblog:contains(\'Chú ý\'),.baimoiblog:gt(9)")', {limit: 10}, function() {
+    jQuery(this).hide()
+    .appendTo('.baiviet')
+    .fadeIn(1);
+    });
+    $('<span class="bv" />').load('/f{FORUM_ID}- .baimoiblog2:not(".baimoiblog2:contains(\'Chú ý\'),.baimoiblog2:gt(7)")', {limit: 10}, function() {
+    jQuery(this).hide()
+    .appendTo('.baiviet01')
+    .fadeIn(1);
+    });
+    return false;
+    });
+    </script>
+    <style>
+      @charset "utf-8";.avatarcp table, .avatarcp div, .avatarcp hr, .avatarcp br, .avatarcp embed{display:block!important}
+    .avatarcp {font-size: 0px;height: 88px;width: 128px;overflow: hidden;font-family: none;background: url(http://i48.servimg.com/u/f48/16/18/15/10/untitl85.png) no-repeat 0px 5px;padding-top: 5px;font-size: 0px;font-family: none;margin-left: 20px;}
+    .avatarcp img {width: 126px;height: 86px;background-color: beige;border: 1px solid #626263; }
+    </style>
+
+</code>
+
+viewcomments_body:
+
+<code>
+    <script>$(function() {var fixadent = $("#fixadent"), pos = fixadent.offset();$(window).scroll(function() { if($(this).scrollTop() > (pos.top + 10) && $(this).scrollTop() < 15000 && fixadent.css('position') == 'static') { fixadent.addClass('fixed');  } else if($(this).scrollTop() <= pos.top && fixadent.hasClass('fixed')){ fixadent.removeClass('fixed'); }else if($(this).scrollTop() > 15000 && fixadent.hasClass('fixed')){ fixadent.removeClass('fixed'); }})});</script>
+      <script>$(function() {var fixadent1 = $("#fixadent1"), pos = fixadent1.offset();$(window).scroll(function() { if($(this).scrollTop() > (pos.top + 10) && $(this).scrollTop() < 15000 && fixadent1.css('position') == 'static') { fixadent1.addClass('fixed1');  } else if($(this).scrollTop() <= pos.top && fixadent1.hasClass('fixed1')){ fixadent1.removeClass('fixed1'); }else if($(this).scrollTop() > 15000 && fixadent1.hasClass('fixed11')){ fixadent1.removeClass('fixed1'); }})});</script>
+    <style>.postbody embed{width:550px;height:400px;border:10px solid #000} .postbody img{max-width: 100%;;max-height:550px}
+    #bailienquan a,#bailienquan a:hover{color:#000}
+    .coloradmin b{font-weight: normal;font-style: normal;color:#000}
+    #bailienquan{width:575px;padding-left:25px;padding-bottom:2px;padding-top:2px}
+     .i_icon_quote{;width:33px;height:13px;padding: 0px 5px}
+    .i_icon_edit{width:25px;height:13px;padding: 0px 5px}
+    .i_icon_delete{width:25px;height:13px;padding: 0px 5px}
+     .i_icon_quote:hover{;width:33px;height:13px}
+    .i_icon_edit:hover{width:25px;height:13px}
+    .i_icon_delete:hover{width:25px;height:13px}
+    .pt_xemthem{top: 0px;clip: inherit;position: fixed;border:1px solid #999;border-top:0px;padding:5px 15px; background: #ffffff;font-family:Georgia;font-size:14px;;-moz-border-radius-bottomright: 5px;-moz-border-radius-bottomleft: 5px;color:#000;-moz-opacity:0.9;opacity:0.9;}
+    .pt_xemthem:hover{-moz-opacity:1.0;opacity:1.0;}
+    .pt_xemthem a:visited,.pt_xemthem a:link {color:#000}
+    .pt_xemthem a:hover{text-decoration: none!important;color:red}</style>
+    <script>$(function() {if (document.getElementById('color')) {var colors=new Array('00','33','66','99','CC','FF');var x='<div id="colorpickers"><table id="grid">';var y=x;for (i = 5; i >= 0; i--) {x=x+'<tr>';y=y+'<tr>';for (j = 5; j >= 0; j--) {for (k= 5; k >= 0; k--) {var col = colors[j]+colors[i]+colors[k];x=x+'<td style="background: #'+col+';"><button style="background:#'+col+';" title="#'+col+'" onmouseover="this.className=\'selectHover\';" onmouseout="this.className=\'\';" onclick="bbfontstyle(\'[color=#'+col+']\', \'[/color]\');selectWysiwyg(this, \'color\');return false;"></button></td>';y=y+'<td style="background: #'+col+';"><button style="background:#'+col+';" id="text_editor_cmd_constructBBcode_select_color_#'+col+'"></button></td>';}} x=x+'</tr>';y=y+'</tr>';}document.getElementById('color').innerHTML=x+'</table></div>';document.getElementById('wcolor').innerHTML=y+'</table></div>';
+    }
+    });</script>
+    <div class="pt_xemthem"><a href="#xemthem">Xem thêm </a>| <a href="/f{FORUM_ID}-">Quay lại chuyên mục</a>
+    </div>
+    <style>
+      ul#cungchuyenmuc {
+    margin-top: 0px;
+    padding: 5px;
+    }
+    #cungchuyenmuc li {
+    list-style: square inside;
+    height: 20px;
+    }
+    #cungchuyenmuc a {
+    text-decoration: none!important;
+    }
+    #cungchuyenmuc a {
+    color: #161478;
+    font: bold 12px Tahoma;
+    }
+    th, tb {
+    font-family: Tahoma;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11px;
+    height: 25px;
+    background: #e8e8e8 url(http://i48.servimg.com/u/f48/16/18/15/10/untit287.png)repeat-x top left;
+    color: #1542ab;
+    padding: 0 3px;
+      font-weight: bold;
+    }
+    ul#baiquan {
+    margin-top: 0px;
+    padding: 0px;
+    margin-bottom: 4px;
+    }
+
+    #baiquan {
+    background: #fae8f3;
+    }
+    #baiquan li {
+    list-style: square inside;
+    height: 18px;
+    padding-top: 2px;
+    padding-left: 10px;
+    border-bottom: 1px solid #FFF;
+      max-height: 519px;
+    }
+    #baiquan a .coloradmin b, #baiquan a {
+    color: #ba3814;
+    font: bold 12px Tahoma;
+    height: 519px;
+    }
+    .vovananvip {
+      padding-left: 10px;
+    }
+       
+    div#fixadent1 {
+    padding: 0px 0;
+    width: 590px;
+    background-color: #fff;
+    margin-left: -13px;
+    }
+
+    .fb_iframe_widget span {
+    position: relative;
+    display: inline-block;
+    vertical-align: text-bottom;
+    text-align: justify;
+    }
+    .fb_iframe_widget iframe {
+    position: absolute;
+    }
+        #baiviet1 .an_phutu span {
+    height: 30px;
+    overflow: hidden;
+    }
+     
+      #baiviet1 .baimoiblog .avatarcp img {
+    width: 70px;
+    height: 40px;
+    border: 0px;
+    padding: 2px;
+    background-color: #FFF;
+    margin-right: 10px;
+    }
+      #baiviet1 .baimoiblog .avatarcp {
+    margin-top: 0;
+    float: left;
+    }
+      #hinh {
+    margin-top: 4px;
+    float: left;
+    }
+    .baimoiblog2 a:hover{text-decoration: none!important;}
+    .baimoiblog2 {border-bottom: 1px dashed #E3E3E3;width:90%;padding-top:2px; padding-bottom:2px}
+    .postbodyc img{max-width:600px;max-height:600px}
+    #color, #wcolor {overflow: visible;}
+    #colorpickers {position: absolute; top: 20px; left: -225px;}
+    #grid {border: 1px solid #808080;}
+    #grid td {padding: 0px;}
+    #grid td button {height: 12px; width: 12px; padding: 0px; border: 1px solid #808080;}
+    #grid td button:hover {border: 1px solid #ffffff;}
+    .quote table {display:none}
+    .genmed {color:#808080; font-family:Courier New;}
+    .postbodyc table{border : 1px  dashed #808080;background-color: #ffffff;margin:10px}
+    .quote {border:0px;background:#ffffff;color:#4A4A4A;font-family:Courier New}
+    .b1234{background: transparent url(http://i48.servimg.com/u/f48/16/18/15/10/untitl34.png) no-repeat 0% 100%;width:50px;height:35px;text-decoration: none!important;font-size:18px;color:#737373}
+    span.postbody .new{display:none}
+    span.postbody .truyentranh img{border:5px solid #D4d4d4;}
+    span.postbody .truyentranh td{width:100%;text-align:center}
+    .pagination b{background-color: #ffedcf;
+    border: 1px solid #e6913c;
+    color: #ff6600;padding: 3px 3.5px;font-size:12px;text-decoration: none!important;}
+    .aa1 a:hover{text-decoration: none!important;}
+    .pagination a{background: url(http://i28.servimg.com/u/f28/16/18/15/10/untitl12.png);
+    border: 1px solid #cccccc;
+    color: #000000;
+    ;padding: 3px 3.5px;font-size:12px;text-decoration: none!important;}
+    .pagination span{padding:5px;color: #fff;display: inline-block;font-size:1px;text-decoration: none!important;}
+    .pagination a:hover{background: url(http://i28.servimg.com/u/f28/16/18/15/10/untitl12.png);
+    border: 1px solid #417394;
+    color: #0000000;
+    padding: 3px 3.5px;text-decoration: none!important;} form#quick_reply textarea#text_editor_textarea {
+    width: 550px !important;
+    height: 180px!important;font:normal 12pt Courier New;
+    }
+    #text_editor_iframe {
+    width: 550px !important;
+    height: 180px!important;
+    }
+    #hinh span,#baiviet1 #hinh,.phutu_html,.size_new1,#baiviet1 .baimoibloga1,.an_phutu1,#baiviet1 .baimoiblog2{display:none}
+    #baiviet .hien_thi{
+      margin-top: -12px;
+    float: left;
+      }
+    #baiviet1 .hien_thi{
+        list-style-type: none;
+    height: 44px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    overflow: hidden;
+    width: 280px;
+    float: left;
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #FFF;
+      }
+    #baiviet br{display:none}#baiviet{font-size:0px} #baiviet img{
+    width: 70px;
+    height: 40px;
+    border: 0px;
+    padding: 2px;
+    background-color: white;
+    margin-right: 10px;
+          }
+    #baiviet1 .an_phutu{font-size:12px}
+    #baiviet1  a:hover{text-decoration: none!important} .blog_comment-avatar img{
+                    max-width:110px;
+          background-color:#ffffff;
+          border:1px solid #FFCC33;
+            padding:2px;
+       
+      }
+    </style>
+    <div class="boxcontainer"> <div class="box_04"> <div class="box_05"> <table style="width: 100%" cellpadding="0" cellspacing="0" dir="ltr"> <tr> <td class="box_01"> <img class="imgborder" src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="13" height="37" alt="" /></td> <td class="boxheaderbar"> <table border="0" width="100%" cellpadding="0" style="border-collapse: collapse"> <tr> <td class="width100"> <div class="boxbar"> <table border="0" width="100%" cellpadding="0" style="border-collapse: collapse"> <tr> <td class="boxcolorbar_01"> <img class="imgborder" src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="6" height="24" alt="" /></td> <td class="boxcolorbar"></td>
+
+    <td class="boxcolorbar_03"> <img src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="6" height="24" alt="" class="imgborder" /></td> </tr> </table> </div> </td> <td></td> </tr> </table> </td> <td class="box_03"> <img class="imgborder" src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="13" height="37" alt="" /></td> </tr> </table> <div class="boxcontents">
+
+
+    <table width="100%" ellspacing="0" cellpadding="0" border="0" style="background-color:#FAFAFA;border-style: solid;
+    border : 1px solid #a8a8ab;
+    padding: 10px"><tr><td style="float: left;width:590px;padding-right:10px" valign="top">
+       <!-- BEGIN postrow -->
+       <!-- BEGIN displayed -->
+    <div class="navb1">
+       
+          <a href="{U_INDEX}">{L_INDEX}</a>{NAV_CAT_DESC} » 
+          <strong><a href="{TOPIC_URL}">{TOPIC_TITLE}</a></strong>
+
+    </div>
+    <div align="left">{postrow.displayed.ICON} <font color="#ba3814"  style="font-size:17px;"><b>{postrow.displayed.POST_SUBJECT}</b></font>
+    <span style="float:right;display:inline-block;border:1px solid #b0b0b0;width:50px;height:50px;margin-top:-3px" id="avatar_1">{postrow.displayed.POSTER_AVATAR}</span>
+    </div>
+                            
+
+
+    <span style="line-height: normal;background: url(http://i48.servimg.com/u/f48/14/28/30/23/untit116.png) no-repeat;display:inline-block;padding-left:18px;float:right;padding-right:10px;height:20px"><font style="font-family:Courier New;font-size: 12px"><a rel="nofollow" href="javascript:void(0);" onclick="window.print();return false"><img src="http://i48.servimg.com/u/f48/16/18/15/10/icon_p10.gif" style="float:left"/></a>by {postrow.displayed.POSTER_NAME}</font>{postrow.displayed.POST_DATE_NEW}</span>
+    <br>
+      <div class="blog_1"></div>
+    <div id="fixadent1" style="border:1px solid #d4d4d4;padding:8px 6px;margin-bottom:4px;height:20px;overflow:hidden;background-color:#f7f7f7" class=""><span style="float:left;font:bold 13px Tahoma;color:red;margin-right:4px;margin-top:1px">Thích bài này? </span><span style="height: 20px; width: 78px;"><iframe src="http://www.facebook.com/plugins/like.php?href={FORUM_URL}{TOPIC_URL}&layout=button_count&show_faces=false&width=450&action=like&colorscheme=light&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:auto; height:21px;" allowTransparency="true"></iframe></span><span style="margin-top:1px;margin-left:5px;display:inline-block;width:75px;height:18px;float:left;background:url(http://i11.servimg.com/u/f11/17/98/19/05/110.png)no-repeat left top"><div style="width:43px;height:16px;float:left"> <span class="gensmall"><span id="z1127630"> </span></span></div>
+    </div><br/><br/>
+    <!-- BEGIN switch_attachments --><br/><br/>
+                         <div style="background:#EBEBEB;color:#000;border:1px solid #646663;-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;padding: 0.4em 2em;margin: 3px 1px;">
+                               <!-- BEGIN switch_post_attachments --><br/>
+                               
+                                     <img src="http://forum.gamevn.com/images/misc/paperclip.png" /> Attached Files <!-- BEGIN switch_dl_att --> {postrow.displayed.switch_attachments.switch_post_attachments.switch_dl_att.ATTACHMENT_DEL} <br/>{postrow.displayed.switch_attachments.switch_post_attachments.switch_no_dl_att.ATTACHMENT_DEL}<!-- BEGIN switch_no_dl_att -->
+                                     <br/>{postrow.displayed.switch_attachments.switch_post_attachments.switch_no_dl_att.ATTACHMENT}
+                                     <!-- END switch_no_dl_att -->
+
+                                     
+                                     <img src="http://i48.servimg.com/u/f48/16/18/15/10/downlo10.gif"> <a class="postlink" href="{postrow.displayed.switch_attachments.switch_post_attachments.switch_dl_att.U_ATTACHMENT}">{postrow.displayed.switch_attachments.switch_post_attachments.switch_dl_att.ATTACHMENT}</a> ({postrow.displayed.switch_attachments.switch_post_attachments.FILE_SIZE} , {postrow.displayed.switch_attachments.switch_post_attachments.NB_DL})<br/><br/>
+                                     <!-- END switch_dl_att -->
+
+                                     
+                                  </dt>
+
+                                  <!-- BEGIN switch_no_comment -->
+                                  <dd>                                 .<em>{postrow.displayed.switch_attachments.switch_post_attachments.switch_no_comment.ATTACHMENT_COMMENT}</em>
+
+                                  </dd>
+                                  <!-- END switch_no_comment -->
+
+                                  <!-- BEGIN switch_no_dl_att --><br/>
+                                  <img src="http://i48.servimg.com/u/f48/16/18/15/10/downlo10.gif"> <em><a href="/login">Bạn cần đăng nhập để tải file này</a> </em> ({postrow.displayed.switch_attachments.switch_post_attachments.FILE_SIZE} , {postrow.displayed.switch_attachments.switch_post_attachments.NB_DL})<br/><br/>
+                                  <!-- END switch_no_dl_att -->
+
+                                  <dd>
+                               <!-- END switch_post_attachments --></div><br/>
+                            
+                         <!-- END switch_attachments --><a name="xemthem"></a>
+     <ul id="baiquan"></ul>
+                       
+
+    <div class="postbody" style="margin-bottom:10px">
+    {postrow.displayed.MESSAGE}
+    </div>
+    <div style="font: 22px normal Times New Roman;vertical-align: baseline;margin-left:10px;"><a href="/f{FORUM_ID}-" style="color:#ba3814;text-decoration:none!important;">Tin mới cập nhật :</a></div>
+    <div class="baivieta1" style="overflow:hidden;width:100%; height:308px; border-top: 0px none;margin-left:10px;"><ul id="cungchuyenmuc"></ul></div>
+    <div align="right">  {postrow.displayed.EDIT_IMG}  {postrow.displayed.DELETE_IMG}</div>
+       <!-- END postrow -->   
+       <!-- END displayed -->
+    <br>
+    <!-- BEGIN switch_user_logged_in --><div style="background-color:#ffffff;width:100%;
+    border : 1px solid #cccccc;padding: 10px;" align="center" class="cm_blog">
+             <a name="quickreply"></a>
+             {QUICK_REPLY_FORM}</div>
+             <!-- END switch_user_logged_in -->
+    <div style="padding:2px"></div>
+    <div style=" float: left;" class="phutu_html5"></div>   <div style=" float: right;" class="pagination"><span class="pagination">{PAGINATION}</span></div>
+    <hr style="border:0;border-bottom:2px dashed #666;height:2px;margin-bottom:10px;padding-bottom:1px">   
+    <!-- BEGIN comment --><!-- BEGIN displayed -->
+    <div style="background-color:#ffffff;width:100%;
+    border : 1px solid #cccccc;padding: 10px; " class="khung1"><div class="blog_comment-avatar" style="float: left;" >
+                   {comment.displayed.POSTER_AVATAR}
+                            </div><div style="float: right"><!--
+     Nut vote --><table><tr> <!-- BEGIN switch_vote_active --><td><div id="oot{comment.displayed.U_POST_ID}"><span class="gensmall"><script type="text/javascript">var str ='{comment.displayed.switch_vote_active.L_VOTE_TITLE}'; if (str=="Message not voted"){str="0";document.write(str);}else {str=str.replace("Message","Bài ziet");str=str.replace("s","");str=str.replace("(","");str=str.replace("(","");str=str.replace(")","");str=str.replace("reputation","dc che");k=str.search("%");z=str.search(":");y=str.search("vote");a=str.slice(z+1,k);b=str.slice(k+1,y);lulu=Math.round((((Number(a))*Number(b))/100));document.write(lulu);}</script></span></div></td><!-- END switch_vote_active -->
+
+    <td style="background:url(http://i48.servimg.com/u/f48/16/58/89/73/like_n10.png) no-repeat;width:16px;height:16px" ><!-- BEGIN switch_vote_active --><!-- BEGIN switch_vote --> <span id="zt{comment.displayed.U_POST_ID}"> <a href="{comment.displayed.switch_vote_active.switch_vote.U_VOTE_PLUS}" target="vzt{comment.displayed.U_POST_ID}v" onClick="document.getElementById('zt{comment.displayed.U_POST_ID}').innerHTML='<img src=http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif>';document.getElementById('z{comment.displayed.U_POST_ID}').innerHTML='<img src=http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif>';var str ='{comment.displayed.switch_vote_active.L_VOTE_TITLE}';if (str=='Message not voted'){str='0';}else {str=str.replace('Message','Bài ziet');str=str.replace('s','');str=str.replace('(','');str=str.replace('(','');str=str.replace(')','');str=str.replace('reputation','dc che');str=str.replace('Message','Bài ziet');str=str.replace('s','');str=str.replace('(','');str=str.replace('(','');str=str.replace(')','');str=str.replace('reputation','dc che');k=str.search('%');y=str.search('vote');z=str.search(':');a=str.slice(z+1,k);b=str.slice(k+1,y);lulu=Math.round(Number(b) - (((100-Number(a))*Number(b))/100));str=lulu;} if(str=='0'){str='1';}else{lulu=Math.round(Number(b) - (((100-Number(a))*Number(b))/100) +1);str=lulu;}document.getElementById('oot{comment.displayed.U_POST_ID}').innerHTML='<span class=gensmall>'+ str+'</span>';"><img src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="16" height="16" id="zt{comment.displayed.U_POST_ID}" border="0" alt="Bạn chưa cảm ơn người này" vspace="1" /></a> </span><iframe name="vzt{comment.displayed.U_POST_ID}v" height="0" frameborder="0"width="0"></iframe><!-- END switch_vote --><!-- END switch_vote_active --></td>
+
+    <td style="background:url(http://i48.servimg.com/u/f48/16/58/89/73/dislik11.png) no-repeat 2px 1px;width:16px;height:16px" valign="top"><!-- BEGIN switch_vote_active --><!-- BEGIN switch_vote --><span id="z{comment.displayed.U_POST_ID}"><a href="{comment.displayed.switch_vote_active.switch_vote.U_VOTE_MINUS}" target="vz{comment.displayed.U_POST_ID}v" onClick="document.getElementById('z{comment.displayed.U_POST_ID}').innerHTML='<img src=http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif>';document.getElementById('zt{comment.displayed.U_POST_ID}').innerHTML='<img src=http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif>';var str ='{comment.displayed.switch_vote_active.L_VOTE_TITLE}';if (str=='Message not voted'){str='0';}else {str=str.replace('Message','Bài ziet');str=str.replace('s','');str=str.replace('(','');str=str.replace('(','');str=str.replace(')','');str=str.replace('reputation','dc che');str=str.replace('Message','Bài ziet');str=str.replace('s','');str=str.replace('(','');str=str.replace('(','');str=str.replace(')','');str=str.replace('reputation','dc che');k=str.search('%');y=str.search('vote');z=str.search(':');a=str.slice(z+1,k);b=str.slice(k+1,y);lulu=Math.round(Number(b) - ((Number(a)*Number(b))/100));str=lulu;} if(str=='0'){str='1';}else{lulu=Math.round(Number(b) - ((Number(a)*Number(b))/100) +1);str=lulu;}document.getElementById('oo{comment.displayed.U_POST_ID}').innerHTML='<span class=gensmall>'+ str+'</span>';"><img src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="16" height="16" id="z{comment.displayed.U_POST_ID}" border="0" alt="Bạn chưa cảm ơn người này" vspace="1" /></a> </span><iframe name="vz{comment.displayed.U_POST_ID}v" height="0" frameborder="0"width="0"></iframe><!-- END switch_vote --><!-- END switch_vote_active --></td>
+
+    <!-- BEGIN switch_vote_active --><td><div id="oo{comment.displayed.U_POST_ID}"><span class="gensmall"><script type="text/javascript">var str ='{comment.displayed.switch_vote_active.L_VOTE_TITLE}'; if (str=="Message not voted"){str="0";document.write(str);}else {str=str.replace("Message","Bài ziet");str=str.replace("s","");str=str.replace("(","");str=str.replace("(","");str=str.replace(")","");str=str.replace("reputation","dc che");k=str.search("%");y=str.search("vote");z=str.search(":");a=str.slice(z+1,k);b=str.slice(k+1,y);lulu=Math.round(Number(b) - ((Number(a)*Number(b))/100));document.write(lulu);}</script></span></div></td><!-- END switch_vote_active --></tr></table><!--
+     Nut vote -->
+    </div>
+    <font face="Courier New" title="{comment.displayed.U_POST_ID}
+    ">{comment.displayed.POSTER_NAME} <span style="font-size:10px"><img src="{comment.displayed.MINI_POST_IMG}" alt="{comment.displayed.L_MINI_POST_ALT}" title="{comment.displayed.L_MINI_POST_ALT}" width="10" height="10"border="0" />{comment.displayed.POST_DATE_NEW}</span> {comment.displayed.L_ONLINE}<div><div class="postbodyc">
+    {comment.displayed.MESSAGE}</div></font><div class="post-options profile-icons">
+    <div align="right">{comment.displayed.QUOTE_IMG} {comment.displayed.EDIT_IMG} {comment.displayed.DELETE_IMG} </div>
+                               </div></div></div>
+       <div style="padding: 0 0 4px 0;"></div>   <!-- END displayed --><!-- END comment --><!-- BEGIN no_comment -->
+       <div style="background-color:#ffffff;width:100%;
+    border : 1px solid #cccccc;padding: 10px;" align="center">
+                <span class="genmed">{no_comment.L_NO_COMMENT}</span>
+          </div>
+       <!-- END no_comment -->
+       <!-- BEGIN hidden -->
+       {comment.hidden.MESSAGE}
+          <!-- END hidden -->   <div style=" float: left;" class="pagination"><span class="pagination">{PAGINATION}</span></div>
+    <hr style="border:0;border-bottom:2px dashed #666;height:2px;margin-bottom:10px;padding-bottom:1px">
+    </td><td style="float: right" style="float: right;width:320px" valign="top">
+    <div class="vovananvip"><iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FGiaiTriGiaoLuu9x&amp;width=292&amp;height=220&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:220px;" allowTransparency="true"></iframe></div>
+    <div class="page" style="width:100%; text-align:left;"> <div style="padding:0px 0px 0px 0px" align="left"><div class="tren"> <div class="tren_trai"> <div class="tren_phai"> </div></div></div> <div class="doc_trai"> <div class="doc_phai"> <div class="doc_duoi"> <div style="padding-left:8px; padding-right:8px;"><table class="forumline" width="100%" border="0" cellpadding="0" cellspacing="1"><tr><th align="left" width="100%" nowrap="nowrap"><span style="float:left"> <img src="http://i48.servimg.com/u/f48/14/28/30/23/3drigh10.png"> Chủ đề liên quan </span><span style="float:right"><a href="/f{FORUM_ID}-"><img src="http://i48.servimg.com/u/f48/16/18/15/10/untitl95.png"></a></span>
+    </th></tr>
+
+    <tr>
+    <td width="100%" class="row1" id="row1"><div class="baiviet" style="overflow:hidden;width:290px;height:504px;padding:0px 0px" id="baiviet1"><span class="bv" style=""></span></div></td>
+      </td></tr>
+    </tr></table></div></div></div></div> <div class="duoi"> <div class="duoi_trai"> <div class="duoi_phai"> </div></div></div></div></div></div></div>
+
+    </td></tr></table>
+     
+
+
+    </div> <table style="width: 100%" cellpadding="0" cellspacing="0" dir="ltr"> <tr> <td class="box_06"> <img class="imgborder" src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="8" height="6" alt="" /></td> <td style="width: 100%" class="boxfooterbar"></td> <td class="box_08"> <img class="imgborder" src="http://i28.servimg.com/u/f28/14/28/30/23/spacer10.gif" width="8" height="6" alt="" /></td> </tr> </table> </div> </div> </div> <div style="padding: 0 0 4px 0;"></div>
+
+    <!-- BEGIN switch_image_resize -->
+    <script type="text/javascript">
+    //<![CDATA[
+    $(resize_images({ 'selector' : '.postbody', 'max_width' : {switch_image_resize.IMG_RESIZE_WIDTH}, 'max_height' : {switch_image_resize.IMG_RESIZE_HEIGHT} }));
+    //]]>
+    </script>
+    <!-- END switch_image_resize -->
+
+
+    <script>
+    $(function(){$('<div id="baxambalap"></div>').insertBefore('#text_editor_textarea');$("img.i_icon_quote").click(function(){$("#text_edit").show();$("#html_edit").hide();$('#text_editor_textarea, #text_editor_iframe').remove();var ttytu=$(this).parent().attr("href");var xhets=ttytu+' '+'#text_editor_textarea';$("#baxambalap").load(xhets);$(this).parent().attr("href","#quickreply");$('#text_editor_textarea:gt(0)').remove()});});
+    </script>
+    <script src="{JS_DIR}addthis/addthis_widget.js" type="text/javascript"></script>
+    <form action="{S_JUMPBOX_ACTION}" method="get" name="jumpbox" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+    <table class="noprint" width="100%" border="0" cellspacing="2" cellpadding="0" align="center">
+       <tr>
+          <td align="left" valign="middle" nowrap="nowrap" {WIDTH_GALLERY}>
+             <!-- BEGIN viewtopic_bottom -->
+    {S_TOPIC_ADMIN}         
+    <!-- END viewtopic_bottom -->
+          </td>
+          <!-- BEGIN viewtopic_bottom -->
+          <td align="right" nowrap="nowrap"><span class="gensmall">{L_JUMP_TO}: {S_JUMPBOX_SELECT} <input class="liteoption" type="submit" value="{L_GO}" /></span></td>
+          <!-- END viewtopic_bottom -->
+          <!-- BEGIN moderation_panel -->
+          <td align="center">
+             <span class="gensmall">{moderation_panel.U_YOUR_PERSONAL_MODERATE}</span>
+          </td>
+          <td align="center" width="250">
+             <span class="gensmall"> </span>
+          </td>
+          <!-- END moderation_panel -->
+       </tr>
+    </table>
+
+    </form>
+    <style>
+    @charset "utf-8";.avatarcp table, .avatarcp div, .avatarcp hr, .avatarcp br, .avatarcp embed{display:none!important}
+    .avatarcp {font-size: 0px;height: 80px;width: 80px;overflow: hidden;font-family: none;background: url(http://i48.servimg.com/u/f48/16/18/15/10/untitl85.png) no-repeat 0px 5px;padding-top: 1px;font-size: 0px;font-family: none;margin-left: 1px;}
+    .avatarcp img {width: 80px;height: 60px;background-color: beige;border: 1px solid #626263; }
+    .pun tbody.statused td.tcl {padding-left: 0;}
+    </style>
+
+    <script>$(function () {$.ajax({url: "/feed/?f={FORUM_ID}",success: function (a) {$(".baivieta1").html('<ul id="cungchuyenmuc">');11 < $(a).find("title").length ? so = 17 : so = $(a).find("title").length;for (i = 2; i < so; i++) $('<li><a href="' + $(a).find("link:eq(" + i + ")").text() + '">' + $(a).find("title:eq(" + i + ")").text() + "</a></li>").appendTo("#cungchuyenmuc")}})});</script>
+      <script>var a=Math.floor((Math.random()*6)+1);$(function() {$('<span class="bv" />').load('/f{FORUM_ID}-'+a+'5-forum .baimoiblog:not("#blog_tintuc:contains(\'Chú ý\'),.baimoiblog:gt(9)")', {limit: 10}, function() {jQuery(this).hide().appendTo('.baiviet').fadeIn(1);});return false;});</script>
+
+    <script>$(function () {$.ajax({url: "/feed/?f{FORUM_ID}-",success: function (a) {$(".baivieta1").html('<ul id="cungchuyenmuc">');11 < $(a).find("title").length ? so = 17 : so = $(a).find("title").length;for (i = 2; i < so; i++) $('<li><a href="' + $(a).find("link:eq(" + i + ")").text() + '">' + $(a).find("title:eq(" + i + ")").text() + "</a></li>").appendTo("#cungchuyenmuc")}})});</script>
+
+</code>
