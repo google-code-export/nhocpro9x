@@ -1,0 +1,661 @@
+   <code> <script type="text/javascript">//<![CDATA[
+    var multiquote_img_off = '{JS_MULTIQUOTE_IMG_OFF}', multiquote_img_on = '{JS_MULTIQUOTE_IMG_ON}', _atr = '{JS_DIR}addthis/', _ati = '{PATH_IMG_FA}addthis/'{ADDTHIS_LANG}, addthis_localize = { share_caption: "{L_SHARE_CAPTION}", email: "{L_EMAIL}", email_caption: "{L_EMAIL_CAPTION}", favorites: "{L_SHARE_BOOKMARKS}", print: "{L_PRINT}", more: "{L_MORE}" };
+    $(function(){
+       _atc.cwait = 0;
+       $('.addthis_button').mouseup(function(){
+          if ($('#at15s').css('display') == 'block') {
+             addthis_close();
+             addthis_close();
+          }
+       });
+    });
+    //]]>
+    </script>
+
+    <!-- BEGIN switch_user_logged_in -->
+    <div id="pun-visit" class="clearfix">
+       <ul>
+          <!-- BEGIN switch_plus_menu -->
+          <li>
+             <script type="text/javascript">//<![CDATA[
+                var url_favourite = '{switch_user_logged_in.U_FAVOURITE_JS_PLUS_MENU}';
+                var url_newposts = '{U_NEWPOSTS_JS_PLUS_MENU}';
+                var url_egosearch = '{U_EGOSEARCH_JS_PLUS_MENU}';
+                var url_unanswered = '{U_UNANSWERED_JS_PLUS_MENU}';
+                var url_watchsearch = '{U_WATCHSEARCH_JS_PLUS_MENU}';
+                var url_tellfriend = '{U_TELLFRIEND_JS_PLUS_MENU}';
+                insert_plus_menu_new('f{FORUM_ID}&amp;t={TOPIC_ID}','{JS_SESSION_ID}', {JS_AUTH_FAVOURITES});
+             //]]>
+             </script>
+          </li>
+          <!-- END switch_plus_menu -->
+          <li><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=forumotion">{L_SHARE}</a></li>
+          <li><a href="{U_SEARCH_NEW}">{L_SEARCH_NEW}</a></li>
+          <li><a href="{U_SEARCH_SELF}">{L_SEARCH_SELF}</a></li>
+          <!-- BEGIN watchtopic -->
+          <li>{S_WATCH_TOPIC}</li>
+          <!-- END watchtopic -->
+       </ul>
+       <p>{LOGGED_AS}. {LAST_VISIT_DATE}</p>
+    </div>
+    <!-- END switch_user_logged_in -->
+    <!-- BEGIN switch_user_logged_out -->
+    <div id="pun-visit">
+       <p>{L_NOT_CONNECTED} {L_LOGIN_REGISTER}</p>
+    </div>
+    <!-- END switch_user_logged_out -->
+
+    <div class="pun-crumbs noprint">
+       <p class="crumbs">
+          <a href="{U_INDEX}">{L_INDEX}</a>{NAV_CAT_DESC} » 
+          <strong><a href="{TOPIC_URL}">{TOPIC_TITLE}</a></strong>
+          <!-- BEGIN switch_twitter_btn -->
+          <span id="twitter_btn" style="margin-left: 6px; ">
+             <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
+             <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+          </span>
+          <!-- END switch_twitter_btn -->
+          <!-- BEGIN switch_fb_likebtn -->
+          <span id="fb_likebtn" style="margin-left: 6px; ">
+             <iframe src="http://www.facebook.com/plugins/like.php?href={FORUM_URL}{TOPIC_URL}&amp;layout=button_count&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:auto; height:21px;" allowTransparency="true"></iframe>
+          </span>
+          <!-- END switch_fb_likebtn -->
+       </p>
+    </div>
+
+    <div class="main paged">
+       <div class="paged-head clearfix">
+          <!-- BEGIN topicpagination -->
+          <p class="paging">{PAGINATION}</p>
+          <!-- END topicpagination -->
+          <p class="posting">
+             <!-- BEGIN switch_user_authpost -->
+             <a href="{U_POST_NEW_TOPIC}" rel="nofollow"><img src="{POST_IMG}" class="{POST_IMG_CLASS}" alt="{L_POST_NEW_TOPIC}" /></a>  
+             <!-- END switch_user_authpost -->
+
+             <!-- BEGIN switch_user_authreply -->
+             <a href="{U_POST_REPLY_TOPIC}"><img src="{REPLY_IMG}" class="i_reply" alt="{L_POST_REPLY_TOPIC}" /></a>
+             <!-- END switch_user_authreply -->
+          </p>
+       </div>
+       {POLL_DISPLAY}
+       <div class="main-head clearfix">
+          <p class="h2">
+             <a href="{U_VIEW_OLDER_TOPIC}">{L_VIEW_PREVIOUS_TOPIC}</a> <a href="{U_VIEW_NEWER_TOPIC}">{L_VIEW_NEXT_TOPIC}</a> <a href="#bottom">{L_GOTO_DOWN}</a>  
+             {L_MESSAGE} [{PAGE_NUMBER}]
+          </p>
+       </div>
+
+       <div class="main-content topic">
+                 
+              <ol class="messageList" id="messageList">
+                   <!-- BEGIN postrow -->
+             <!-- BEGIN displayed -->
+    <li id="post-1441786" class="message  " data-author="ChemThue">
+     
+    <a name="{postrow.displayed.U_POST_ID}">
+    <div class="postmain1"{postrow.displayed.THANK_BGCOLOR}>
+    </a>
+     
+    <div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+     
+      <div class="messageUserBlock">
+      <h3 class="userText">
+     <a href="members/531340/" class="username" itemprop="name">
+      </a>
+       
+      <strong>{postrow.displayed.POSTER_NAME}</strong>
+       
+
+
+
+       
+       
+        </span></a><br>
+        <ul class="ribbon">
+                   
+                        <li class="ribbonStaff">
+                            <div class="left"></div>
+                            <div class="right"></div>
+                          <em class="userTitle" itemprop="title"><marquee>{postrow.displayed.POSTER_RANK_NEW}</marquee></em>
+                        </li>
+                   
+                </ul>
+     
+     
+
+         
+         
+         
+         
+          <!--
+     slot: message_user_info_text -->
+       
+        </h3>
+       
+      <div class="avatarHolder">
+      <span class="helper"></span>
+       
+      <span id="avatar">
+       
+      {postrow.displayed.POSTER_AVATAR}
+      </span></div>
+       
+      <div class="extraUserInfo">
+      <dl class="pairsInline">
+      <dt>
+      <span style="white-space:nowrap;">
+     {postrow.displayed.RANK_IMAGE}
+
+                            <!-- BEGIN profile_field -->
+                            {postrow.displayed.profile_field.LABEL}{postrow.displayed.profile_field.CONTENT}{postrow.displayed.profile_field.SEPARATOR}
+                            <!-- END profile_field -->
+                            {postrow.displayed.POSTER_RPG}
+       
+       
+        </dt>
+       
+       
+      <dd>
+    </dd></dl>
+       
+      <dl class="pairsInline">
+      <dt>
+       
+      </div>
+       
+        <span class="arrow"><span></span></span></div></div>
+       
+        <div class="messageInfo">
+
+            <h2>
+              <div style="float:right;background: #2EBCFF; padding: 2px; color: white; min-width: 15px; height: 15px; font-size: 12px; text-align: center; -webkit-border-radius: 99px; -moz-border-radius: 99px; border-radius: 99px; position: relative; top: -2px;"> <strong>{postrow.displayed.COUNT_POSTS}</strong></div>
+                         {postrow.displayed.ICON} <a href="{postrow.displayed.POST_URL}">{postrow.displayed.POST_SUBJECT}</a> {postrow.displayed.POST_DATE_NEW}
+                </h2>
+      <div class="post-entry">
+      <div class="entry-content">
+     
+      <div style="min-height: 200px;">
+       <div>
+         
+             <div>{postrow.displayed.MESSAGE}</div>
+                               <!-- BEGIN switch_attachments -->
+                               <dl class="attachbox">
+                                  <dt>{postrow.displayed.switch_attachments.L_ATTACHMENTS}</dt>
+                                  <dd>
+                                     <!-- BEGIN switch_post_attachments -->
+                                     <dl class="file">
+                                        <dt>
+                                           <img src="{postrow.displayed.switch_attachments.switch_post_attachments.U_IMG}" />
+
+                                           <!-- BEGIN switch_dl_att -->
+                                           <a class="postlink" href="{postrow.displayed.switch_attachments.switch_post_attachments.switch_dl_att.U_ATTACHMENT}">{postrow.displayed.switch_attachments.switch_post_attachments.switch_dl_att.ATTACHMENT}</a> {postrow.displayed.switch_attachments.switch_post_attachments.switch_dl_att.ATTACHMENT_DEL}
+                                           <!-- END switch_dl_att -->
+
+                                           <!-- BEGIN switch_no_dl_att -->
+                                           {postrow.displayed.switch_attachments.switch_post_attachments.switch_no_dl_att.ATTACHMENT} {postrow.displayed.switch_attachments.switch_post_attachments.switch_no_dl_att.ATTACHMENT_DEL}
+                                           <!-- END switch_no_dl_att -->
+                                        </dt>
+
+                                        <!-- BEGIN switch_no_comment -->
+                                        <dd>
+                                           <em>{postrow.displayed.switch_attachments.switch_post_attachments.switch_no_comment.ATTACHMENT_COMMENT}</em>
+                                        </dd>
+                                        <!-- END switch_no_comment -->
+
+                                        <!-- BEGIN switch_no_dl_att -->
+                                        <dd>
+                                           <em><strong>{postrow.displayed.switch_attachments.switch_post_attachments.switch_no_dl_att.TEXT_NO_DL}</strong></em>
+                                        </dd>
+                                        <!-- END switch_no_dl_att -->
+
+                                        <dd>({postrow.displayed.switch_attachments.switch_post_attachments.FILE_SIZE}) {postrow.displayed.switch_attachments.switch_post_attachments.NB_DL}</dd>
+                                     </dl>
+                                     <!-- END switch_post_attachments -->
+                                  </dd>
+                               </dl>
+                               <!-- END switch_attachments -->
+             
+         
+        </div>    </div> </div>
+       
+           
+       
+                <div style="float:right">
+                      {postrow.displayed.QUOTE_IMG}{postrow.displayed.EDIT_IMG} {postrow.displayed.DELETE_IMG}
+                                        {postrow.displayed.REPORT_IMG}   
+        </div>
+     
+                                     
+                    <!-- BEGIN switch_vote_active -->
+        <div class="vote vote-button">
+              <!-- BEGIN switch_vote -->
+          <a target="v{postrow.displayed.U_POST_ID}" href="{postrow.displayed.switch_vote_active.switch_vote.U_VOTE_PLUS}" alt="c3zplus" class="c3zplus lvote"><span style="font: normal 11px Tahoma, Arial, Helvetica, sans-serif;margin-left: -2px; color: #3B5998;">Thích</span></a>
+     <!-- END switch_vote -->
+          </div>
+          <div class="vote vote-button">
+     <!-- BEGIN switch_vote -->
+            <a target="v{postrow.displayed.U_POST_ID}" href="{postrow.displayed.switch_vote_active.switch_vote.U_VOTE_MINUS}" alt="c3zminus" class="c3zminus lvote"><span style="font: normal 11px Tahoma, Arial, Helvetica, sans-serif;margin-left: -2px; color: #3B5998;">Không thích</span></a>
+     <!-- END switch_vote -->
+                                      </div><div id="v{postrow.displayed.U_POST_ID}" class="loadding" style="display: none"><img src="http://i43.servimg.com/u/f43/16/03/04/56/icon_l12.gif"> Chờ chút nhé ^^! </div>
+                                                    <!-- END switch_vote_active -->
+                                                    </div>
+
+                                     
+                             
+       
+       
+       
+       
+        </span></div>
+                   <div style="clear:both;"></div>
+                     
+             </div>
+          
+                             
+                              <p style="border-bottom: 1px solid #ddd;">
+                            <div class="hihi clearfix" style="background-color: #fff;"><font color="black">
+    <!-- BEGIN switch_vote_active -->       
+      <iframe name="v{postrow.displayed.U_POST_ID}" class="ajaxvote" style="display:none"></iframe> 
+    <!-- BEGIN switch_no_bar -->
+      <span class="c3zvau v{postrow.displayed.U_POST_ID}" title="{postrow.displayed.switch_vote_active.L_VOTE_TITLE}">{postrow.displayed.switch_vote_active.L_VOTE_TITLE}</span>
+     <!-- END switch_no_bar -->
+    <!-- BEGIN switch_bar -->
+      <span class="c3zvau v{postrow.displayed.U_POST_ID}" title="{postrow.displayed.switch_vote_active.L_VOTE_TITLE}">{postrow.displayed.switch_vote_active.L_VOTE_TITLE}</span>
+     <!-- END switch_bar -->
+      <!-- END switch_vote_active -->
+
+         
+         
+         
+          </li>
+           
+
+                <!-- END displayed -->
+            <!-- END postrow -->
+       
+       
+              </ol>
+       
+           
+       <div class="main-foot clearfix">
+          <p class="h2">
+             <a href="{U_VIEW_OLDER_TOPIC}">{L_VIEW_PREVIOUS_TOPIC}</a> <a href="{U_VIEW_NEWER_TOPIC}">{L_VIEW_NEXT_TOPIC}</a> <a href="#top">{L_BACK_TO_TOP}</a>  
+             {L_MESSAGE} [{PAGE_NUMBER}]
+          </p>
+          <p class="options">
+             <input type="hidden" name="t" value="{TOPIC_ID}" />
+
+             <!-- <input type="hidden" name="sid" value="{S_SID}" /> -->
+             <input type="hidden" name="{SECURE_ID_NAME}" value="{SECURE_ID_VALUE}" />
+
+             <!-- BEGIN viewtopic_bottom -->
+             {S_TOPIC_ADMIN}
+             <!-- END viewtopic_bottom -->
+          </p>
+       </div>
+
+       <a name="bottomtitle"></a>
+
+       <div class="paged-foot clearfix">
+          <!-- BEGIN topicpagination -->
+          <p class="paging">{PAGINATION}</p>
+          <!-- END topicpagination -->
+          <p class="posting">
+             <!-- BEGIN switch_user_authpost -->
+             <a href="{U_POST_NEW_TOPIC}" rel="nofollow"><img src="{POST_IMG}" class="{POST_IMG_CLASS}" alt="{L_POST_NEW_TOPIC}" /></a>  
+             <!-- END switch_user_authpost -->
+
+             <!-- BEGIN switch_user_authreply -->
+             <a href="{U_POST_REPLY_TOPIC}"><img src="{REPLY_IMG}" class="i_reply" alt="{L_POST_REPLY_TOPIC}" /></a>
+             <!-- END switch_user_authreply -->
+          </p>
+       </div>
+
+    </div>
+
+    <div class="pun-crumbs">
+       <p class="crumbs">
+          <a href="{U_INDEX}">{L_INDEX}</a>{NAV_CAT_DESC} » 
+          <strong><a href="{TOPIC_URL}">{TOPIC_TITLE}</a></strong>
+       </p>
+    </div>
+
+    <!-- BEGIN promot_trafic -->
+    <div class="main" id="ptrafic_close" style="display:none">
+       <div class="main-head clearfix">
+          <p class="h2">{PROMOT_TRAFIC_TITLE}</p>
+          <p class="options"><a href="javascript:ShowHideLayer('ptrafic_open','ptrafic_close');"><img src="{TABS_MORE_IMG}" alt="+" align="" border="0" /></a></p>
+       </div>
+    </div>
+    <div class="main" id="ptrafic_open" style="display:''">
+       <div class="main-head clearfix">
+          <p class="h2">{PROMOT_TRAFIC_TITLE}</p>
+          <p class="options"><a href="javascript:ShowHideLayer('ptrafic_open','ptrafic_close');"><img src="{TABS_LESS_IMG}" alt="-" align="" border="0" /></a></p>
+       </div>
+       <div class="main-content clearfix">
+          <!-- BEGIN link -->
+          » <a href="{promot_trafic.link.U_HREF}" target="_blank" title="{promot_trafic.link.TITLE}">{promot_trafic.link.TITLE}</a><br />
+          <!-- END link -->
+       </div>
+    </div>
+    <!-- END promot_trafic -->
+
+    <!-- BEGIN switch_forum_rules -->
+    <div class="main" id="forum_rules">
+       <div class="main-head clearfix">
+          <p class="h2">{L_FORUM_RULES}</p>
+       </div>
+       <table class="main-content frm">
+          <tr>
+             <!-- BEGIN switch_forum_rule_image -->
+             <td class="logo">
+                <img src="{RULE_IMG_URL}" />
+             </td>
+             <!-- END switch_forum_rule_image -->
+             <td class="rules entry-content">
+                {RULE_MSG}
+             </td>
+          </tr>
+       </table>
+    </div>
+    <!-- END switch_forum_rules -->
+
+    <!-- BEGIN switch_user_logged_in -->
+    <a name="quickreply"></a>
+    {QUICK_REPLY_FORM}
+    <!-- END switch_user_logged_in -->
+
+    <div id="pun-info" class="main">
+       <div class="main-content">
+          <div id="stats">
+             <p>{L_TABS_PERMISSIONS} <br />{S_AUTH_LIST}</p>
+          </div>
+       </div>
+    </div>
+
+    <!-- BEGIN switch_image_resize -->
+    <script type="text/javascript">
+    //<![CDATA[
+    $(resize_images({ 'selector' : '.post-entry .entry-content', 'max_width' : {switch_image_resize.IMG_RESIZE_WIDTH}, 'max_height' : {switch_image_resize.IMG_RESIZE_HEIGHT} }));
+    //]]>
+    </script>
+    <!-- END switch_image_resize -->
+
+    <script src="{JS_DIR}addthis/addthis_widget.js" type="text/javascript"></script>
+     
+
+    <script src="http://www.cntt-k3.org/32120.js" type="text/javascript"></script>
+    <script src="http://www.cntt-k3.org/44021.js" type="text/javascript"></script>
+
+
+              <script type="text/javascript">
+       
+     function chvote(a, b) {
+       "Message not voted" == b && (b = "c3zone z vietk 0% (0 vote)");
+       var d = parseInt(b.split(" ")[3], 10) / 100,
+          c = parseInt(b.split(" ")[4].substr(1), 10),
+          b = "Message reputation : " + Math.round(100 * ("c3zplus" == a ? (d * c + 1) / (c + 1) : d * c / (c + 1))) + "% (" + (c + 1) + " vote)";
+       return votetrans(b)
+    }
+    $(".c3zvau").each(function () {
+       var a = $(this).text();
+       $(this).html(votetrans(a))
+    });
+
+    function votetrans(a) {
+       if ("Message not voted" == a) return "<span class='qua'>Hãy là người đầu tiên thích điều này</span>";
+       var b = parseInt(a.split(" ")[3], 10) / 100,
+          a = parseInt(a.split(" ")[4].substr(1), 10),
+          d = 0 != b ? "<span class=vop>" + Math.round(b * a) + "+</span>" : "",
+          c = 0 != b && 1 != b ? ' <span style="color:#C2D5E3">|</span> ' : "",
+          a = 1 != b ? "<span class=vom>" + Math.round(a - b * a) + "-</span>" : "",
+          b = Math.round(100 * b);
+       return "<span class=no>" + d + c + a + "</span> <span class=qua>Đánh giá: " + b + "%</span>"
+    }
+    $(".lvote").click(function () {
+       "c3zplus" == $(this).attr("alt") ? $(this).parent().html("").next().html("") : $(this).parent().html("").prev().html("");
+       var a = $(this).attr("target"),
+          b = $(this).attr("alt"),
+          d = $("." + a).attr("title");
+       $("#" + a).show();
+       $("." + a).html(chvote(b, d));
+       $("#" + a).fadeIn("slow").animate({
+          opacity: 1
+       }, 1500).fadeOut("slow", function () {
+          $("." + a).fadeOut("slow").animate({
+             opacity: 1
+          }, 1E3).fadeIn()
+       });
+       $("." + $(this).attr("target")).removeAttr("title")
+    });
+    </script>
+    <style>
+     
+
+
+    .pun .posthead1 h2 strong {
+    float: right;
+    }
+
+    .ribbon {
+    font-size: 12px;
+    font-weight: bold;
+    margin: -5px -5px -2px;
+    text-align: center;
+    }
+    .ribbon li:last-child {
+    margin-bottom: 0px;
+    }
+    .ribbon li {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-top-right-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -khtml-border-top-right-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -khtml-border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -khtml-border-top-left-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -khtml-border-top-left-radius: 0px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0, 0.25);
+    -khtml-box-shadow: 0px 1px 3px rgba(0,0,0, 0.25);
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0, 0.25);
+    -khtml-box-shadow: 0px 1px 3px rgba(0,0,0, 0.25);
+    padding: 1px;
+    position: relative;
+    margin-bottom: 5px;
+    }
+    .ribbonStaff {
+    background: #00A4C5;
+    border: 1px solid #B3B3B3;
+    color: white;
+    }
+    .ribbon li .left {
+    border-top-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -khtml-border-top-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -khtml-border-top-left-radius: 3px;
+    left: -1px;
+    }
+    .ribbon li div {
+    position: absolute;
+    top: -4px;
+    width: 4px;
+    height: 4px;
+    }
+    .ribbonStaff div {
+    background-color: #0093B0;
+    }
+
+
+
+
+    .ribbon li .right {
+    border-top-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -khtml-border-top-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -khtml-border-top-right-radius: 3px;
+    right: -1px;
+    }
+
+
+
+
+    .messageList {
+    background-color: #EDEDED;
+    border: 1px solid #D7D7D7;
+    padding: 10px 10px 1px;
+    }
+    .messageList .message {
+    -khtml-box-shadow: rgba(0,0,0,0.08) 0 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.08) 0 1px 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 3px;
+    background-color: white;
+    border: 1px solid #D7D7D7;
+    box-shadow: rgba(0, 0, 0, 0.08) 0 1px 3px;
+    margin-bottom: 10px;
+    padding: 10px;
+    }
+    .messageUserInfo {
+    float: left;
+    width: 124px;
+    }
+    .messageUserBlock {
+    background-color: #FAFAFA;
+    border: 1px solid #E0E0E0;
+    position: relative;
+    }
+    .messageUserBlock a[href*="/u"] {
+    background: #EDEDED url(http://rap.vn/diendan/styles/uniform/xenforo/xenfocus/highlight.png) repeat-x top;
+    border-bottom: 1px solid #D7D7D7;
+    display: block;
+    font-weight: 700;
+    line-height: 16px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-align: center;
+    text-shadow: rgba(255, 255, 255, 0.8) 0 1px 0;
+    }
+    .messageUserBlock .userTitle {
+    display: block;
+    font-size: 11px;
+    padding-top: 6px;
+    text-align: center;
+    }
+    .messageUserBlock div.avatarHolder {
+    background-color: #FAFAFA;
+    padding: 10px;
+    }
+    .messageUserBlock div.avatarHolder img {
+    width: 102px;
+    }
+    .pun fieldset, .pun img {
+    border: none;
+    }
+    .messageUserBlock .extraUserInfo {
+    background-color: #FAFAFA;
+    border-top: 1px solid #EDEDED;
+    font-size: 10px;
+    padding: 4px 6px;
+    }
+    .messageUserBlock .extraUserInfo dl {
+    margin: 2px 0;
+    }
+    .messageUserBlock .extraUserInfo dt {
+    color: #969696!important;
+    display: block;
+    font-size: 11px;
+    }
+    .message .messageInfo {
+    border-bottom: 1px none black;
+    margin-left: 140px;
+    padding: 0;
+    zoom: 1;
+    }
+
+
+
+
+
+    /* vote */
+    #profile-advanced-details .autobot{color:#2220fb!important;font-size:14px!important;text-shadow:1px 1px 1px #000!important}
+    .post .post-options{height:22px;position:relative}
+    .hihi {background-color: #1F537B;color: #DEDFDF;font-weight: 400;padding: 0.7em 0.1em;}
+    .numtopF{margin-right:-12px!important}
+    a.mainmenu[href='/groups'],a.mainmenu[href='/privmsg?folder=inbox'],#left,#textarea_content dt,#dulieutip,#dulieupostter,#sapxepdulieu{display:none}
+
+
+
+    .ost,.share,.c3zvau .qua,.no{background-position:5px 50%;background-repeat:no-repeat;border:1px solid #C2D5E3;margin:6px 2px 0;padding:5px 8px 5px 25px}.share{background-image:url(http://i43.servimg.com/u/f43/16/03/04/56/fav10.png)}.qua{background-image:url(http://i43.servimg.com/u/f43/16/03/04/56/no10.gif);padding-left:29px!important}.no{padding:5px 8px}.no .vop{background:url(http://i43.servimg.com/u/f43/16/03/04/56/like-f10.png) no-repeat left center;padding:0 0 0 18px}.no .vom{background:url(http://i43.servimg.com/u/f43/16/03/04/56/dislik10.png) no-repeat left center;padding:0 0 0 18px}
+    .vote-button{float:left;width:60px}
+    .c3zplus:hover{background-color:#ebedf4;border-color:#9dacce}
+    .c3zminus:hover{background-color:#ebedf4;border-color:#9dacce}
+    .c3zplus {
+    background: url(http://i43.servimg.com/u/f43/16/03/04/56/like-f10.png) no-repeat scroll 0 0 #ECEEF5;
+    background-position: 6px 36%;
+    background-repeat: no-repeat;
+    border: 1px solid #CAD4E7;
+    border-radius: 3px 3px 3px 3px;
+    color: white!important;
+    display: block;
+    float: left;
+    height: 13px;
+    margin: -4px 2px 0;
+    padding: 4px 4px 5px 24px;
+    position: relative;
+    text-align: left;
+    width: 25px;
+    }
+    .c3zminus {
+    background: url(http://i43.servimg.com/u/f43/16/03/04/56/dislik10.png) no-repeat scroll #ECEEF5;
+    background-position: 6px 36%;
+    background-repeat: no-repeat;
+    border: 1px solid #CAD4E7;
+    border-radius: 3px 3px 3px 3px;
+    color: white!important;
+    display: block;
+    float: left;
+    height: 13px;
+    margin: -4px 0px 0;
+    padding: 4px 4px 5px 24px;
+    position: relative;
+    text-align: left;
+    width: 55px;
+    }
+
+
+
+
+
+
+      </style>
+      
+
+
+</code>
+
+<code>var prefixes=["Share","Code","Skin","Thắc mắc"];var _pm=false;var chk=false;function toMenu(a){var htmlpre='<select style="margin-right:5px" id="prefix" size="1"><option value="">(None)</option>';for(i in a)htmlpre+='<option value="'+a[i]+'">'+a[i]+'</option>';htmlpre+='</select>';return htmlpre}function checkpre(ar,input){for(i in ar){var p=new RegExp("\\"+ar[i],"g");var title=input.substr(0,input.indexOf(']'));if(p.test(title))return ar[i]}return""}$(function(){if(_pm)chk=/\privmsg/.test(location.href);if(/\/post/.test(location.href)||chk){$(toMenu(prefixes)).insertBefore("input[name=subject][type=text]");var mw=$("#prefix").width()+5;$("input[name=subject]").css("width",$("input[name=subject]").width()-mw);var t=$("[name=subject]").val();var cur=checkpre(prefixes,t);if(cur!=""){$("[value="+cur+"]").attr("selected","selected");$("input[name=subject]").val(t.replace('['+cur+']','').trim())}$("input[name=post]").click(function(){var sub=$("input[name=subject]").val().trim();if(sub!=""&&$("#prefix").val()!="")$("input[name=subject]").val("["+$("#prefix").val()+"] "+sub)})}});</code>
+
+<code>function selectCode(a){var e=a.parentNode.parentNode.getElementsByTagName('CODE')[0];if(window.getSelection){var s=window.getSelection();if(s.setBaseAndExtent){s.setBaseAndExtent(e,0,e,e.innerText.length-1)}else{if(window.opera&&e.innerHTML.substring(e.innerHTML.length-4)=='<BR>'){e.innerHTML=e.innerHTML+' '}var r=document.createRange();r.selectNodeContents(e);s.removeAllRanges();s.addRange(r)}}else if(document.getSelection){var s=document.getSelection();var r=document.createRange();r.selectNodeContents(e);s.removeAllRanges();s.addRange(r)}else if(document.selection){var r=document.body.createTextRange();r.moveToElementText(e);r.select()}}if(text){}else{var text='Selecionar todos'}jQuery(document).ready(function(){jQuery("dl.codebox dt").not("dl.spoiler > dt").html('Code: <a href="#" onclick="selectCode(this); return false;" title="Select all the content" class="code-a"> Chọn Code </a>')});</code>
