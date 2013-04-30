@@ -1,0 +1,89 @@
+﻿$(function(){$(".post-entry").after('<br><br><fieldset class="taisan"><legend><span style="width:100;height:30;text-align:center;color:black;filter:glow(color=##56CDE0)"><b>Tài sản</b></span></strong></legend><div class="taisana"style="overflow: auto; max-height: 130px;"></div></fieldset>');$(".taisana").each(function(){var profileUser=$(this).parent().parent('.postbody').children('.postbody-head.postdetails.post-header').children('.author').children('a').attr("href");$(this).load(profileUser+' #field_id3 .field_uneditable')});$(".topic-options:last").after('<div style="height:60px"></div><div class="maintitle"><h3>Bài viết liên quan</h3></div><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr valign="top"><td style="border-top: 0px none; padding: 0px; background: transparent url(http://i40.servimg.com/u/f40/17/70/31/89/list1010.gif) no-repeat scroll center top; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous;" width="27"><img src="http://i40.servimg.com/u/f40/17/70/31/89/empty111.gif" width="24" border="0"></td><td style="border-top: 0px none; padding: 0px; line-height: 20px; background-repeat: repeat;" align="left" background="http://i40.servimg.com/u/f40/17/70/31/89/listbg10.gif"><div id="bailienquan"></div></td></tr></tbody></table><div style="height:20px"></div>');var topictitle=$(".postbody-head:first h3").text();var Topictitle=topictitle.replace(/ /gi,'+');$('#bailienquan').load('/search?mode=searchbox&search_keywords='+Topictitle+'&show_results=topics .ipbtable:last .row2 a.topictitle:lt(5)',function(){$('#bailienquan a.topictitle').wrap("<p></p>")});$('<div class="miam"></div>').insertAfter(".post-footer");$('.post-info li:nth-child(2)').addClass('number');$('.post-info li a[href^="/modcp?mode=ip"]').addClass('ip');$('.borderwrap:contains("Tài sản")').addClass('miapost');$('.post:has(".blog_comment-avatar")').addClass('miaw');$('.misc-icons li a').addClass('totop');$('<span>&nbsp;&nbsp;</span>').insertAfter(".totop");$('.author span[style="color:#FA0000"]').parents('.post').addClass('re-Admin');$('.author span[style="color:#FF00FF"]').parents('.post').addClass('re-Smod');$('.author span[style="color:#8F15D6"]').parents('.post').addClass('re-Security');$('.author span[style="color:#0000FF"]').parents('.post').addClass('re-Mod');$('.author span[style="color:#FF7B08"]').parents('.post').addClass('re-Instructor');$('.author span[style="color:#00FF00"]').parents('.post').addClass('re-Designer');$('.author span[style="color:#C9BF06"]').parents('.post').addClass('re-Honour');$('.author span[style="color:#008000"]').parents('.post').addClass('re-Ambassador');$('.author span[style="color:#08F7EB"]').parents('.post').addClass('re-Reviewer');$("dl.codebox dt").not("dl.spoiler > dt").html('Code:');var codes=document.getElementsByTagName('code');for(var i=0,l=codes.length;i<l;i++)codes[i].innerHTML='<ol class="wind"><li>'+codes[i].innerHTML.split(/\<br\s?\/?\>/).join('</li><li>')+'</li></ol>';var b=$(".vote").get();for(i=b.length-1;0<=i;i--){var c="0",d="0",e='<img style="position:relative;top:-3px" title="Like" src="http://i40.servimg.com/u/f40/17/70/31/89/like_n10.png" />',f='<img style="position:relative;margin:0px 3px 0px 10px" title="Dislike" src="http://i40.servimg.com/u/f40/17/70/31/89/dislik10.png" />',a=$(b[i]).find(".vote-button a").get();for(j=0;j<a.length;j++){"+"==a[j].innerHTML?e=' <a href="'+a[j].href+'" alt="plus"><img style="position:relative;top:-3px;margin-right:3px" title="Like" src="http://i40.servimg.com/u/f40/17/70/31/89/like_b10.png" /></a>':"-"==a[j].innerHTML&&(f='<a href="'+a[j].href+'" alt="mplus"><img style="position:relative;margin:0px 3px 0px 10px" title="Dislike" src="http://i40.servimg.com/u/f40/17/70/31/89/dislik11.png" /></a>')}if(a=$(b[i]).find(".vote-bar")[0]){c=a.title.split(" "),d=parseInt(c[3].replace(/%/,""))/100,a=parseInt(c[4].replace(/\(/,"")),c=String(Math.round(a*d)),d=String(a-c)}$(b[i].parentNode.previousSibling.childNodes[0]).prepend('<li class="ddvote"> '+e+'<span class="plus">'+c+"</span>"+f+'<span class="mplus">'+d+" </span></li>");b[i].parentNode.removeChild(b[i])}c=$(".ddvote a").get();for(g=0;g<c.length;g++){b=$(".ddvote a:eq("+g+")").attr("href"),$(".ddvote a:eq("+g+")").attr("href","javascript:$.post('"+b+"')"),$(".ddvote a:eq("+g+")").click(function(){var a=$(this).attr("alt");$(this).parent().find("."+a).html(Number($(this).parent().find("."+a).html())+1);"plus"==a?($(this).next().next().replaceWith('<img style="position:relative;margin:0px 3px 0px 10px" title="Dislike" src="http://i40.servimg.com/u/f40/17/70/31/89/dislik10.png" />'),$(this).replaceWith('<img style="position:relative;top:-3px;margin-right:3px" title="Like" src="http://i40.servimg.com/u/f40/17/70/31/89/like_n10.png" />')):($(this).prev().prev().replaceWith('<img style="position:relative;top:-3px;margin-right:3px" title="Like" src="http://i40.servimg.com/u/f40/17/70/31/89/like_n10.png" />'),$(this).replaceWith('<img style="position:relative;margin:0px 3px 0px 10px" title="Dislike" src="http://i40.servimg.com/u/f40/17/70/31/89/dislik10.png" />'))})}});function sendtopic(a,b,c){jQuery.post("/post",{t:a,mode:"reply",post_icon:1,subject:b,message:c,post:"Send"})}function miarank(a,b,x,y){up=60;cong=0;pet=x;lv=Math.ceil(b/up)+cong;exp=Math.round(100/up*(b%up));20<lv&&(lv=20,exp=99);return'<fieldset align="center" class="milevel"><img width="120px" height="120px" src="http://i35.servimg.com/u/f35/16/75/78/56/'+pet+'0'+lv+'10.gif"></div><div align="center" style="width:140px;">&nbsp;&nbsp;<span style="font-size:10px!important;font-family:Tahoma;font-weight:normal;">Level: <b class="level">'+lv+'</b> (+'+exp+'%)</span><fieldset class="miachar"><img src="/users/2611/10/63/87/album/lv10.gif" width="'+exp+'%" height="9px"><img src="/users/2611/10/63/87/album/lv210.gif" width="2px" height="9px"></fieldset></div></fieldset>'}
+$(function () {
+    $('.postbody-head.postdetails.post-header')['each'](function () {
+        var a = $(this)['children']('h3')['children']('a')['attr']('href')['split']('#')[1],
+            _0x3243x2 = $(this)['children']('h3')['children']('a')['attr']('href')['split']('/t')[1]['split']('-'),
+            _0x3243x3 = $(this)['children']('.author')['children']('a')['html'](),
+            _0x3243x4 = 'sendtopic(' + _0x3243x2[0] + ', \'I thanked post #' + a + ' \', \'' + a + '\');';
+        $(this)['parent']()['parent']()['parent']()['children']('.post-footer')['after']('<div style="border:1px solid #ccc;border-radius:5px;padding:10px;margin-bottom:20px;margin-right:10px" class="thank"><font>Nh\u1EEFng ng\u01B0\u1EDDi \u0111\xE3 c\u1EA3m \u01A1n ' + _0x3243x3 + ' v\xEC b\xE0i post <a href="#' + a + '">n\xE0y</a>: <br></font></div>');
+        var b = 'http://invision.chinhphuc.info/t' + _0x3243x2[0] + '-topic?p_vote=' + a + '&eval=plus';
+        $(this)['parent']('.postbody')['after']('<a class="totop" id="thanks" style="display:block" href="' + b + '" alt="thank"><img id="thank" onclick="' + _0x3243x4 + '" style="position:absolute;margin-top:5px;margin-right:3px" title="Thank" src="http://i30.servimg.com/u/f30/17/70/31/89/i_icon16.png"></a>')
+    });
+    $('.postbody-head.postdetails.post-header:contains("I thanked post")')['addClass']('post_thank')['each'](function () {
+        var a = $(this)['children']('.author')['children']('a')['html'](),
+            _0x3243x7 = $(this)['parent']('.postbody')['children']('.post-entry')['children']('div')['html'](),
+            _0x3243x8 = $('#post_thank' + _0x3243x7 + '')['html']();
+        $(this)['parent']()['parent']()['parent']()['hide']();
+        $('#p' + _0x3243x7 + '')['children']('.thank')['children']('font')['after']('<a>' + a + '</a>, ')
+    });
+    $('.post-info')['each'](function () {
+        var a = $(this)['children']()['children']('img:eq(0)')['attr']('src');
+        if (a === 'http://i40.servimg.com/u/f40/17/70/31/89/like_n10.png') {
+            $(this)['parent']()['parent']()['parent']()['children']('a.totop')['hide']()
+        }
+    });
+    $('.postbody-head.postdetails.post-header')['each'](function () {
+        var a = $(this)['children']('.author')['children']('a')['text'](),
+            _0x3243xb = $('.name')['children']('a')['text']();
+        if (a === _0x3243xb) {
+            $(this)['parent']('.postbody')['parent']('.post-container')['children']('a.totop')['hide']()
+        }
+    });
+    $('<style>.postdetails:hover>dt+dd+dd+dd{display:block}.postdetails:hover>dt+dd+dd+dd span:nth-child(3){margin-left:120px;width:15px!important}.postdetails:hover>dt+dd+dd+dd span:nth-child(6){margin-left:73px}.postdetails:hover>dt+dd+dd+dd span:nth-child(10){margin-left:34px}.postdetails:hover>dt+dd+dd+dd span:nth-child(13){margin-left:70px;}.avatar+ul{text-align:left}.postprofile-details dt,.postprofile-head.post-header,.postprofile-details.postdetails{text-align:center}.postdetails dt img{border:3px double #C6C6C6;border-radius:5px;max-width:94px;height:90px;box-shadow:0 0 5px #000;position:relative;z-index:5}.post{border:1px solid #ccc;border-radius:5px;padding:8px}.miapost .maintitle{background:none!important}.miapost{border:0!important;}</style>')['insertAfter']('.topic-footer');
+    var f = '<style>.mia{background:#fff url(http://i46.servimg.com/u/f46/17/46/69/50/forumh11.png) top center no-repeat;height:70px;}ul.post-info li.ddvote{height:20px;line-height:20px;font-size:12px;font-weight:bold;display:inline;margin-bottom:-93px;margin-left:500px}.avatar-mia{height:100px;font-size:0px;}.miapost{background:#fff!important}.popmenubutton-new-out img{z-index:999;display:block;position:absolute;margin:45px 79px 0}.postbody-head h3{width:936px;position:absolute;border:0 solid #000!important;border-top-left-radius:4px 4px!important;border-top-right-radius:4px 4px!important;background:url(http://i30.servimg.com/u/f30/17/70/31/89/tcatbg11.gif) repeat-x left top;color:#fff;height:30px;padding:10px 14px 1px 20px;margin:-190px -30px 0;padding:8px}fieldset.taisan{width:900px}.number{display:inline;float:right;width:60px;height:56px;background:url(http://tdnfamily.com/forum/sieusaohsf/comment-number.png) no-repeat;font-weight:700;color:#FFF;padding-top:17px;vertical-align:middle;margin:-50px 918px 0}.postprofile dd{float:left;line-height:1.8em;margin-left:8px;width:200px}.postprofile{padding-top:20px;position:absolute;height:200px;margin:-170px -10px 0}.postprofile dl{text-align:center;padding:6px}p.author{border-bottom:1px dashed #ccc;padding-top:20px;width:900px}p.author{border-bottom:1px dashed #ccc;}.levei{position:absolute;margin:15px 210px 0}.leveli{position:absolute;margin:55px 750px 0;}.leveii{position:absolute;margin:30px 250px 0}.leveli{position:absolute;margin:55px 750px 0;}.postprofile dd:nth-child(2){z-index:999;display:inline;float:left;width:170px;margin:-110px 450px 0;padding-top:20px;border-radius: 6px 6px;border-width: 1px;border-style: dotted;border-color: rgb(102, 102, 102);padding:5px;}.ip{display:none!important;display:inline;float:left;position:absolute;margin:15px 919px 0}.miapost .postbody{width:936px;margin:190px -195px 0}.postdetails > dt + dd + dd + dd{border-radius:5px;box-shadow:3px 3px 5px rgba(0,0,0,0.36);min-height:115px;position:relative;border:2px solid #DDD;background:#FFF;display:none;width:370px;text-align:left;z-index:4;margin:-152px 0 0 30px;padding:5px 5px 5px 122px}</style>';
+    var g = '<style>.post-container{min-height:490px;margin-top:60px!important}.postbody-head h3{width:936px;position:absolute;border:0 solid #000!important;border-top-left-radius:4px 4px!important;border-top-right-radius:4px 4px!important;background:url(http://i30.servimg.com/u/f30/17/70/31/89/tcatbg11.gif) repeat-x left top;color:#fff;height:30px;padding:10px 14px 1px 20px;margin:-60px -234px 0;padding:8px}.postprofile{border:1px solid #ddd;padding-bottom:400px}fieldset.taisan{width:600px}.levei{width:170px!important;position:absolute;margin-left:-23px;margin-top:405px}.leveii{width:170px!important;position:absolute;margin-left:43px;margin-top:465px}.leveli{position:absolute;margin:280px 30px 90px;}.post{border-bottom:35px solid transparent;background:transparent!important;min-height:540px}.posting-options.topic-options{min-height:16px}.post-entry{border-top:1px solid #FFF;margin:0;padding:10px 15px}.post .postbody-head.postdetails.post-header{border-bottom:1px solid #D7D7D7;background:transparent;margin-left:10px}.postprofile .post-header{border:0}.postprofile-head.post-header{background:transparent;position:absolute!important;text-align:center;width:200px}.maintitle.floated+.post{margin-top:25px}.post-info li+li{margin-top:6px;text-align:right;width:100px;color:#1E68C4;font-weight:700}ul.post-info li.ddvote{height:20px;line-height:20px;font-size:12px;font-weight:bold;display:inline;margin-top:6px}.popupmenu-item{text-align:left}.postprofile-details.postdetails dt a img[src][alt]{margin-top:26px;vertical-align:middle;padding:1px}.postdetails > dt + dd + dd + dd{border-radius:5px;box-shadow:3px 3px 5px rgba(0,0,0,0.36);min-height:115px;position:relative;border:2px solid #DDD;background:#FFF;display:none;width:370px;text-align:left;z-index:4;margin:-192px 0 0 35px;padding:5px 5px 5px 122px}.popmenubutton-new-out img{z-index:999;display:block;position:absolute;margin:32px 79px 0}.postprofile-head.post-header{background:url(http://i47.servimg.com/u/f47/17/47/85/23/highli10.png) 50% 0% repeat-x #EDEDED}</style>';
+    $('<div class="doi"><span class="xemngang"><img src="http://i30.servimg.com/u/f30/17/70/31/89/33697410.png" title="ngang" style="width: 21px; height: 21px;"></span><span class="xemdoc"><img src="http://i30.servimg.com/u/f30/17/70/31/89/35384310.png" title="d\u1ECDc" style="width: 21px; height: 21px;"></span></div><div class="ngang">' + f + ' </div>')['insertAfter']('.topic-footer');
+    $('.xemngang')['click'](function () {
+        $('.doc')['remove']();
+        $('<div class="ngang">' + f + '</div>')['insertAfter']('.topic-footer');
+        my_setcookie('xemview', 'ngang', 1, 0)
+    });
+    $('.xemdoc')['click'](function () {
+        $('.ngang')['remove']();
+        $('<div class="doc">' + g + '</div>')['insertAfter']('.topic-footer');
+        my_setcookie('xemview', 'doc', 1, 0)
+    });
+    if (my_getcookie('xemview') == 'doc') {
+        $('.ngang')['remove']();
+        $('<div class="doc">' + g + '</div>')['insertAfter']('.topic-footer')
+    } else {
+        $('.doc')['remove']();
+        $('<div class="ngang">' + f + '</div>')['insertAfter']('.topic-footer')
+    };
+    $('.post-container')['each'](function () {
+        var a = $(this)['find']('.postprofile-details dd:last')['html'](),
+            a = a['substring'](a['indexOf']('<img')),
+            _0x3243xe = a['substring'](0, a['indexOf']('">') + 2),
+            a = a['substring'](a['indexOf']('Posts<') + 21),
+            a = a['substring'](0, a['indexOf']('<br'));
+        var b = $(this)['find']('.postprofile-details dd:last')['html'](),
+            b = b['substring'](b['indexOf']('[') + 1),
+            _0x3243x10 = b['substring'](0, b['indexOf'](']') - 0),
+            b = b['substring'](b['indexOf']('Status<') + 2),
+            b = b['substring'](0, b['indexOf']('<br'));
+        $('<div class="leveli"></div>')['insertBefore'](this)['html'](miarank(_0x3243xe, a, _0x3243x10, b))
+    });
+    $('.post-container')['each'](function () {
+        var a = $(this)['find']('.postprofile-details dd:last')['html'](),
+            a = a['substring'](a['indexOf']('<img')),
+            _0x3243xe = a['substring'](0, a['indexOf']('">') + 2),
+            a = a['substring'](a['indexOf']('Posts<') + 21),
+            a = a['substring'](0, a['indexOf']('<br'));
+        var b = $(this)['find']('.postprofile-details dd:last')['html'](),
+            b = b['substring'](b['indexOf']('ava') + 19),
+            b = b['substring'](0, b['indexOf']('<br'));
+        var c = b['split']('|');
+        if (_0x3243xe == '<img src="http://i40.servimg.com/u/f40/17/70/31/89/icon_m12.gif" alt="N\u1EEF" title="N\u1EEF">') {
+            var d = 'f'
+        } else {
+            var d = 'm'
+        };
+        var e = $(this)['parent']('.post')['children']('.leveli')['children']('.milevel')['children']('div')['children']('span')['children']('.level')['html']();
+        if (b['indexOf']('57,')) {
+            $('<div class="levei"><embed src="http://vdic.us/forum/cngavst/profile.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" play="true" loop="true" scale="showall" wmode="transparent" name="gnAvatar" menu="true" allowfullscreen="false" allowscriptaccess="always" salign="" flashvars="wp=' + c[7] + '&amp;_face=equip/' + d + '/face/face' + c[0] + '/&_hair=equip/' + d + '/hair/hair' + c[3] + '/&_cloth=equip/' + d + '/cloth/cloth' + c[2] + '/&_eff=equip/' + d + '/eff/eff' + c[5] + '/&_hat=equip/' + d + '/head/head' + c[4] + '/&_glass=equip/' + d + '/glass/glass' + c[1] + '/&_hide1=2&_hide2=1&_hide3=1&_hidewings=&_wing=wing' + c[6] + '&_cng=cng1&_circle=circle' + c[8] + '&_suit=equip/' + d + '/suits/suits102/&amp;lvl=' + e + '" type="application/x-shockwave-flash" height="220px" width="260px" align="middle"></div>')['insertBefore'](this)
+        } else {
+            $('<div class="leveii"><object width="118" height="180" type="application/x-shockwave-flash" data="http://my.go.vn/swf/avatar2.swf" id="avatar_flash_object" style="visibility: visible;"><param name="flashvars" value="itempath=http://farm01.gox.vn/avatar/store/avatar_part_item/&browser=Other&itemlist=' + b + '"></object></div>')['insertBefore'](this)
+        };
+        $('.levei:contains(\'Gender\')')['hide']()
+    })
+});
