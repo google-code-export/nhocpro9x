@@ -1,0 +1,219 @@
+   http://i70.servimg.com/u/f70/18/03/36/70/410.jpg
+  <code> <!-- BEGIN catrow -->
+    <!-- BEGIN tablehead -->
+     
+    <div id="cat-120933" class="category">
+      <div class="h2wrap">
+        <div class="h2left">
+          <div class="h2right">
+            <div class="h2center">
+                <span class="tieude">{catrow.tablehead.L_FORUM}</span>
+                
+             </div>
+            </div>
+          </div>
+        </div>
+     
+
+     
+             <!-- END tablehead -->
+    <!-- BEGIN forumrow -->
+             <table class="forums" cellspacing="0" style="display: table;">      
+                              <tbody>
+                                <tr id="forum-120937" class="forum">
+                <td rowspan="3" class="c_mark">
+                                    <img title="{catrow.forumrow.L_FORUM_FOLDER_ALT}" src="{catrow.forumrow.FORUM_FOLDER_IMG}" alt="{catrow.forumrow.L_FORUM_FOLDER_ALT}" class="forumicon" id="forum_statusicon_2" alt="">
+                                      </td>
+                   <td rowspan="2" class="c_forum">
+                      <strong><a href="{catrow.forumrow.U_VIEWFORUM}" class="forumtitle">{catrow.forumrow.FORUM_NAME}</a></strong>
+                      <div>{catrow.forumrow.FORUM_DESC}</div>
+                   </td>
+                                     
+                   <td colspan="3" class="c_last">
+                       <div class="avs"><span>
+          <!-- BEGIN switch_topic_title -->
+          <a href="{catrow.forumrow.U_LATEST_TOPIC}" title="{catrow.forumrow.LATEST_TOPIC_TITLE}">{catrow.forumrow.LATEST_TOPIC_NAME}</a><br />
+          <!-- END switch_topic_title -->
+          {catrow.forumrow.USER_LAST_POST}
+          </span></div>
+                                             
+                                             
+                   </td>
+                </tr>
+                                 
+                <tr class="c_info">
+                   
+                   <td class="c_info-t">Chủ đề: {catrow.forumrow.TOPICS}</td>
+                   <td class="c_info-r">Số bài: {catrow.forumrow.POSTS}</td>
+                </tr>               <tr>
+                      <td colspan="4" class="c_subforum">
+                          <!-- BEGIN switch_moderators_links -->
+      {catrow.forumrow.switch_moderators_links.L_MODERATOR}{catrow.forumrow.switch_moderators_links.MODERATORS}
+                <!-- END switch_moderators_links -->
+                      </td>
+                   </tr>      
+                                 
+                                 
+                                 
+                                 
+                                 
+                               
+             </tbody></table>
+          <div class="c_repeat">
+                      <div class="c_left">
+                      </div>
+                      <div class="c_right"></div>
+                              </div>
+                                           
+                      
+                                     <!-- END forumrow -->
+    <!-- BEGIN catfoot -->
+     
+      <!-- END catfoot -->
+           
+    <!-- BEGIN tablefoot -->
+        </div>
+        <!-- END tablefoot -->
+             
+             
+              <!-- END catrow -->    
+        <style>
+    body, html {
+    background: #fff;
+          }
+    .h2wrap {
+    background: url(http://i16.servimg.com/u/f16/18/03/36/70/h2m10.png) repeat-x;
+    height: 63px;
+    margin: 0 65px -15px!important;
+    }
+    .category {
+    margin: 10px 0 0;
+    }
+    #socialnetworks img:hover {
+    filter: alpha(opacity=100);
+    margin-left: 30px;
+    opacity: 1;
+    padding-top: 7px;
+    }
+    .h2left {
+    background: url(http://i16.servimg.com/u/f16/18/03/36/70/h2l10.png) no-repeat top left;
+    height: 63px;
+    margin-left: -125px!important;
+    }
+    .h2right {
+    background: url(http://i16.servimg.com/u/f16/18/03/36/70/h2r10.png) no-repeat right top;
+    height: 63px;
+    margin-right: -125px!important;
+    }
+    .h2center {
+    color: white;
+    font-family: "Mountains of Christmas", arial;
+    font-size: 16px;
+    font-weight: 700;
+    height: 48px;
+    padding-top: 12px;
+    text-align: center;
+    text-shadow: 0 2px #991911;
+    text-transform: uppercase;
+    }
+          td, th {
+    border: 1px solid #dcdcdc;
+    }
+    #portal h2, #portal_foot h2, .category h2, .topic h2, thead th {
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+    }
+    .c_mark {
+    background: url(http://i16.servimg.com/u/f16/18/03/36/70/catrep10.png) repeat-x top #F8F7F7;
+    text-align: center;
+    width: 1%;
+    }
+          td.c_last {
+    background: url(http://i16.servimg.com/u/f16/18/03/36/70/catrep10.png) repeat-x top #F8F7F7;
+    font-size: 85%;
+    }
+    .c_mark img {
+    display: block;
+    margin: auto;
+    }
+    .c_forum {
+    color: #6E6E6E;
+    font-size: 80%;
+    padding-top: 5px;
+    width: 60%;
+    }
+    strong, b {
+    font-weight: bold;
+    }
+    .c_forum strong a {
+    font-size: 135%;
+    }
+    .c_forum strong a, .c_last strong a {
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 0 1px 2px #e4e3e3;
+    -webkit-box-shadow: 0 1px 2px #E4E3E3;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #E4E3E3;
+    color: #BB2E20;
+    padding: 0 5px;
+    position: relative;
+    z-index: 3;
+    }
+    td.c_forum div {
+    padding-left: 5px;
+    padding-top: 3px;
+    }
+
+    td.c_last {
+    background: url(http://i16.servimg.com/u/f16/18/03/36/70/catrep10.png) repeat-x top #F8F7F7;
+    font-size: 85%;
+    }
+    .c_last {
+    line-height: 1.4;
+    min-width: 300px;
+    width: 30%;
+    }
+    td.c_info-r, td.c_info-t, td.c_info-v {
+    font-size: 80%;
+    padding: 5px;
+    text-align: center;
+    }
+    td.c_subforum {
+    background: url(http://i16.servimg.com/u/f16/18/03/36/70/catrep10.png) repeat-x top #F8F7F7;
+    color: #BB2E20;
+    font-size: 80%;
+    font-style: italic;
+    }
+    td.c_subforum strong {
+    color: #3D485B;
+    }
+    div.c_repeat {
+    background: url(http://i16.servimg.com/u/f16/18/03/36/70/footcm10.png) repeat-x top center;
+    height: 35px;
+    margin: -15px 42px 0;
+    }
+    div.c_left {
+    background: url(http://i16.servimg.com/u/f16/18/03/36/70/footl10.png) no-repeat top center;
+    float: left;
+    height: 35px;
+    margin-left: -61px;
+    width: 61px;
+    z-index: 2;
+    }
+    div.c_right {
+    background: url(http://i16.servimg.com/u/f16/18/03/36/70/footr10.png) no-repeat top center;
+    float: right;
+    height: 35px;
+    margin-right: -61px;
+    width: 61px;
+    z-index: 2;
+          }
+      td {
+    background: url(http://i16.servimg.com/u/f16/18/03/36/70/catrep10.png) repeat-x top;
+    color: #333;
+    padding: 5px 10px;
+    }
+      </style>
+</code>
