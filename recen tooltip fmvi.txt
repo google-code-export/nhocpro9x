@@ -1,0 +1,93 @@
+﻿<style>
+.tooltipFMvi {
+    background-color: #000000;
+    border: 5px solid black;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 3px #818181;
+    color: #FFFFFF;
+    display: none;
+    font-family: cursive;
+    font-size: 13px;
+    line-height: 18px;
+    opacity: 0.8;
+    padding: 5px;
+    position: absolute;
+    z-index: 3000;
+}
+.newltopic{
+  font-family: Comic Sans MS;
+  line-height: 18px;
+  font-size: 14px;
+  }
+.tiplFMvi {
+    color: threedface;
+    font-family: Verdana;
+    padding: 2px 3px 2px 0;
+}
+</style>
+        
+<!-- BEGIN classical_row -->
+<div class="module main">
+   <div class="main-head">
+      <h3>
+         {L_RECENT_TOPICS}
+      </h3>
+   </div>
+   <div class="main-content">
+      <!-- BEGIN recent_topic_row -->
+      <div class="newltopic">
+                  <span style="margin-right: 3px" class="topicstatus"><img src="http://hitskin.com/themes/17/29/24/i_rating_star.png"/></span>
+         <span class="ltitletopic">
+           <span class="ktrf"><a href="{classical_row.recent_topic_row.U_TITLE}"><span class="krokodil">{classical_row.recent_topic_row.L_TITLE}</span></a></span>
+         </span>
+         <span style="float: right" class="lpostertopic">
+            <!-- BEGIN switch_poster -->
+            <a href="{classical_row.recent_topic_row.switch_poster.U_POSTER}">{classical_row.recent_topic_row.switch_poster.S_POSTER}</a>
+            <!-- END switch_poster -->
+            <!-- BEGIN switch_poster_guest -->
+            {classical_row.recent_topic_row.switch_poster_guest.S_POSTER}
+            <!-- END switch_poster_guest -->
+         </span>
+         <span style="display:none" class="ltimetopic">
+            {classical_row.recent_topic_row.S_POSTTIME}
+         </span>
+      </div>
+          <hr style="border-color: #333333 #333333 #111111; border-style: dotted; height: 0.25px; margin: 2px 0;"/>
+      <!-- <a href="{classical_row.recent_topic_row.U_POSTER}">{classical_row.recent_topic_row.S_POSTER}</a> {ON} {classical_row.recent_topic_row.S_POSTTIME}<br /><br />
+                      -->
+      <!-- END recent_topic_row --></div></div>
+<!-- END classical_row -->
+<script type="text/javascript">
+$(function() {
+  $(".newltopic").each(function(a) {
+    $(this);
+    $(this).attr("id", "newlast" + a);
+    a = $(this).attr("id");
+    $(this).find(".ltitletopic").after('<div class="tooltipFMvi" alt="' + a + '"><img src="http://i48.servimg.com/u/f48/16/58/89/73/loadin10.gif" /></div>');
+    $(this).find(".ltitletopic").attr("alt", a);
+    $(this).find(".topicstatus").attr("alt", a);
+    $(this).find(".lpostertopic").attr("alt", a);
+    $(this).find(".ltimetopic").attr("alt", a);
+    var h = $(this).find(".topicstatus[alt='" + a + "']"), b = $(this).find(".ltitletopic[alt='" + a + "']").text(), c = $(this).find(".lpostertopic[alt='" + a + "']").text(), d = $(this).find(".ltimetopic[alt='" + a + "']").text(), e = b.replace(/ /gi, "+"), f = $(this).find(".ltitletopic[alt='" + a + "']").next(), g = $(this).find(".ltitletopic[alt='" + a + "'] a").attr("href").replace("#", "?showpost=p");
+    $(this).find(".ltitletopic[alt='" + a + "']").before('<a title="Click \u0111\u1ec3 xem b\u00e0i vi\u1ebft" href="' + g + '"><span style="font-size: 9px;">\u25bc </span></a>');
+    f.load("/search?mode=searchbox&search_keywords=" + e + '&show_results=topics tr:contains("' + b + '"):contains("' + c + '"):contains("' + d + '")', function() {
+      var a = $(this).find(".tcl .status img").attr("alt");
+      "No new posts" == a ? a = '<font color="#CC33FF">Kh\u00f4ng c\u00f3 b\u00e0i vi\u1ebft m\u1edbi</font>' : -1 != a.indexOf("This topic is locked") ? (a = '<font color="#CC0000">Ch\u1ee7 \u0111\u1ec1 n\u00e0y \u0111\u00e3 b\u1ecb kh\u00f3a</font>', h.html('<img width="10px" src="http://hitskin.com/themes/17/29/24/i_rating_star.png"/>')) : (a = '<font color="#00FFCC">C\u00f3 b\u00e0i vi\u1ebft m\u1edbi</font>', h.html('<img src="http://hitskin.com/themes/17/29/24/i_rating_star.png"/>'));
+      var b;
+      b = 1 === $(this).find(".tcl img[src='http://hitskin.com/themes/17/29/24/i_rating_star.png']").length ? '<p style="background-color: highlight; padding: 3px;">B\u1ea1n \u0111\u00e3 tham gia th\u1ea3o lu\u1eadn trong ch\u1ee7 \u0111\u1ec1 n\u00e0y.</p>' : '<p style="background-color: InactiveCaptionText; padding: 3px;">B\u1ea1n ch\u01b0a tham gia th\u1ea3o lu\u1eadn trong ch\u1ee7 \u0111\u1ec1 n\u00e0y.</p>';
+      var c = $(this).find(".tcl .topic-title a").text(), d = $(this).find(".tcl a[href^='/u']").text(), e = $(this).find(".tc2").text(), f = $(this).find(".tc3:first").text(), g = $(this).find(".tc3:last").text(), i = $(this).next().next().text(), j = $(this).next().text();
+      $(this).html('<span class="tiplFMvi">Ti\u00eau \u0111\u1ec1:</span><font color="#FFFF00"> ' + c + '</font><br><span class="tiplFMvi">T\u1ea1o ch\u1ee7 \u0111\u1ec1:</span><font color="#FF0000"> ' + d + '</font><br><span class="tiplFMvi">G\u1eedi cu\u1ed1i:</span><font color="#66FF33"> ' + j + '</font><br><span class="tiplFMvi">V\u00e0o l\u00fac:</span><font color="#FF6600"> ' + i + '</font><br><span class="tiplFMvi">Thu\u1ed9c chuy\u00ean m\u1ee5c:</span><font color="#0099FF"> ' + e + '</font><br><span class="tiplFMvi">Tr\u1ea1ng th\u00e1i:</span> ' + 
+      a + '<br><span class="tiplFMvi">L\u01b0\u1ee3t xem:</span><font color="#FF66CC"> ' + g + '</font><br><span class="tiplFMvi">Tr\u1ea3 l\u1eddi:</span><font color="#009933"> ' + f + "</font><br>" + b);
+      $(".ltitletopic").hover(function() {
+        $(".tooltipFMvi[alt='" + $(this).attr("alt") + "']").show().css({left:mouse_x, top:mouse_y})
+      }, function() {
+        $(".tooltipFMvi").hide()
+      })
+    })
+  })
+});
+</script>
+  <script>$("a.krokodil").each(function(){
+        if ($(this).text().length > 45) {$(this).text($(this).text().substr(0, 45));$(this).append('...');
+        }
+    });</script>
