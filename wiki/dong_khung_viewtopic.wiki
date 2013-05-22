@@ -1,0 +1,127 @@
+http://i46.servimg.com/u/f46/16/16/45/18/captur11.jpg
+
+cho vào CSS
+
+<code>
+     /*Khung Viewtipic và quickreply---------------------------------*/
+
+
+    .post{
+    background: #ffffff;
+    margin: 10px 0;
+    border: 3px solid #200c88 !important;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;}
+
+    .pun .topic{
+    background: none;
+    border: none;}
+
+    .posthead{background: none !important;}
+
+    .pun .postmain {
+    background-color: #FBFBFB;
+    border-right: 3px solid #200C88;
+    margin-left: 0em;
+    }
+     
+     
+    .postmain{
+    border: none;
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin-right: 210px !important;
+    margin-left: 17em;}
+
+    .postfoot{
+    margin-right: 0 !important;
+    margin-left: -17em !important;
+    text-align: right !important;}
+
+
+
+    .pun .user-ident {
+    position: static !important;
+    margin-bottom: 5px;
+    margin-top: 5px;}
+
+    .pun .post .user{
+    margin-top: -2em;
+    float: right !important;
+    margin-right: -190px !important;
+    margin-left: -16em !important;
+    overflow: initial;
+      }
+    .pun .postfoot .user-contact img:hover {background-position: 0px -25px;}
+
+
+
+    .pun .postfoot .user-contact img{
+    padding: 3px;
+    margin: 3px;
+    background: #d2f046 url(http://i36.servimg.com/u/f36/16/16/45/18/contac10.jpg) repeat-x;
+    border: 1px solid #89a216;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;}
+
+    blockquote{
+    background: #ddd !important;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;}
+
+    .codebox{
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 3px;
+    border: 2px solid #037180;
+    background: #edf6f7;
+    text-shadow: 1px 1px 0px white;}
+
+    .codebox dd{
+    background: #edf6f7;
+    padding: 0 !important;}
+
+    #buton_profil, #buton_profil2{
+    cursor: pointer;
+    font-weight: bold !important;}
+
+
+    .select {
+    float: center !important;
+    position: absolute;
+    z-index: 999;
+    top: auto !important;
+    left: auto !important;
+    overflow: hidden;
+    width: 0px;
+    margin: 50px 0px 0px -20px !important;}
+
+    #img{left: 50% !important;}
+
+    #url{left: 55% !important;}
+
+    #flash{left: 60% !important;}
+
+    #color{left: 75% !important;}
+
+    #other{left: 20% !important;}
+
+    #px, #font{left: 72% !important;}
+
+    .pun .main-head a.exthelp, .pun .main-head a.exthelp:link, .pun .main-head a.exthelp:visited{background-image: url(http://i66.servimg.com/u/f66/11/96/49/61/questi11.png) !important;}
+
+</code>
+
+
+Nếu viewtopic của ai mà ko hiện là do viewtopic của bạn đã thay đổi các thẻ mặc định trong viewtopic như
+
+<code>
+    <div class="postfoot"  (user-ident ,user,user-contact.....)
+
+</code>
